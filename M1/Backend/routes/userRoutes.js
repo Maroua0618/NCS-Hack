@@ -4,9 +4,13 @@ import { createUser, getUser, updateUser, loginUser } from '../controllers/userC
 
 const router = express.Router();
 
-router.post('/', createUser); // Create a new user
-router.get('/:id', getUser); // Get user by ID
-router.put('/:id', updateUser); // Update user by ID
-router.post('/login', loginUser); // New login route for authentication
+router.post('/', createUser); 
+router.post('/login', loginUser);
+router.get('/:id', getUser);     
+
+
+router.post('/', createUser);     // POST /api/users   ✅ (utilisé pour SIGN UP)
+router.post('/login', loginUser); // POST /api/users/login ✅ (utilisé pour LOGIN)
+router.get('/:id', getUser);      
 
 export default router;

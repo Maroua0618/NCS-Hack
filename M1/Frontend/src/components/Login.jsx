@@ -1,75 +1,135 @@
-/* global console */
-import React, { useState } from 'react';
-import { FaEnvelope, FaLock } from 'react-icons/fa';
-import { useForm } from 'react-hook-form';
-import { loginUser } from '../api'; // Ensure this API function is correct
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
+import React, { useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const navigate = useNavigate();
+const LoginSignup = () => {
+  const [mode, setMode] = useState("login"); // 'login' or 'signup'
+  const navigate = useNavigate();
 
-    const onSubmit = async (data) => {
-        setIsSubmitting(true);
-        try {
-            const response = await loginUser(data);
-            if (typeof window !== "undefined") {
-                // eslint-disable-next-line no-undef
-                localStorage.setItem('token', response.data.token); // Store the token
-            }
-            navigate('/dashboard'); // Redirect to the dashboard
-        } catch (error) {
-            console.error('Error logging in:', error);
-            // eslint-disable-next-line no-undef
-            alert(error.response?.data.message || 'Login failed');
-        } finally {
-            setIsSubmitting(false);
-        }
-    };
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    username: "",
+    email: "",
+    password: "",
+  });
 
-    return (
-        <div className="flex items-center justify-center h-screen bg-gray-100">
-            <div className="bg-white shadow-md rounded px-8 py-6 w-96">
-                <h2 className="text-xl font-bold mb-6 text-center">Login</h2>
-                <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700">Email</label>
-                        <div className="flex items-center border border-gray-300 rounded-md">
-                            <FaEnvelope className="p-2 text-gray-500" />
-                            <input
-                                type="email"
-                                {...register("email", { required: "Email is required", pattern: { value: /^\S+@\S+$/i, message: "Invalid email format" } })}
-                                className={`flex-1 p-2 rounded-md ${errors.email ? 'border-red-500' : 'border-gray-300'}`}
-                                placeholder="Enter your email"
-                            />
-                        </div>
-                        {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
-                    </div>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700">Password</label>
-                        <div className="flex items-center border border-gray-300 rounded-md">
-                            <FaLock className="p-2 text-gray-500" />
-                            <input
-                                type="password"
-                                {...register("password", { required: "Password is required" })}
-                                className={`flex-1 p-2 rounded-md ${errors.password ? 'border-red-500' : 'border-gray-300'}`}
-                                placeholder="Enter your password"
-                            />
-                        </div>
-                        {errors.password && <p className="text-red-500 text-sm">{errors.password.message}</p>}
-                    </div>
-                    <button
-                        type="submit"
-                        className={`w-full bg-blue-500 text-white p-2 rounded-md ${isSubmitting ? 'opacity-50' : ''}`}
-                        disabled={isSubmitting}
-                    >
-                        {isSubmitting ? 'Logging in...' : 'Login'}
-                    </button>
-                </form>
-            </div>
-        </div>
-    );
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const switchMode = () => {
+    setMode((prev) => (prev === "login" ? "signup" : "login"));
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const url =
+      mode === "signup"
+        ? "http://localhost:5000/api/users"
+        : "http://localhost:5000/api/users/login";
+
+    const payload = mode === "signup"
+      ? formData
+      : {
+          email: formData.email,
+          password: formData.password,
+        };
+
+    try {
+      const response = await axios.post(url, payload);
+      console.log(response.data);
+
+      if (mode === "login") {
+        localStorage.setItem("token", response.data.token);
+        alert("Logged in successfully!");
+      } else {
+        alert("Account created successfully!");
+      }
+
+      setTimeout(() => navigate("/dashboard"), 1500);
+    } catch (err) {
+      alert(err.response?.data?.message || "An error occurred");
+    }
+  };
+
+
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 className="text-2xl font-semibold text-center mb-6">
+          {mode === "login" ? "Login" : "Sign Up"}
+        </h2>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          {mode === "signup" && (
+            <>
+              <input
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-md"
+              />
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-md"
+              />
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 border rounded-md"
+              />
+            </>
+          )}
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border rounded-md"
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border rounded-md"
+          />
+
+          <button
+            type="submit"
+            className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-200"
+          >
+            {mode === "login" ? "Login" : "Sign Up"}
+          </button>
+
+          <p className="text-center text-sm">
+            {mode === "login"
+              ? "Don't have an account?"
+              : "Already have an account?"}{" "}
+            <span
+              onClick={switchMode}
+              className="text-blue-500 cursor-pointer hover:underline"
+            >
+              {mode === "login" ? "Sign up" : "Login"}
+            </span>
+          </p>
+        </form>
+      </div>
+    </div>
+  );
 };
 
-export default Login;
+export default LoginSignup;
