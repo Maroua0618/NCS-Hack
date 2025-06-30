@@ -1,142 +1,143 @@
-import { ObjectId } from 'mongodb';
+import mongoose from "mongoose";
 
-// User Collection Schema
-export const userSchema = {
-  _id: ObjectId,
-  email: String, // unique
-  password: String, // hashed
+const Schema = mongoose.Schema;
+
+// User Schema
+const UserSchema = new Schema({
+  email: { type: String, unique: true },
+  password: String,
   firstName: String,
   lastName: String,
-  username: String, // unique
-  profilePicture: String, // URL
+  username: { type: String, unique: true },
+  profilePicture: String,
   bio: String,
   dateOfBirth: Date,
-  
+
   // Learning Profile
-  learningGoals: [String], // Array of goals
-  learningStyle: String, // visual, auditory, kinesthetic
+  learningGoals: [String],
+  learningStyle: String,
   testResults: {
     learningStyleScore: Object,
     completedAt: Date
   },
-  
+
   // Progress Tracking
   currentStreak: Number,
   longestStreak: Number,
-  totalStudyTime: Number, // in minutes
+  totalStudyTime: Number,
   totalSessions: Number,
-  quiz:Number,
-  
+  quiz: Number,
+
   // Profile Settings
   isPublic: Boolean,
   isMentor: Boolean,
   isActive: Boolean,
-  
+
   // Timestamps
   createdAt: Date,
   updatedAt: Date,
   lastLoginAt: Date
-};
+});
 
-// Study Sessions Collection Schema
-export const studySessionSchema = {
-  _id: ObjectId,
-  userId: ObjectId, // Reference to User
-  goalId: ObjectId, // Reference to Learning Goal
-  
+// Study Session Schema
+const StudySessionSchema = new Schema({
+  userId: { type: Schema.Types.ObjectId, ref: "User" },
+  goalId: { type: Schema.Types.ObjectId, ref: "LearningGoal" },
+
   sessionData: {
     startTime: Date,
     endTime: Date,
-    duration: Number, // in minutes
+    duration: Number,
     notes: String,
     completed: Boolean
   },
-  
-  createdAt: Date
-};
 
-// Learning Goals Collection Schema
-export const learningGoalSchema = {
-  _id: ObjectId,
-  userId: ObjectId, // Reference to User
-  
+  createdAt: Date
+});
+
+// Learning Goal Schema
+const LearningGoalSchema = new Schema({
+  userId: { type: Schema.Types.ObjectId, ref: "User" },
+
   goalDetails: {
     title: String,
     description: String,
-    topic: String, // Programming, Design, Marketing, etc.
-    subject: String, // Web Development, Data Science, etc.
-    difficulty: String, // Beginner, Intermediate, Advanced
+    topic: String,
+    subject: String,
+    difficulty: String,
     targetCompletionDate: Date
   },
-  
+
   progress: {
-    currentProgress: Number, // percentage 0-100
-    totalMilestones: Number,
+    currentProgress: Number,
+    totalMilestones: Number
   },
-  
-  status: String, // active, completed, paused, abandoned
+
+  status: String,
   createdAt: Date,
   updatedAt: Date
-};
+});
 
-// Study Buddies/Matches Collection Schema
-export const studyBuddySchema = {
-  _id: ObjectId,
-  requesterUserId: ObjectId, // User who initiated
-  targetUserId: ObjectId, // User who received request
-  
+// Study Buddy Schema
+const StudyBuddySchema = new Schema({
+  requesterUserId: { type: Schema.Types.ObjectId, ref: "User" },
+  targetUserId: { type: Schema.Types.ObjectId, ref: "User" },
+
   matchDetails: {
-    compatibilityScore: Number, // Algorithm-generated score
+    compatibilityScore: Number,
     sharedGoals: [String],
-    status: String // pending, accepted, declined, active, inactive
+    status: String
   },
-  
+
   createdAt: Date,
-  updatedAt: Date,
+  updatedAt: Date
+});
 
-};
+// Mentor Schema
+const MentorSchema = new Schema({
+  userId: { type: Schema.Types.ObjectId, ref: "User" },
+  email: String,
+  phone: String,
 
-// Mentors Collection Schema
-export const mentorSchema = {
-  _id: ObjectId,
-  userId: ObjectId, // Reference to User
-  email:String,
-  phone: String, // Contact number
   mentorProfile: {
-    title: String, // "React Developer", "UI/UX Designer"
-    expertise: [String], // Array of skills
-    experience: String, // Years of experience
-    portfolio:String, // URL to personal website or portfolio
+    title: String,
+    expertise: [String],
+    experience: String,
+    portfolio: String,
     availability: {
-      availableDays: [String], // ["Monday", "Tuesday"]
-      availableHours: String // "9 AM - 5 PM"
+      availableDays: [String],
+      availableHours: String
     }
   },
-  
-  
+
   ratings: {
     averageRating: Number,
     totalReviews: Number,
     totalSessions: Number
   },
-  
-  status: String, // active, inactive, suspended
+
+  status: String,
   createdAt: Date,
   updatedAt: Date
-};
+});
 
+// Review Schema
+const ReviewSchema = new Schema({
+  reviewerId: { type: Schema.Types.ObjectId, ref: "User" },
+  revieweeId: { type: Schema.Types.ObjectId, ref: "User" },
 
-// Reviews Collection Schema
-export const reviewSchema = {
-  _id: ObjectId,
-  reviewerId: ObjectId, // User who wrote review
-  revieweeId: ObjectId, // User being reviewed (mentor or student)
-  
   reviewData: {
-    rating: Number, // 1-5 stars
+    rating: Number
   },
-  
+
   createdAt: Date,
   updatedAt: Date
-};
+});
 
+// Exporting all models
+export const User = mongoose.model("User", UserSchema);
+export const StudySession = mongoose.model("StudySession", StudySessionSchema);
+export const LearningGoal = mongoose.model("LearningGoal", LearningGoalSchema);
+export const StudyBuddy = mongoose.model("StudyBuddy", StudyBuddySchema);
+export const Mentor = mongoose.model("Mentor", MentorSchema);
+export const Review = mongoose.model("Review", ReviewSchema);

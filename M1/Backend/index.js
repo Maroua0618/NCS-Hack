@@ -15,6 +15,10 @@ app.get('/', async (req, res) => {
   res.json(items);
 });
 
+// Connect to MongoDB
+connectDB();
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
