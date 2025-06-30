@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import bcrypt from "bcrypt";
 const Schema = mongoose.Schema;
 
 // User Schema
@@ -39,18 +38,7 @@ const UserSchema = new Schema({
   lastLoginAt: Date
 });
 
-// 🔐 Hash the password before saving
-UserSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
 
-  try {
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password, salt);
-    next();
-  } catch (err) {
-    return next(err);
-  }
-});
 
 // Study Session Schema
 const StudySessionSchema = new Schema({

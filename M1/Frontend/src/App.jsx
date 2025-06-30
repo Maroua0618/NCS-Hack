@@ -1,17 +1,22 @@
 import { useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import LandingPage from "./components/LandingPage";
+import Login from "./components/Login";
+import Dashboard from "./components/Dashboard"; // Create this component
+
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 500 });
   }, []);
 
   return (
-    <div>
-      <LandingPage />
-      {/* You can add more components here as needed */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} /> {/* Add Dashboard component */}
+      </Routes>
+    </Router>
   );
 }
 
