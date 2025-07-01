@@ -12,79 +12,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 class VARKRecommendationModel:
-    def evaluate_accuracy(self, df, student_profile=None, cv=5):
-        """
-        Evaluate model accuracy using cross-validation (R² and RMSE)
-        Args:
-            df: DataFrame with resource data
-            student_profile: dict with student VARK preferences
-            cv: number of cross-validation folds
-        """
-        from sklearn.model_selection import cross_val_score
-        from sklearn.pipeline import Pipeline
-        from sklearn.preprocessing import StandardScaler
-        import xgboost as xgb
-
-        # Engineer features with student profile
-        if student_profile is None:
-            student_profile = {'visual': 1, 'auditory': 1, 'reading': 1, 'kinesthetic': 1}
-
-        df_features = self.engineer_features(df, student_profile)
-        X, y = self.prepare_data(df_features)
-        # If y is None, cannot evaluate accuracy
-        if y is None:
-            print("No target variable found for cross-validation accuracy evaluation.")
-            return
-        # Drop rows where y is missing
-        mask = ~y.isna()
-        X = X.loc[mask]
-        y = y.loc[mask]
-        if len(y) == 0:
-            print("No valid target values for cross-validation.")
-            return
-
-        # Create a fresh pipeline for cross-validation
-        if self.model_type == 'xgboost':
-            model = xgb.XGBRegressor(
-                n_estimators=100,
-                max_depth=6,
-                learning_rate=0.1,
-                random_state=42
-            )
-        elif self.model_type == 'random_forest':
-            from sklearn.ensemble import RandomForestRegressor
-            model = RandomForestRegressor(
-                n_estimators=100,
-                max_depth=10,
-                random_state=42
-            )
-        elif self.model_type == 'neural_network':
-            from sklearn.neural_network import MLPRegressor
-            model = MLPRegressor(
-                hidden_layer_sizes=(64, 32, 16),
-                activation='relu',
-                solver='adam',
-                max_iter=500,
-                random_state=42
-            )
-        elif self.model_type == 'gradient_boost':
-            from sklearn.ensemble import GradientBoostingRegressor
-            model = GradientBoostingRegressor(
-                n_estimators=100,
-                learning_rate=0.1,
-                max_depth=6,
-                random_state=42
-            )
-        else:
-            from sklearn.linear_model import Ridge
-            model = Ridge(alpha=1.0)
-
-        pipeline = Pipeline([
-            ('scaler', StandardScaler()),
-            ('regressor', model)
-        ])
-
-
     def __init__(self, model_type='xgboost'):
         """
         Initialize the VARK-based recommendation model
@@ -384,9 +311,88 @@ class VARKRecommendationModel:
         
         return predictions
     
-    def recommend(self, df, student_profile, subject=None, topic=None, learning_goal=None, top_k=10):
+    def _generate_search_suggestions(self, student_profile):
+        """
+        Generate search query suggestions based on student profile
+        
+        Args:
+            student_profile: dict with student VARK preferences
+            
+        Returns:
+            dict with search suggestions
+        """
+        # Determine dominant learning style
+        vark_scores = {
+            'visual': student_profile.get('visual', 0),
+            'auditory': student_profile.get('auditory', 0),
+            'reading': student_profile.get('reading', 0),
+            'kinesthetic': student_profile.get('kinesthetic', 0)
+        }
+        
+        # Find dominant style(s)
+        max_score = max(vark_scores.values())
+        dominant_styles = [style for style, score in vark_scores.items() if score == max_score and score > 0]
+        
+        # Map VARK styles to resource types and search terms
+        style_mapping = {
+            'visual': {
+                'resource_types': ['videos', 'infographics', 'diagrams', 'animations', 'visual tutorials'],
+                'platforms': ['YouTube', 'Khan Academy', 'Coursera', 'edX', 'TED-Ed'],
+                'search_terms': ['visual learning', 'video tutorial', 'infographic', 'diagram']
+            },
+            'auditory': {
+                'resource_types': ['podcasts', 'audio lectures', 'discussions', 'webinars'],
+                'platforms': ['Spotify', 'Apple Podcasts', 'Audible', 'SoundCloud', 'iTunes U'],
+                'search_terms': ['podcast', 'audio lecture', 'discussion', 'webinar']
+            },
+            'reading': {
+                'resource_types': ['articles', 'ebooks', 'research papers', 'blogs', 'documentation'],
+                'platforms': ['Google Scholar', 'Medium', 'ResearchGate', 'academic databases'],
+                'search_terms': ['article', 'research paper', 'ebook', 'academic text']
+            },
+            'kinesthetic': {
+                'resource_types': ['interactive simulations', 'hands-on activities', 'labs', 'practice exercises'],
+                'platforms': ['PhET Simulations', 'Codecademy', 'interactive learning platforms'],
+                'search_terms': ['interactive', 'simulation', 'hands-on', 'practice']
+            }
+        }
+        
+        # Build search suggestions
+        suggestions = {
+            'dominant_styles': dominant_styles,
+            'recommended_resource_types': [],
+            'suggested_platforms': [],
+            'search_queries': []
+        }
+        
+        subject = student_profile.get('subject', 'general')
+        topic = student_profile.get('topic', '')
+        learning_goal = student_profile.get('learning_goal', '')
+        
+        for style in dominant_styles:
+            if style in style_mapping:
+                suggestions['recommended_resource_types'].extend(style_mapping[style]['resource_types'])
+                suggestions['suggested_platforms'].extend(style_mapping[style]['platforms'])
+                
+                # Generate specific search queries
+                for search_term in style_mapping[style]['search_terms']:
+                    if topic:
+                        query = f"{topic} {search_term} {subject}"
+                    else:
+                        query = f"{subject} {search_term}"
+                    suggestions['search_queries'].append(query)
+        
+        # Remove duplicates
+        suggestions['recommended_resource_types'] = list(set(suggestions['recommended_resource_types']))
+        suggestions['suggested_platforms'] = list(set(suggestions['suggested_platforms']))
+        suggestions['search_queries'] = list(set(suggestions['search_queries']))
+        
+        return suggestions
+    
+    def recommend(self, df, student_profile, subject=None, topic=None, learning_goal=None, top_k=10, enable_web_scraping_suggestion=True):
         """
         Get top-k recommendations for a student, with hard constraints on VARK preferences.
+        If no resources found, suggest web scraping options.
         
         Args:
             df: DataFrame with resource data
@@ -395,9 +401,10 @@ class VARKRecommendationModel:
             topic: optional topic to filter by (overrides student_profile if provided)
             learning_goal: optional learning goal to filter by (overrides student_profile if provided)
             top_k: number of recommendations to return
+            enable_web_scraping_suggestion: whether to suggest web scraping when no resources found
         
         Returns:
-            DataFrame with top recommendations
+            dict with recommendations and/or web scraping suggestions
         """
         # Use subject/topic/learning_goal from student_profile if not explicitly provided
         subject_val = subject if subject is not None else student_profile.get('subject')
@@ -405,6 +412,8 @@ class VARKRecommendationModel:
         learning_goal_val = learning_goal if learning_goal is not None else student_profile.get('learning_goal')
 
         df_filtered = df.copy()
+        original_count = len(df_filtered)
+        
         # Filter by subject if provided
         if subject_val:
             df_filtered = df_filtered[df_filtered['subject'].str.contains(subject_val, case=False, na=False)]
@@ -415,6 +424,8 @@ class VARKRecommendationModel:
         if learning_goal_val:
             df_filtered = df_filtered[df_filtered['learning_goal'].str.contains(learning_goal_val, case=False, na=False)]
 
+        filtered_count = len(df_filtered)
+        
         # --- HARD CONSTRAINTS BASED ON VARK PROFILE ---
         # If reading is 0, exclude text resources and resources with vark_dominant_style == 'vark_reading'
         if 'reading' in student_profile and student_profile['reading'] == 0:
@@ -435,8 +446,39 @@ class VARKRecommendationModel:
             if 'vark_dominant_style' in df_filtered.columns:
                 df_filtered = df_filtered[df_filtered['vark_dominant_style'].str.lower() != 'vark_kinesthetic']
 
+        final_count = len(df_filtered)
+        
+        result = {
+            'recommendations': pd.DataFrame(),
+            'found_resources': final_count > 0,
+            'filter_stats': {
+                'original_count': original_count,
+                'after_subject_topic_filter': filtered_count,
+                'after_vark_constraints': final_count
+            }
+        }
+
         if df_filtered.empty:
-            return pd.DataFrame()
+            print(f"No resources found matching your criteria.")
+            print(f"Original dataset: {original_count} resources")
+            print(f"After subject/topic filter: {filtered_count} resources")
+            print(f"After VARK constraints: {final_count} resources")
+            
+            if enable_web_scraping_suggestion:
+                print("\n🔍 SUGGESTION: Web scraping could help find more resources!")
+                suggestions = self._generate_search_suggestions(student_profile)
+                
+                print(f"\nBased on your learning profile (dominant style: {', '.join(suggestions['dominant_styles'])}), I can help you scrape:")
+                print(f"📚 Resource types: {', '.join(suggestions['recommended_resource_types'][:5])}")
+                print(f"🌐 Platforms: {', '.join(suggestions['suggested_platforms'][:5])}")
+                print(f"🔎 Search queries: {', '.join(suggestions['search_queries'][:3])}")
+                
+                result['web_scraping_suggestion'] = suggestions
+                result['message'] = "No resources found in dataset. Web scraping suggestions provided."
+            else:
+                result['message'] = "No resources found matching your criteria."
+            
+            return result
 
         # Get predictions
         scores = self.predict(df_filtered, student_profile)
@@ -448,8 +490,56 @@ class VARKRecommendationModel:
         # Sort by score and return top-k
         recommendations = df_filtered.nlargest(top_k, 'predicted_score')
 
-        return recommendations[['resource_type', 'subject', 'topic', 
-                               'learning_goal', 'description', 'url', 'predicted_score']]
+        result['recommendations'] = recommendations[['resource_type', 'subject', 'topic', 
+                                                   'learning_goal', 'description', 'url', 'predicted_score']]
+        result['message'] = f"Found {len(recommendations)} recommendations from {final_count} matching resources."
+        
+        return result
+    
+    def suggest_web_scraping_strategy(self, student_profile):
+        """
+        Provide detailed web scraping strategy for finding resources
+        
+        Args:
+            student_profile: dict with student VARK preferences
+            
+        Returns:
+            dict with detailed scraping strategy
+        """
+        suggestions = self._generate_search_suggestions(student_profile)
+        
+        strategy = {
+            'learning_profile_analysis': {
+                'dominant_styles': suggestions['dominant_styles'],
+                'subject': student_profile.get('subject', 'Not specified'),
+                'topic': student_profile.get('topic', 'Not specified'),
+                'learning_goal': student_profile.get('learning_goal', 'Not specified')
+            },
+            'scraping_targets': {
+                'high_priority_platforms': suggestions['suggested_platforms'][:3],
+                'resource_types_to_focus': suggestions['recommended_resource_types'][:5],
+                'search_queries': suggestions['search_queries'][:5]
+            },
+            'technical_approach': {
+                'tools_recommended': ['BeautifulSoup', 'Scrapy', 'Selenium', 'requests'],
+                'apis_to_consider': ['YouTube Data API', 'Coursera API', 'edX API'],
+                'data_extraction_points': [
+                    'Resource title and description',
+                    'Content type and format',
+                    'User ratings and reviews',
+                    'Duration and difficulty level',
+                    'Tags and categories'
+                ]
+            },
+            'quality_filters': {
+                'minimum_rating': 3.5,
+                'minimum_reviews': 10,
+                'preferred_languages': ['English'],
+                'content_freshness': 'Last 2 years'
+            }
+        }
+        
+        return strategy
     
     def get_feature_importance(self):
         """
@@ -471,49 +561,60 @@ class VARKRecommendationModel:
             print("Feature importance not available for this model type.")
             return None
 
-# Example usage and testing
+# Example usage with web scraping suggestions
 def main():
-
+    # Simulated dataset - in practice, load from your CSV
+   
     file_path = '../Datasets/comprehensive_vark_dataset.csv' 
     df = pd.read_csv(file_path)
-    df = pd.DataFrame(df)
-
-    # Ensure target variable exists for all models
+    
+    # Ensure target variable exists
     model_for_target = VARKRecommendationModel()
     df = model_for_target.create_target_variable(df)
 
+    # Example student profile that might not have matching resources
     student_profile = {
-    'visual': 100,
-    'auditory': 100,
-    'reading': 0,
-    'kinesthetic': 0,
-    'subject': 'Music',
+    'visual': 25,
+    'auditory': 25,
+    'reading': 25,
+    'kinesthetic': 25,
+    'subject': 'Computer Science',
     'topic': None,
-    'learning_goal': None
+    'learning_goal': 'Learn Python'
 }
 
-    # Only use xgboost model
-  
+    # Train model
     model = VARKRecommendationModel(model_type='xgboost')
     model.train(df, student_profile=student_profile)
-    from io import StringIO
-    import sys
-    old_stdout = sys.stdout
-    sys.stdout = mystdout = StringIO()
-    model.evaluate_accuracy(df, student_profile=student_profile)
-    sys.stdout = old_stdout
-    output = mystdout.getvalue()
-    print(output)
 
-    # Recommend resources
-    recommendations = model.recommend(df, student_profile, top_k=5)
-    print("\nTop 5 Recommendations:")
-    print(recommendations)
-    # Show feature importance if available
-    importance = model.get_feature_importance()
-    if importance is not None:
-        print("\nFeature Importance:")
-        print(importance.head(10))
+    # Get recommendations (with web scraping suggestion if no resources found)
+    result = model.recommend(df, student_profile, top_k=5)
+    
+    if result['found_resources']:
+        print("Recommendations found:")
+        print(result['recommendations'])
+    else:
+        print("No resources in dataset. Here's what I can help you scrape:")
+        
+        # Get detailed scraping strategy
+        strategy = model.suggest_web_scraping_strategy(student_profile)
+        
+        print(f"\n📊 Learning Profile Analysis:")
+        print(f"Dominant learning styles: {', '.join(strategy['learning_profile_analysis']['dominant_styles'])}")
+        print(f"Subject: {strategy['learning_profile_analysis']['subject']}")
+        print(f"Topic: {strategy['learning_profile_analysis']['topic']}")
+        
+        print(f"\n🎯 Recommended Scraping Targets:")
+        print(f"Priority platforms: {', '.join(strategy['scraping_targets']['high_priority_platforms'])}")
+        print(f"Resource types: {', '.join(strategy['scraping_targets']['resource_types_to_focus'])}")
+        
+        print(f"\n🔧 Technical Implementation:")
+        print(f"Recommended tools: {', '.join(strategy['technical_approach']['tools_recommended'])}")
+        print(f"APIs to consider: {', '.join(strategy['technical_approach']['apis_to_consider'])}")
+        
+        print(f"\n✅ Quality Filters:")
+        print(f"Minimum rating: {strategy['quality_filters']['minimum_rating']}")
+        print(f"Content freshness: {strategy['quality_filters']['content_freshness']}")
 
 if __name__ == "__main__":
     main()
