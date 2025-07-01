@@ -4,135 +4,126 @@ const Schema = mongoose.Schema;
 // User Schema
 const UserSchema = new Schema({
   email: { type: String, unique: true },
-  password: String,
-  firstName: String,
-  lastName: String,
+  password: { type: String, required: true, minlength: 6, maxlength: 128 },
+  firstName: { type: String },
+  lastName: { type: String },
   username: { type: String, unique: true },
-  profilePicture: String,
-  bio: String,
-  dateOfBirth: Date,
+  profilePicture: { type: String },
+  bio: { type: String, required: false, default: "" },
+  dateOfBirth: { type: Date, required: false, default: null },
 
   // Learning Profile
-  learningGoals: [String],
-  learningStyle: String,
+  learningGoals: [{ type: String }],
+  learningStyle: {
+    type: String,
+    enum: ["Visual", "Auditory", "Kinesthetic", "Reading/Writing"],
+    default: "",
+    required: false
+  },
   testResults: {
-    learningStyleScore: Object,
-    completedAt: Date
+    learningStyleScore: { type: Object },
+    completedAt: { type: Date, required: false, default: null }
   },
 
   // Progress Tracking
-  currentStreak: Number,
-  longestStreak: Number,
-  totalStudyTime: Number,
-  totalSessions: Number,
-  quiz: Number,
+  currentStreak: { type: Number, default: 0, required: false },
+  longestStreak: { type: Number, default: 0, required: false },
+  totalStudyTime: { type: Number, default: 0, required: false },
+  totalSessions: { type: Number, default: 0, required: false },
+  quiz: { type: Number, required: false, default: 0 },
 
   // Profile Settings
-  isPublic: Boolean,
-  isMentor: Boolean,
-  isActive: Boolean,
+  isPublic: { type: Boolean },
+  isMentor: { type: Boolean },
+  isActive: { type: Boolean },
 
   // Timestamps
-  createdAt: Date,
-  updatedAt: Date,
-  lastLoginAt: Date
+  createdAt: { type: Date, required: false, default: null },
+  updatedAt: { type: Date, required: false, default: null },
+  lastLoginAt: { type: Date, required: false, default: null }
 });
-
-
 
 // Study Session Schema
 const StudySessionSchema = new Schema({
   userId: { type: Schema.Types.ObjectId, ref: "User" },
   goalId: { type: Schema.Types.ObjectId, ref: "LearningGoal" },
-
   sessionData: {
-    startTime: Date,
-    endTime: Date,
-    duration: Number,
-    notes: String,
-    completed: Boolean
+    startTime: { type: Date, required: false, default: null },
+    endTime: { type: Date, required: false, default: null },
+    duration: { type: Number, default: 0, required: false },
+    notes: { type: String },
+    completed: { type: Boolean }
   },
-
-  createdAt: Date
+  createdAt: { type: Date, required: false, default: null }
 });
 
 // Learning Goal Schema
 const LearningGoalSchema = new Schema({
   userId: { type: Schema.Types.ObjectId, ref: "User" },
-
   goalDetails: {
-    title: String,
-    description: String,
-    topic: String,
-    subject: String,
-    difficulty: String,
-    targetCompletionDate: Date
+    title: { type: String },
+    description: { type: String },
+    topic: { type: String },
+    subject: { type: String },
+    difficulty: { type: String },
+    targetCompletionDate: { type: Date, required: false, default: null }
   },
-
   progress: {
-    currentProgress: Number,
-    totalMilestones: Number
+    currentProgress: { type: Number, default: 0, required: false },
+    totalMilestones: { type: Number, default: 0, required: false }
   },
-
-  status: String,
-  createdAt: Date,
-  updatedAt: Date
+  status: { type: String },
+  createdAt: { type: Date, required: false, default: null },
+  updatedAt: { type: Date, required: false, default: null }
 });
 
 // Study Buddy Schema
 const StudyBuddySchema = new Schema({
   requesterUserId: { type: Schema.Types.ObjectId, ref: "User" },
   targetUserId: { type: Schema.Types.ObjectId, ref: "User" },
-
   matchDetails: {
-    compatibilityScore: Number,
-    sharedGoals: [String],
-    status: String
+    compatibilityScore: { type: Number, default: 0, required: false },
+    sharedGoals: [{ type: String }],
+    status: { type: String }
   },
-
-  createdAt: Date,
-  updatedAt: Date
+  createdAt: { type: Date, required: false, default: null },
+  updatedAt: { type: Date, required: false, default: null }
 });
 
 // Mentor Schema
 const MentorSchema = new Schema({
   userId: { type: Schema.Types.ObjectId, ref: "User" },
-  email: String,
-  phone: String,
-
+  email: { type: String },
+  phone: { type: String },
   mentorProfile: {
-    title: String,
-    expertise: [String],
-    experience: String,
-    portfolio: String,
+    title: { type: String },
+    expertise: [{ type: String }],
+    experience: { type: String },
+    portfolio: { type: String },
     availability: {
-      availableDays: [String],
-      availableHours: String
+      availableDays: [{ type: String }],
+      availableHours: { type: String }
     }
   },
-
   ratings: {
-    averageRating: Number,
-    totalReviews: Number,
-    totalSessions: Number
+    averageRating: { type: Number, default: 0, required: false },
+    totalReviews: { type: Number, default: 0, required: false },
+    totalSessions: { type: Number, default: 0, required: false }
   },
-
-  status: String,
-  createdAt: Date,
-  updatedAt: Date
+  status: { type: String },
+  createdAt: { type: Date, required: false, default: null },
+  updatedAt: { type: Date, required: false, default: null }
 });
 
 // Review Schema
 const ReviewSchema = new Schema({
   reviewerId: { type: Schema.Types.ObjectId, ref: "User" },
   revieweeId: { type: Schema.Types.ObjectId, ref: "User" },
-
   reviewData: {
-    rating: Number
+    rating: { type: Number, default: 0, required: false }
   },
-
-  createdAt: Date,
-  updatedAt: Date
+  createdAt: { type: Date, required: false, default: null },
+  updatedAt: { type: Date, required: false, default: null }
 });
 
 // Exporting all models

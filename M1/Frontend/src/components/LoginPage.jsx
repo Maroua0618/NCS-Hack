@@ -1,5 +1,8 @@
+/* global setTimeout */
+/* global console */
+/* global alert */
 import React, { useState, useEffect } from 'react';
-import { User, Lock, Eye, EyeOff } from 'lucide-react';
+import { User, Lock, Eye, EyeOff ,Mail } from 'lucide-react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import women from '../assets/women.png'; 
@@ -77,15 +80,21 @@ const LoginPage = () => {
         email: formData.email,
         password: formData.password
       });
+      console.log('Login response:', response);
 
       // Store token
       localStorage.setItem('token', response.data.token);
       
       // Show success message
-      alert('Logged in successfully!');
-      
-      // Navigate to dashboard immediately
-      navigate('/dashboard');
+      //alert('Logged in successfully!');
+      console.log(response.data.user.learningStyle ? response.data.user.learningStyle : "No learning style found");
+      if (!response.data.user.learningStyle) { 
+      // Navigate to Welcome immediately
+      navigate('/welcome');}
+      else {
+        // Navigate to Dashboard if quiz is already taken
+        navigate('/dashboard');
+      }
 
     } catch (error) {
       const errorMessage = error.response?.data?.message || 'Login failed. Please try again.';
@@ -151,13 +160,13 @@ const LoginPage = () => {
               {/* Username/Email Input */}
               <div className="relative">
                 <div className="relative">
-                  <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+                  <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                   <input
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
-                    placeholder="Username"
+                    placeholder="Email"
                     className={`w-full pl-12 pr-4 py-3 bg-gray-50 border rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all ${
                       errors.email ? 'border-red-500' : 'border-gray-200'
                     }`}

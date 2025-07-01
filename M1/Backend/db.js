@@ -9,8 +9,10 @@ export const connectDB = async () => {
       useUnifiedTopology: true
     });
     console.log('Connected to MongoDB Atlas with Mongoose');
+    
   } catch (err) {
     console.error('MongoDB connection error:', err.message);
     process.exit(1);
   }
 };
+

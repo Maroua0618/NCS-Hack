@@ -1,20 +1,33 @@
-import { useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import LoginSign from "./components/LoginSign";
-import Dashboard from "./components/Dashboard"; // Create this component
+import Welcome from "./components/Welcome";
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import LoginPage from './components/LoginPage';
+import SignUpPage from './components/SignUpPage';
+import Quiz from './components/Quiz'; // Make sure this import exists
+import Dashboard from './components/Dashboard';
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 500 });
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
   }, []);
 
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LoginSign />} />
-        <Route path="/dashboard" element={<Dashboard />} /> {/* Add Dashboard component */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/welcome" element={<Welcome />} />
+        <Route path="/quiz" element={<Quiz />} /> {/* Make sure this route exists */}
+        <Route path="/dashboard" element={ <Dashboard /> } /> {/* Ensure Dashboard component is imported correctly */}
+        {/* Add more routes as needed */}
+        <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </Router>
   );
