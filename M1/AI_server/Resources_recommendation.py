@@ -564,7 +564,6 @@ class VARKRecommendationModel:
 # Example usage with web scraping suggestions
 def main():
     # Simulated dataset - in practice, load from your CSV
-   
     file_path = './Datasets/comprehensive_vark_dataset.csv' 
     df = pd.read_csv(file_path)
     
@@ -574,14 +573,14 @@ def main():
 
     # Example student profile that might not have matching resources
     student_profile = {
-    'visual': 25,
-    'auditory': 25,
-    'reading': 25,
-    'kinesthetic': 25,
-    'subject': 'Computer Science',
-    'topic': None,
-    'learning_goal': 'Learn Python'
-}
+        'visual': 100,
+        'auditory': 100,
+        'reading': 0,
+        'kinesthetic': 0,
+        'subject': 'Advanced Quantum Physics',  # Might not exist in dataset
+        'topic': 'Quantum Entanglement',
+        'learning_goal': 'Research-level understanding'
+    }
 
     # Train model
     model = VARKRecommendationModel(model_type='xgboost')
@@ -608,10 +607,10 @@ def main():
         print(f"Priority platforms: {', '.join(strategy['scraping_targets']['high_priority_platforms'])}")
         print(f"Resource types: {', '.join(strategy['scraping_targets']['resource_types_to_focus'])}")
         
-  
+        
         print(f"\n✅ Quality Filters:")
         print(f"Minimum rating: {strategy['quality_filters']['minimum_rating']}")
-     
+        print(f"Content freshness: {strategy['quality_filters']['content_freshness']}")
 
 if __name__ == "__main__":
     main()
