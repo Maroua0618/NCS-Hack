@@ -1,12 +1,187 @@
 /* global console */
 import React, { useState } from 'react';
 import { Brain, CheckCircle, ArrowRight, BarChart3, BookOpen, Eye, Ear, Hand, FileText, Lightbulb, Target, Users, Clock, User, Heart, Zap, Shield } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { updateQuizResults } from '../api.js'; 
+import { body } from 'framer-motion/client';
+
+
+const convertMBTIToPersonalityStyle = (mbtiType) => {
+  const mbtiToPersonalityMap = {
+    // Analytical - thinking, systematic, data-driven
+    'INTJ': 'Analytical', 'INTP': 'Analytical', 'ISTJ': 'Analytical',
+    
+    // Driver - goal-oriented, decisive, results-focused  
+    'ENTJ': 'Driver', 'ESTJ': 'Driver', 'ESTP': 'Driver',
+    
+    // Amiable - supportive, team-oriented, relationship-focused
+    'ISFJ': 'Amiable', 'ESFJ': 'Amiable', 'INFJ': 'Amiable', 
+    'ENFJ': 'Amiable', 'ISFP': 'Amiable',
+    
+    // Expressive - enthusiastic, creative, people-oriented
+    'ENFP': 'Expressive', 'ESFP': 'Expressive', 'INFP': 'Expressive', 
+    'ENTP': 'Expressive', 'ISTP': 'Expressive'
+  };
+  
+  return mbtiToPersonalityMap[mbtiType] || 'Analytical';
+};
+
+
+// Function to extract learning style name without "Learner" suffix
+const extractLearningStyleName = (primaryStyle) => {
+  return primaryStyle.replace(' Learner', '');
+};
+
+// Function to save quiz results to database
+const saveQuizResultsToDatabase = async (userId, quizResult) => {
+  try {
+    const updateData = {
+      learningStyle: extractLearningStyleName(quizResult.primaryStyle),
+      personalityStyle: convertMBTIToPersonalityStyle(quizResult.personalityType),
+      testResults: {
+        learningStyleScore: {
+          ...quizResult.learningScores,
+          personalityScores: quizResult.personalityScores,
+          mbtiType: quizResult.personalityType,
+          primaryStyle: quizResult.primaryStyle,
+          secondaryStyle: quizResult.secondaryStyle,
+          personalityTraits: quizResult.personalityTraits,
+          studyStrategies: quizResult.studyStrategies,
+          careerSuggestions: quizResult.careerSuggestions,
+          toolRecommendations: quizResult.toolRecommendations,
+          insights: quizResult.learningPersonalityInsights,
+          workingStyle: quizResult.workingStyle,
+          motivationFactors: quizResult.motivationFactors,
+          strengths: quizResult.strengths,
+          challenges: quizResult.challenges,
+          summary: quizResult.summary,
+          isAiGenerated: quizResult.isAiGenerated || false
+        },
+        completedAt: new Date()
+      },
+      quiz: 1
+    };
+
+    console.log('Sending update data:', updateData);
+
+    // Use the API function
+    const response = await updateQuizResults(userId, updateData);
+    
+    console.log('API response:', response);
+    
+    if (response.data && response.data.success) {
+      console.log('Quiz results saved successfully:', response.data);
+      return response.data.data.user;
+    } else {
+      throw new Error('API response indicates failure');
+    }
+
+  } catch (error) {
+    console.error('Error saving quiz results:', error);
+    
+    // Log more details about the error
+    if (error.response) {
+      console.error('Server responded with error:', error.response.status, error.response.data);
+    } else if (error.request) {
+      console.error('No response received:', error.request);
+    } else {
+      console.error('Error setting up request:', error.message);
+    }
+    
+    throw error;
+  }
+};
+
+
+
+
+
 
 const LearningPersonalityQuiz = () => {
+
+const handleQuizCompletion = async (analysis) => {
+  try {
+    setResult(analysis);
+    setIsAnalyzing(false);
+    
+    // Get current user ID - improve this based on your auth system
+    const userId = localStorage.getItem('userId');
+    
+    if (!userId) {
+      console.warn('No user ID found in localStorage');
+      return;
+    }
+
+    // Validate that userId looks like a MongoDB ObjectId
+    if (!userId.match(/^[0-9a-fA-F]{24}$/)) {
+      console.error('Invalid user ID format:', userId);
+      return;
+    }
+
+    console.log('Quiz completed, results stored in state. Will save to DB when user clicks "Start Your Journey"');
+    
+  } catch (error) {
+    console.error('Error in handleQuizCompletion:', error);
+    // Still show results even if there's an error
+    setResult(analysis);
+    setIsAnalyzing(false);
+  }
+};
+
+const resetQuiz = async () => {
+  try {
+    setIsSaving(true); // Show loading state
+    
+    // Get current user ID
+    const userId = localStorage.getItem('userId');
+    
+    if (!userId) {
+      console.warn('No user ID found in localStorage');
+      navigate('/dashboard');
+      return;
+    }
+
+    // Validate that userId looks like a MongoDB ObjectId
+    if (!userId.match(/^[0-9a-fA-F]{24}$/)) {
+      console.error('Invalid user ID format:', userId);
+      navigate('/dashboard');
+      return;
+    }
+
+    // Save quiz results to database if we have results
+    if (result) {
+      console.log('Saving quiz results to database before navigation...');
+      
+      try {
+        const savedUser = await saveQuizResultsToDatabase(userId, result);
+        console.log('Quiz results saved successfully:', savedUser);
+      } catch (saveError) {
+        console.error('Error saving quiz results:', saveError);
+        // Continue with navigation even if save fails
+      }
+    }
+
+    // Navigate to dashboard
+    navigate('/dashboard'); 
+    
+  } catch (error) {
+    console.error('Error in resetQuiz:', error);
+    // Navigate anyway
+    navigate('/dashboard');
+  } finally {
+    setIsSaving(false); // Hide loading state
+  }
+};
+
+
+
+
+    const navigate = useNavigate();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [result, setResult] = useState(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
 
   const apiKey = 'AIzaSyDjDymMRKf1p8cT4ayV9wHiyd5jFmvBBdQ'; // Replace with your actual API key
 
@@ -92,15 +267,15 @@ const questions = [
       ]
     },
     {
-      id: 9,
-      publishing: "When taking a test, you perform better when:",
-      options: [
-        { text: "Questions include diagrams, charts, or visual elements", value: "visual", weight: 2, personality: { openness: 1, conscientiousness: 1 } },
-        { text: "You can read questions out loud or hear them spoken", value: "auditory", weight: 2, personality: { extraversion: 1, neuroticism: 1 } },
-        { text: "You can move around or use stress balls while thinking", value: "kinesthetic", weight: 2, personality: { openness: 1, neuroticism: 2 } },
-        { text: "Questions are clearly written with detailed instructions", value: "reading", weight: 2, personality: { conscientiousness: 2, neuroticism: 1 } }
-      ]
-    },
+  id: 9,
+  question: "When taking a test, you perform better when:", // Fixed typo
+  options: [
+    { text: "Questions include diagrams, charts, or visual elements", value: "visual", weight: 2, personality: { openness: 1, conscientiousness: 1 } },
+    { text: "You can read questions out loud or hear them spoken", value: "auditory", weight: 2, personality: { extraversion: 1, neuroticism: 1 } },
+    { text: "You can move around or use stress balls while thinking", value: "kinesthetic", weight: 2, personality: { openness: 1, neuroticism: 2 } },
+    { text: "Questions are clearly written with detailed instructions", value: "reading", weight: 2, personality: { conscientiousness: 2, neuroticism: 1 } }
+  ]
+},
     {
       id: 10,
       question: "Your biggest strength in learning is:",
@@ -263,17 +438,12 @@ const questions = [
       });
       setIsAnalyzing(true);
       analyzeWithGemini(learningScores, personalityScores, newAnswers).then(analysis => {
-        setResult(analysis);
-        setIsAnalyzing(false);
+         handleQuizCompletion(analysis);
       });
     }
   };
 
-  const resetQuiz = () => {
-    setCurrentQuestion(0);
-    setAnswers([]);
-    setResult(null);
-  };
+
 
   if (isAnalyzing) {
     return (
@@ -342,8 +512,22 @@ const questions = [
             <div className="bg-pink-50 rounded-xl p-6 mb-8"><h3 className="text-xl font-semibold mb-4 flex items-center text-pink-800"><Heart className="w-5 h-5 mr-2" />What Motivates You</h3><ul className="space-y-2">{result.motivationFactors.map((factor, index) => (<li key={index} className="flex items-start"><CheckCircle className="w-4 h-4 text-pink-600 mr-2 mt-1" /><span className="text-pink-700">{factor}</span></li>))}</ul></div>
             <div className="bg-lime-50 rounded-xl p-6 mb-8"><h3 className="text-xl font-semibold mb-4 flex items-center text-lime-800"><Zap className="w-5 h-5 mr-2" />Your Strengths</h3><ul className="space-y-2">{result.strengths.map((strength, index) => (<li key={index} className="flex items-start"><CheckCircle className="w-4 h-4 text-lime-600 mr-2 mt-1" /><span className="text-lime-700">{strength}</span></li>))}</ul></div>
             <div className="bg-red-50 rounded-xl p-6 mb-8"><h3 className="text-xl font-semibold mb-4 flex items-center text-red-800"><Shield className="w-5 h-5 mr-2" />Areas to Watch Out For</h3><ul className="space-y-2">{result.challenges.map((challenge, index) => (<li key={index} className="flex items-start"><div className="w-4 h-4 border-2 border-red-400 rounded mr-2 mt-1"></div><span className="text-red-700">{challenge}</span></li>))}</ul></div>
-            <div className="text-center"><button onClick={resetQuiz} className="bg-blue-600 text-white px-8 py-3 rounded-xl hover:bg-blue-700 transition-colors font-semibold text-lg">Take Quiz Again</button></div>
-          </div>
+<div className="text-center">
+  <button 
+    onClick={resetQuiz} 
+    disabled={isSaving}
+    className="bg-blue-600 text-white px-8 py-3 rounded-xl hover:bg-blue-700 transition-colors font-semibold text-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center mx-auto"
+  >
+    {isSaving ? (
+      <>
+        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
+        Saving Results...
+      </>
+    ) : (
+      'Start Your Journey'
+    )}
+  </button>
+</div>          </div>
         </div>
       </div>
     );

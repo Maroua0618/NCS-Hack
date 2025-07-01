@@ -14,6 +14,7 @@ const UserSchema = new Schema({
 
   // Learning Profile
   learningGoals: [{ type: String }],
+  personalityStyle: {type: String, enum: ["Analytical", "Driver", "Amiable", "Expressive"], default: "", required: false},
   learningStyle: {
     type: String,
     enum: ["Visual", "Auditory", "Kinesthetic", "Reading/Writing"],

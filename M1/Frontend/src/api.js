@@ -51,3 +51,26 @@ export const getUserNotifications = async (userId) => {
 export const getUserSettings = async (userId) => {
     return await axios.get(`${API_URL}/users/${userId}/settings`);
 };
+export const updateUserSettings = async (userId, settingsData) => {
+    return await axios.put(`${API_URL}/users/${userId}/settings`, settingsData);
+};
+export const getUserStudyBuddies = async (userId) => {
+    return await axios.get(`${API_URL}/users/${userId}/study-buddies`);
+};
+export const createStudyBuddyRequest = async (requestData) => {
+    return await axios.post(`${API_URL}/study-buddies`, requestData);
+};
+export const getStudyBuddyRequests = async (userId) => {
+    return await axios.get(`${API_URL}/study-buddies/${userId}`);
+};
+
+export const getMentors = async () => {
+    return await axios.get(`${API_URL}/mentors`);
+};
+export const createMentorRequest = async (requestData) => {
+    return await axios.post(`${API_URL}/mentors`, requestData);
+};
+
+export const updateQuizResults = async (userId, updateData) => {
+    return await axios.put(`${API_URL}/users/${userId}/quiz-results`, updateData);
+};

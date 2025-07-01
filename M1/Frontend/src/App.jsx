@@ -24,8 +24,8 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/welcome" element={<Welcome />} />
-        <Route path="/quiz" element={<Quiz />} /> {/* Make sure this route exists */}
-        <Route path="/dashboard" element={ <Dashboard /> } /> {/* Ensure Dashboard component is imported correctly */}
+        <Route path="/quiz" element={<Quiz />} /> 
+        <Route path="/dashboard" element={ <Dashboard /> } /> 
         {/* Add more routes as needed */}
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
