@@ -21,7 +21,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
-  const navigate  = useNavigate();
+  const navigate = useNavigate();
+  
   useEffect(() => {
     const testimonialTimer = setInterval(() => {
       setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
@@ -31,6 +32,17 @@ const Home = () => {
       clearInterval(testimonialTimer);
     };
   }, []);
+
+  // Function to scroll to the features section
+  const scrollToFeatures = () => {
+    const featuresSection = document.getElementById('features-section');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
 
   const testimonials = [
     {
@@ -120,10 +132,8 @@ const Home = () => {
                 className="text-white px-8 py-4 text-xl font-bold rounded-2xl shadow-lg hover:bg-gray-100 hover:scale-105 hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
                 style={{ backgroundColor: '#9D8CFF' }}
                 onClick={() => {navigate('/login')
-
                   console.log('Get Started clicked')
-                }
-              }
+                }}
               >
                 <TrendingUp className="w-5 h-5" />
                 Get Started
@@ -131,10 +141,10 @@ const Home = () => {
               <button
                 className="text-black px-8 py-4 text-xl font-bold rounded-2xl backdrop-blur-sm hover:bg-white/20 hover:scale-105 hover:-translate-y-1 transition-all duration-300 flex items-center gap-2 border-2"
                 style={{ borderColor: '#9D8CFF' }}
-                onClick={() => navigate('/login')}
+                onClick={scrollToFeatures}
               >
                 <Play className="w-5 h-5" />
-                Watch Demo
+                Explore Our Services
               </button>
             </div>
           </div>
@@ -173,7 +183,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-12 bg-purple-50 relative overflow-hidden z-10">
+      <div id="features-section" className="py-12 bg-purple-50 relative overflow-hidden z-10">
         {/* Features section bubbles */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           <div className="absolute top-1/4 left-5 w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-purple-400 opacity-50 shadow-lg"></div>
