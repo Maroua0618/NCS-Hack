@@ -208,11 +208,12 @@ const LoginPage = () => {
               <button
                 type="submit"
                 disabled={isLoading}
-                className="w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white py-3 px-6 rounded-xl font-medium hover:from-purple-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-all transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
+                className="w-full text-black py-3 px-6 rounded-xl font-medium hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
+                style={{ backgroundColor: '#9D8CFF', focusRingColor: '#9D8CFF' }}
               >
                 {isLoading ? (
                   <div className="flex items-center justify-center">
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
+                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-black mr-2"></div>
                     Logging in...
                   </div>
                 ) : (
@@ -253,7 +254,8 @@ const LoginPage = () => {
             <p className="text-gray-800 font-semibold mb-4">don't have an account yet?</p>
             <button
               onClick={handleSignUpClick}
-              className="w-full bg-gradient-to-r from-pink-400 to-pink-500 text-white py-3 px-6 rounded-xl font-medium hover:from-pink-500 hover:to-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 transition-all transform hover:scale-[1.02] shadow-lg"
+              className="w-full text-black py-3 px-6 rounded-xl font-medium hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 transition-all transform hover:scale-[1.02] shadow-lg"
+              style={{ backgroundColor: '#FEBDFF', focusRingColor: '#FEBDFF' }}
             >
               Sign Up
             </button>
@@ -262,41 +264,41 @@ const LoginPage = () => {
       </div>
 
       {/* Right Side - Hero Section */}
-      <div className="hidden lg:flex flex-1 bg-gradient-to-br from-purple-400 via-purple-500 to-blue-500 items-center justify-center p-8 relative overflow-hidden">
+      <div className="hidden lg:flex flex-1 items-center justify-center p-8 relative overflow-hidden" style={{ background: 'linear-gradient(to bottom right, #BAC2FF, #9D8CFF)' }}>
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-center bg-cover opacity-10"
+          style={{ backgroundImage: 'url("c:/Users/Admin/Downloads/Telegram Desktop/StudyMate/Rectangle 10.png")' }}
+        ></div>
+        
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-20 w-32 h-32 bg-white rounded-full"></div>
-          <div className="absolute top-40 right-32 w-16 h-16 bg-white rounded-full"></div>
-          <div className="absolute bottom-32 left-32 w-24 h-24 bg-white rounded-full"></div>
-          <div className="absolute bottom-20 right-20 w-8 h-8 bg-white rounded-full"></div>
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-20 w-32 h-32 bg-gradient-to-br from-pink-300 to-purple-400 rounded-full"></div>
+          <div className="absolute top-40 right-32 w-16 h-16 bg-gradient-to-br from-blue-300 to-pink-300 rounded-full"></div>
+          <div className="absolute bottom-32 left-32 w-24 h-24 bg-gradient-to-br from-purple-300 to-blue-300 rounded-full"></div>
+          <div className="absolute bottom-20 right-20 w-8 h-8 bg-gradient-to-br from-pink-400 to-purple-300 rounded-full"></div>
+          <div className="absolute top-1/3 left-1/2 w-12 h-12 bg-gradient-to-br from-blue-400 to-purple-300 rounded-full"></div>
+          <div className="absolute bottom-1/3 right-1/3 w-20 h-20 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full"></div>
         </div>
 
         <div 
-          className="text-center text-white max-w-md relative z-10"
+          className="text-center text-white relative z-10 flex flex-col items-center justify-center h-full"
           data-aos="fade-left"
           style={{ opacity: 0, transform: 'translateX(50px)', transition: 'all 0.8s ease' }}
         >
-          {/* Decorative Element */}
-          <div className="mb-8 relative">
-            <div className="w-32 h-32 mx-auto bg-gradient-to-br from-white/20 to-white/10 rounded-full flex items-center justify-center backdrop-blur-sm shadow-xl">
-              <div className="w-20 h-20 bg-gradient-to-br from-pink-400 to-orange-400 rounded-full animate-pulse"></div>
-            </div>
-          </div>
-          
-          {/* Placeholder for your image */}
-          <div className="mb-8">
-            <div className="w-64 h-64 mx-auto bg-white/10 rounded-3xl backdrop-blur-sm flex items-center justify-center shadow-2xl border border-white/20">
-              <div className="text-center">
-                
-                <img src={women} alt="women picture" className='relative right-10'/>
+          {/* Centered and Bigger Frame */}
+          <div className="flex items-center justify-center">
+            <div className="w-80 h-80 bg-white/10 rounded-3xl backdrop-blur-sm flex items-center justify-center shadow-2xl border border-white/20">
+              <div className="flex items-center justify-center">
+                <img src={women} alt="women picture" className='w-full h-full object-contain'/>
               </div>
             </div>
           </div>
 
           {/* Floating Elements */}
-          <div className="absolute -top-8 -right-8 w-6 h-6 bg-yellow-300 rounded-full animate-bounce opacity-70"></div>
-          <div className="absolute top-1/2 -left-12 w-4 h-4 bg-pink-300 rounded-full animate-pulse opacity-60"></div>
-          <div className="absolute -bottom-4 right-1/4 w-8 h-8 bg-blue-300 rounded-full animate-bounce opacity-50" style={{ animationDelay: '0.5s' }}></div>
+          <div className="absolute -top-8 -right-8 w-6 h-6 bg-gradient-to-br from-yellow-300 to-orange-300 rounded-full animate-bounce opacity-30"></div>
+          <div className="absolute top-1/2 -left-12 w-4 h-4 bg-gradient-to-br from-pink-300 to-purple-300 rounded-full animate-pulse opacity-25"></div>
+          <div className="absolute -bottom-4 right-1/4 w-8 h-8 bg-gradient-to-br from-blue-300 to-purple-300 rounded-full animate-bounce opacity-20" style={{ animationDelay: '0.5s' }}></div>
         </div>
       </div>
     </div>
