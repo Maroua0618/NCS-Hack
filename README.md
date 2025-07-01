@@ -92,6 +92,8 @@ cd frontend
 npm install
 npm run dev
 
+-when to login if the account is a new account the user should pass the quiz if already he passed the quiz then we direct him to the dashboard
+-here is an account of user who didn't pass the test yet to try it : email"M1ncs@gmail.com" password:"1234567"
 
 Environment Variables:
 
