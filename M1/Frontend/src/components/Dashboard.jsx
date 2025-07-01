@@ -17,7 +17,8 @@ import {
 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import Chatbot from './chatbot';
-
+import Courses from './Courses';
+import Progress from './Progress';
 
 // Mock database data
 const mockData = {
@@ -133,7 +134,6 @@ const Dashboard = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
   const [data, setData] = useState(mockData);
-  const navigate = useNavigate();
 
   // Simulate data fetching
   useEffect(() => {
@@ -142,131 +142,19 @@ const Dashboard = () => {
   }, []);
 
   const navItems = [
-    { id: 'dashboard', icon: LayoutDashboard, label: 'Dashboard' },
+    { id: 'progress', icon: LayoutDashboard, label: 'Progress' },
     { id: 'courses', icon: BookOpen, label: 'Courses' },
-    { id: 'locations', icon: MapPin, label: 'RodMap' },
-    { id: 'documents', icon: FileText, label: 'FindMentor' },
-    { id: 'radio', icon: Radio, label: 'Tutoring' }
+    { id: 'roadmap', icon: MapPin, label: 'RodMap' },
+    { id: 'findmentor', icon: FileText, label: 'FindMentor' },
+    { id: 'tutoring', icon: Radio, label: 'Tutoring' }
   ];
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'dashboard':
-        return (
-          <div className="space-y-6">
-            {/* Overview Cards */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-              <div className="bg-white p-4 rounded-lg shadow">
-                <div className="flex items-center gap-2 text-blue-600 text-sm mb-2">
-                  <BookOpen size={16} />
-                  Courses in progress
-                </div>
-                <div className="text-2xl font-bold">{data.overview.coursesInProgress}</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-lg shadow">
-                <div className="flex items-center gap-2 text-blue-600 text-sm mb-2">
-                  <BookOpen size={16} />
-                  Courses in progress
-                </div>
-                <div className="text-2xl font-bold">{data.overview.coursesInProgress}</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-lg shadow">
-                <div className="flex items-center gap-2 text-green-600 text-sm mb-2">
-                  <Target size={16} />
-                  Completed goals
-                </div>
-                <div className="text-2xl font-bold">{data.overview.coursesCompleted}</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-lg shadow">
-                <div className="flex items-center gap-2 text-purple-600 text-sm mb-2">
-                  <Clock size={16} />
-                  Hours Learning
-                </div>
-                <div className="text-2xl font-bold">{data.overview.hoursLearning}</div>
-              </div>
-              
-              <div className="bg-white p-4 rounded-lg shadow">
-                <div className="flex items-center gap-2 text-orange-600 text-sm mb-2">
-                  <TrendingUp size={16} />
-                  Productivity
-                </div>
-                <div className="text-2xl font-bold">{data.overview.productivity}</div>
-              </div>
-            </div>
-
-            {/* Charts Section */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              {/* Study Statistics */}
-              <div className="lg:col-span-2 bg-white p-6 rounded-lg shadow">
-                <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-lg font-semibold">STUDY STATISTICS</h3>
-                  <select className="text-sm border rounded px-2 py-1">
-                    <option>week</option>
-                    <option>month</option>
-                  </select>
-                </div>
-                <div className="flex items-end gap-4 h-48">
-                  {data.weeklyStats.map((stat, index) => (
-                    <div key={stat.day} className="flex-1 flex flex-col items-center">
-                      <div 
-                        className="bg-blue-400 w-full rounded-t"
-                        style={{ height: `${stat.value}%` }}
-                      ></div>
-                      <div className="text-xs text-gray-500 mt-2">{stat.day}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Weekly Progress Ring */}
-              <div className="bg-white p-6 rounded-lg shadow">
-                <h3 className="text-lg font-semibold mb-4">Weekly Progress Ring</h3>
-                <div className="flex flex-col items-center">
-                  <ProgressRing percentage={45} />
-                  <div className="flex gap-4 mt-4 text-xs">
-                    <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-                      <span>Courses</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
-                      <span>Prototypes</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* My Courses */}
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-semibold mb-4">MY COURSES</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {data.courses.map((course) => (
-                  <div key={course.id} className={`${course.color} p-4 rounded-lg`}>
-                    <div className="flex justify-between items-start mb-3">
-                      <div className="flex-1">
-                        <h4 className="font-medium text-gray-800 mb-1">{course.title}</h4>
-                        <p className="text-sm text-gray-600 flex items-center gap-1">
-                          <User size={12} />
-                          {course.instructor}
-                        </p>
-                      </div>
-                      <button className="text-gray-600">
-                        <Settings size={16} />
-                      </button>
-                    </div>
-                    <div className="flex items-center justify-center">
-                      <CourseProgress percentage={course.progress} />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        );
+      case 'progress':
+        return <Progress />;
+      case 'courses':
+        return <Courses />; // Show Courses component when 'courses' tab is active
       default:
         return (
           <div className="bg-white p-6 rounded-lg shadow">

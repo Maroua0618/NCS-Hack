@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Brain, CheckCircle, ArrowRight, BarChart3, BookOpen, Eye, Ear, Hand, FileText, Lightbulb, Target, Users, Clock, User, Heart, Zap, Shield } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { updateQuizResults } from '../api.js'; 
-import { body } from 'framer-motion/client';
 
 
 const convertMBTIToPersonalityStyle = (mbtiType) => {
