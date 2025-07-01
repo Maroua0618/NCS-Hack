@@ -565,7 +565,7 @@ class VARKRecommendationModel:
 def main():
     # Simulated dataset - in practice, load from your CSV
    
-    file_path = '../Datasets/comprehensive_vark_dataset.csv' 
+    file_path = './Datasets/comprehensive_vark_dataset.csv' 
     df = pd.read_csv(file_path)
     
     # Ensure target variable exists
@@ -594,7 +594,7 @@ def main():
         print("Recommendations found:")
         print(result['recommendations'])
     else:
-        print("No resources in dataset. Here's what I can help you scrape:")
+        print("Here's what I can help you scrape:")
         
         # Get detailed scraping strategy
         strategy = model.suggest_web_scraping_strategy(student_profile)
@@ -608,13 +608,10 @@ def main():
         print(f"Priority platforms: {', '.join(strategy['scraping_targets']['high_priority_platforms'])}")
         print(f"Resource types: {', '.join(strategy['scraping_targets']['resource_types_to_focus'])}")
         
-        print(f"\n🔧 Technical Implementation:")
-        print(f"Recommended tools: {', '.join(strategy['technical_approach']['tools_recommended'])}")
-        print(f"APIs to consider: {', '.join(strategy['technical_approach']['apis_to_consider'])}")
-        
+  
         print(f"\n✅ Quality Filters:")
         print(f"Minimum rating: {strategy['quality_filters']['minimum_rating']}")
-        print(f"Content freshness: {strategy['quality_filters']['content_freshness']}")
+     
 
 if __name__ == "__main__":
     main()

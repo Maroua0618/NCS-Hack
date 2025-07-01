@@ -51,8 +51,8 @@ class EnhancedMentorRecommendationSystem:
         self.logger = logging.getLogger(__name__)
 
         # Load data once
-        users_path = '../data/users.json'
-        mentors_path = '../data/mentors.json'
+        users_path = './data/users.json'
+        mentors_path = './data/mentors.json'
         with open(users_path, encoding='utf-8') as f:
             self.users = json.load(f)
         with open(mentors_path, encoding='utf-8') as f:
