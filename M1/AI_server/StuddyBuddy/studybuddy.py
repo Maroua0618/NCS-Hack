@@ -44,7 +44,8 @@ class StudyBuddyAnalyzer:
             print(f"Sample user keys: {self.user_database[0].keys()}")
 
             # Load MBTI compatibility data
-            mbti_df = pd.read_csv('mbti_compatibility.csv', index_col=0)
+            file_path="../Datasets/mbti_compatibility.csv"
+            mbti_df = pd.read_csv(file_path, index_col=0)
             self.mbti_compat = mbti_df.to_dict()
             print("✓ Loaded MBTI compatibility matrix")
         except Exception as e:
