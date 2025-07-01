@@ -156,12 +156,7 @@ const Dashboard = () => {
       case 'courses':
         return <Courses />; 
       default:
-        return (
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h2 className="text-2xl font-bold mb-4 capitalize">{activeTab}</h2>
-            <p className="text-gray-600">This is the {activeTab} page. Content will be loaded here.</p>
-          </div>
-        );
+        return <Progress />;
     }
   };
 
