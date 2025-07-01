@@ -1,3402 +1,3202 @@
 [
   {
-    "_id": "68633d784dd3d13f9731f292",
-    "email": "torresjoseph@example.com",
-    "password": "an_9vSxl%q",
-    "firstName": "Manuel",
-    "lastName": "Hayes",
-    "username": "zhunt",
-    "profilePicture": "https://placekitten.com/370/351",
-    "bio": "About share per admit say organization.",
-    "dateOfBirth": "2007-10-13",
-    "learningGoals": [
-      "nation",
-      "image"
-    ],
-    "learningStyle": "Visual",
+    "email": "hochoa@deleon.com",
+    "password": "@mcD*9By^9",
+    "firstName": "Theresa",
+    "lastName": "Wagner",
+    "username": "wburns",
+    "profilePicture": "https://dummyimage.com/177x907",
+    "bio": "West also individual doctor camera bad.",
+    "dateOfBirth": "1994-12-26",
+    "learningGoals": ["Get AWS Certified", "Deepen Python knowledge"],
+    "learningStyle": "Auditory",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 54,
-        "Auditory": 85
+        "Visual": 12,
+        "Auditory": 39,
+        "Kinesthetic": 49
       },
-      "completedAt": "2024-10-19 15:03:50"
+      "completedAt": "2025-01-12T05:00:39"
     },
     "currentStreak": 7,
-    "longestStreak": 44,
-    "totalStudyTime": 9797,
-    "totalSessions": 51,
-    "quiz": 14,
+    "longestStreak": 25,
+    "totalStudyTime": 956,
+    "totalSessions": 45,
+    "quiz": 82,
     "isPublic": true,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2022-09-05 08:32:07",
-    "updatedAt": "2025-02-25 10:53:45",
-    "lastLoginAt": "2025-02-26 10:15:54"
+    "createdAt": "2023-09-18T13:24:11",
+    "updatedAt": "2025-07-01T00:22:13.289216",
+    "lastLoginAt": "2025-03-22T17:04:14",
+    "id": "user_1"
   },
   {
-    "_id": "68633d784dd3d13f9731f293",
-    "email": "hunterjames@example.org",
-    "password": "%4C6PTa2Ur",
-    "firstName": "Sylvia",
-    "lastName": "Phelps",
-    "username": "stephensonzachary",
-    "profilePicture": "https://placekitten.com/32/969",
-    "bio": "Letter might professional.",
-    "dateOfBirth": "1947-03-29",
-    "learningGoals": [
-      "table",
-      "mission"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 52,
-        "Auditory": 11
-      },
-      "completedAt": "2022-12-06 16:42:10"
-    },
-    "currentStreak": 17,
-    "longestStreak": 47,
-    "totalStudyTime": 3263,
-    "totalSessions": 196,
-    "quiz": 15,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2023-02-11 07:25:00",
-    "updatedAt": "2025-02-28 07:08:00",
-    "lastLoginAt": "2025-06-12 01:57:52"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f294",
-    "email": "aroberts@example.org",
-    "password": "0)dpO$Ue^4",
-    "firstName": "Joseph",
-    "lastName": "Phelps",
-    "username": "jennifer89",
-    "profilePicture": "https://placekitten.com/500/295",
-    "bio": "Raise fire same call four appear measure.",
-    "dateOfBirth": "1947-10-17",
-    "learningGoals": [
-      "down",
-      "court"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 18,
-        "Auditory": 1
-      },
-      "completedAt": "2022-10-27 10:07:05"
-    },
-    "currentStreak": 9,
-    "longestStreak": 53,
-    "totalStudyTime": 5432,
-    "totalSessions": 274,
-    "quiz": 20,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-11-24 07:41:16",
-    "updatedAt": "2025-02-28 20:13:18",
-    "lastLoginAt": "2025-03-23 18:37:28"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f295",
-    "email": "laurawhitehead@example.org",
-    "password": "Au05XlAbd&",
-    "firstName": "Alexandra",
-    "lastName": "Gonzalez",
-    "username": "lauraromero",
-    "profilePicture": "https://placekitten.com/775/62",
-    "bio": "Thus decide child budget seat former go.",
-    "dateOfBirth": "1910-08-05",
-    "learningGoals": [
-      "strong",
-      "positive"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 32,
-        "Auditory": 24
-      },
-      "completedAt": "2024-10-06 02:58:36"
-    },
-    "currentStreak": 27,
-    "longestStreak": 40,
-    "totalStudyTime": 1039,
-    "totalSessions": 273,
-    "quiz": 8,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-07-03 13:32:45",
-    "updatedAt": "2025-06-20 02:17:44",
-    "lastLoginAt": "2025-04-22 08:38:14"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f296",
-    "email": "ruiznicole@example.org",
-    "password": "xw3SMx9oe^",
-    "firstName": "Krista",
-    "lastName": "Hernandez",
-    "username": "pjones",
-    "profilePicture": "https://picsum.photos/19/184",
-    "bio": "Pressure couple happen media blue daughter firm.",
-    "dateOfBirth": "2019-04-20",
-    "learningGoals": [
-      "whole",
-      "down"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 25,
-        "Auditory": 88
-      },
-      "completedAt": "2024-09-04 03:42:19"
-    },
-    "currentStreak": 13,
-    "longestStreak": 23,
-    "totalStudyTime": 1476,
-    "totalSessions": 196,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-08-04 21:50:42",
-    "updatedAt": "2025-06-08 01:26:06",
-    "lastLoginAt": "2025-03-13 22:50:25"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f297",
-    "email": "riggstiffany@example.org",
-    "password": "G(c7ZyNF1$",
-    "firstName": "Phillip",
-    "lastName": "Brewer",
-    "username": "stevenbraun",
-    "profilePicture": "https://dummyimage.com/822x541",
-    "bio": "His market former.",
-    "dateOfBirth": "1989-06-04",
-    "learningGoals": [
-      "program",
-      "majority"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 92,
-        "Auditory": 55
-      },
-      "completedAt": "2021-08-31 23:55:13"
-    },
-    "currentStreak": 11,
-    "longestStreak": 46,
-    "totalStudyTime": 9666,
-    "totalSessions": 239,
-    "quiz": 8,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2023-11-08 04:55:30",
-    "updatedAt": "2025-04-24 17:55:51",
-    "lastLoginAt": "2025-03-24 23:38:21"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f298",
-    "email": "john23@example.com",
-    "password": "%MRLDacea4",
-    "firstName": "Elizabeth",
-    "lastName": "Frank",
-    "username": "markmontes",
-    "profilePicture": "https://dummyimage.com/500x914",
-    "bio": "Force organization within position.",
-    "dateOfBirth": "1982-12-10",
-    "learningGoals": [
-      "image",
-      "help"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 41,
-        "Auditory": 67
-      },
-      "completedAt": "2021-03-31 19:11:51"
-    },
-    "currentStreak": 18,
-    "longestStreak": 35,
-    "totalStudyTime": 8655,
-    "totalSessions": 64,
-    "quiz": 19,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2025-04-09 04:44:25",
-    "updatedAt": "2025-04-29 03:17:12",
-    "lastLoginAt": "2025-02-20 05:31:23"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f299",
-    "email": "charles81@example.net",
-    "password": "Z)116NM%6b",
-    "firstName": "William",
-    "lastName": "Brown",
-    "username": "bridgetallen",
-    "profilePicture": "https://dummyimage.com/239x133",
-    "bio": "Manager stage laugh take win husband wide.",
-    "dateOfBirth": "1937-11-18",
-    "learningGoals": [
-      "yard",
-      "large"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 8,
-        "Auditory": 9
-      },
-      "completedAt": "2024-06-19 03:43:15"
-    },
-    "currentStreak": 16,
-    "longestStreak": 32,
-    "totalStudyTime": 9661,
-    "totalSessions": 177,
-    "quiz": 16,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2023-06-04 07:08:34",
-    "updatedAt": "2025-06-28 09:01:15",
-    "lastLoginAt": "2025-01-14 14:26:05"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f29a",
-    "email": "jennifer55@example.org",
-    "password": "81WteYtA#+",
-    "firstName": "Anne",
-    "lastName": "Beard",
-    "username": "pamelawest",
-    "profilePicture": "https://placekitten.com/852/455",
-    "bio": "Test between deep cause mean.",
-    "dateOfBirth": "1961-09-29",
-    "learningGoals": [
-      "she",
-      "lay"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 47,
-        "Auditory": 82
-      },
-      "completedAt": "2022-08-23 05:32:04"
-    },
-    "currentStreak": 26,
-    "longestStreak": 30,
-    "totalStudyTime": 7647,
-    "totalSessions": 294,
-    "quiz": 8,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-11-14 07:28:04",
-    "updatedAt": "2025-02-14 18:12:57",
-    "lastLoginAt": "2025-05-28 22:09:49"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f29b",
-    "email": "mitchelljoseph@example.net",
-    "password": ")wW*s!_nB0",
-    "firstName": "Patricia",
-    "lastName": "Velez",
-    "username": "blackburnkimberly",
-    "profilePicture": "https://picsum.photos/922/865",
-    "bio": "Rich nor decade enough image idea animal officer.",
-    "dateOfBirth": "1912-02-08",
-    "learningGoals": [
-      "none",
-      "risk"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 90,
-        "Auditory": 35
-      },
-      "completedAt": "2021-08-02 01:38:15"
-    },
-    "currentStreak": 12,
-    "longestStreak": 36,
-    "totalStudyTime": 6049,
-    "totalSessions": 79,
-    "quiz": 5,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-03-20 11:56:41",
-    "updatedAt": "2025-05-05 22:20:52",
-    "lastLoginAt": "2025-05-02 12:51:22"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f29c",
-    "email": "wtorres@example.net",
-    "password": "+_2CQi2KXj",
-    "firstName": "Jennifer",
-    "lastName": "Adams",
-    "username": "ericksonsteven",
-    "profilePicture": "https://placekitten.com/16/788",
-    "bio": "Break much deal send glass democratic.",
-    "dateOfBirth": "1982-03-10",
-    "learningGoals": [
-      "laugh",
-      "pull"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 6,
-        "Auditory": 70
-      },
-      "completedAt": "2022-11-10 17:03:06"
-    },
-    "currentStreak": 6,
-    "longestStreak": 35,
-    "totalStudyTime": 5009,
-    "totalSessions": 32,
-    "quiz": 17,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-02-09 15:19:29",
-    "updatedAt": "2025-04-08 00:24:24",
-    "lastLoginAt": "2025-06-11 17:31:56"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f29d",
-    "email": "allisonhuff@example.net",
-    "password": ")ZQHHj$oJ5",
-    "firstName": "Keith",
-    "lastName": "Thomas",
-    "username": "ashleyburnett",
-    "profilePicture": "https://placekitten.com/388/431",
-    "bio": "Development top technology.",
-    "dateOfBirth": "1918-06-15",
-    "learningGoals": [
-      "everyone",
-      "same"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 51,
-        "Auditory": 53
-      },
-      "completedAt": "2020-08-04 17:43:26"
-    },
-    "currentStreak": 24,
-    "longestStreak": 33,
-    "totalStudyTime": 8901,
-    "totalSessions": 26,
-    "quiz": 20,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-10-10 00:31:00",
-    "updatedAt": "2025-05-29 18:05:51",
-    "lastLoginAt": "2025-02-21 02:04:21"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f29e",
-    "email": "christopherphillips@example.com",
-    "password": "yzm8UaqI@e",
-    "firstName": "Aaron",
-    "lastName": "Hernandez",
-    "username": "george27",
-    "profilePicture": "https://picsum.photos/238/697",
-    "bio": "Inside they state treatment major.",
-    "dateOfBirth": "1978-07-04",
-    "learningGoals": [
-      "there",
-      "team"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 23,
-        "Auditory": 47
-      },
-      "completedAt": "2021-02-14 08:19:36"
-    },
-    "currentStreak": 28,
-    "longestStreak": 26,
-    "totalStudyTime": 4508,
-    "totalSessions": 229,
-    "quiz": 6,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-10-28 08:49:05",
-    "updatedAt": "2025-04-22 01:37:10",
-    "lastLoginAt": "2025-04-09 19:58:43"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f29f",
-    "email": "trananthony@example.net",
-    "password": "S)2bYVWxVj",
-    "firstName": "Amber",
-    "lastName": "Boyer",
-    "username": "whernandez",
-    "profilePicture": "https://picsum.photos/371/665",
-    "bio": "Character really wear.",
-    "dateOfBirth": "1920-03-18",
-    "learningGoals": [
-      "current",
-      "despite"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 99,
-        "Auditory": 79
-      },
-      "completedAt": "2022-12-17 14:48:36"
-    },
-    "currentStreak": 19,
-    "longestStreak": 22,
-    "totalStudyTime": 6273,
-    "totalSessions": 223,
-    "quiz": 6,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-10-07 11:15:27",
-    "updatedAt": "2025-06-16 01:32:34",
-    "lastLoginAt": "2025-06-04 10:14:19"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a0",
-    "email": "jenniferreid@example.org",
-    "password": "6x9ZMQ5T^R",
-    "firstName": "Francisco",
-    "lastName": "Cox",
-    "username": "kellercynthia",
-    "profilePicture": "https://placekitten.com/956/434",
-    "bio": "Few thought prepare authority food true test.",
-    "dateOfBirth": "1976-10-13",
-    "learningGoals": [
-      "toward",
-      "low"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 98,
-        "Auditory": 89
-      },
-      "completedAt": "2021-12-11 20:36:23"
-    },
-    "currentStreak": 1,
-    "longestStreak": 15,
-    "totalStudyTime": 3433,
-    "totalSessions": 61,
-    "quiz": 18,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-06-26 09:35:02",
-    "updatedAt": "2025-02-09 17:57:37",
-    "lastLoginAt": "2025-03-06 14:04:45"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a1",
-    "email": "ramirezkevin@example.net",
-    "password": "A_7DHR^sO!",
-    "firstName": "Jared",
-    "lastName": "Franco",
-    "username": "thomasashley",
-    "profilePicture": "https://picsum.photos/495/228",
-    "bio": "Production kid son treat recent.",
-    "dateOfBirth": "1918-10-03",
-    "learningGoals": [
-      "benefit",
-      "last"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 8,
-        "Auditory": 69
-      },
-      "completedAt": "2022-10-22 04:13:56"
-    },
-    "currentStreak": 8,
-    "longestStreak": 23,
-    "totalStudyTime": 1750,
-    "totalSessions": 55,
-    "quiz": 4,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-07-10 03:28:29",
-    "updatedAt": "2025-03-10 04:54:43",
-    "lastLoginAt": "2025-01-01 04:38:27"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a2",
-    "email": "fmassey@example.org",
-    "password": "(T0nDqqse6",
-    "firstName": "Norman",
-    "lastName": "Bass",
-    "username": "jenkinsmaria",
-    "profilePicture": "https://picsum.photos/389/917",
-    "bio": "Well summer several participant speak point economic.",
-    "dateOfBirth": "1945-10-31",
-    "learningGoals": [
-      "save",
-      "determine"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 100,
-        "Auditory": 75
-      },
-      "completedAt": "2024-12-06 12:01:38"
-    },
-    "currentStreak": 12,
-    "longestStreak": 15,
-    "totalStudyTime": 6037,
-    "totalSessions": 92,
-    "quiz": 13,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-07-08 21:37:43",
-    "updatedAt": "2025-05-10 13:59:55",
-    "lastLoginAt": "2025-02-25 21:15:31"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a3",
-    "email": "kennethriddle@example.com",
-    "password": "%kWCKBnov6",
-    "firstName": "Louis",
-    "lastName": "Harper",
-    "username": "ogarcia",
-    "profilePicture": "https://picsum.photos/286/612",
-    "bio": "Bank five rock early start area.",
-    "dateOfBirth": "1977-10-06",
-    "learningGoals": [
-      "none",
-      "design"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 11,
-        "Auditory": 64
-      },
-      "completedAt": "2022-09-19 10:18:46"
-    },
-    "currentStreak": 11,
-    "longestStreak": 53,
-    "totalStudyTime": 6062,
-    "totalSessions": 208,
-    "quiz": 16,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-03-30 16:23:40",
-    "updatedAt": "2025-04-13 04:43:27",
-    "lastLoginAt": "2025-03-27 20:33:30"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a4",
-    "email": "justin68@example.org",
-    "password": "$0rW9RGf#l",
-    "firstName": "James",
-    "lastName": "Edwards",
-    "username": "lauramendoza",
-    "profilePicture": "https://picsum.photos/77/527",
-    "bio": "Lose child federal throughout.",
-    "dateOfBirth": "1995-07-18",
-    "learningGoals": [
-      "their",
-      "by"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 8,
-        "Auditory": 85
-      },
-      "completedAt": "2020-01-10 10:37:16"
-    },
-    "currentStreak": 22,
-    "longestStreak": 26,
-    "totalStudyTime": 4689,
-    "totalSessions": 20,
-    "quiz": 2,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-11-06 03:17:23",
-    "updatedAt": "2025-01-23 00:22:21",
-    "lastLoginAt": "2025-05-24 07:41:32"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a5",
-    "email": "shafferdonald@example.net",
-    "password": "Fy^(8NdcuE",
-    "firstName": "Ryan",
-    "lastName": "Hale",
-    "username": "steven54",
-    "profilePicture": "https://picsum.photos/624/767",
-    "bio": "Own mean their product miss radio.",
-    "dateOfBirth": "1972-05-20",
-    "learningGoals": [
-      "look",
-      "cup"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 56,
-        "Auditory": 73
-      },
-      "completedAt": "2021-06-26 23:24:48"
-    },
-    "currentStreak": 3,
-    "longestStreak": 49,
-    "totalStudyTime": 6677,
-    "totalSessions": 207,
-    "quiz": 13,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-08-03 00:18:38",
-    "updatedAt": "2025-04-12 02:23:03",
-    "lastLoginAt": "2025-04-08 21:27:00"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a6",
-    "email": "dianerussell@example.org",
-    "password": "h%@8hACktD",
-    "firstName": "Jason",
-    "lastName": "Rodriguez",
-    "username": "davidsonjames",
-    "profilePicture": "https://dummyimage.com/873x525",
-    "bio": "Different five floor also.",
-    "dateOfBirth": "1938-05-09",
-    "learningGoals": [
-      "reveal",
-      "it"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 19,
-        "Auditory": 48
-      },
-      "completedAt": "2025-05-09 18:07:52"
-    },
-    "currentStreak": 30,
-    "longestStreak": 52,
-    "totalStudyTime": 6107,
-    "totalSessions": 283,
-    "quiz": 4,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-05-15 05:39:04",
-    "updatedAt": "2025-03-24 02:49:10",
-    "lastLoginAt": "2025-05-10 00:29:44"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a7",
-    "email": "wilsonjulia@example.net",
-    "password": "@4zXv)ls5N",
-    "firstName": "Jason",
-    "lastName": "Diaz",
-    "username": "debra25",
-    "profilePicture": "https://placekitten.com/756/992",
-    "bio": "Leader oil hard.",
-    "dateOfBirth": "1919-10-08",
-    "learningGoals": [
-      "second",
-      "meet"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 0,
-        "Auditory": 6
-      },
-      "completedAt": "2023-03-05 01:01:51"
-    },
-    "currentStreak": 19,
-    "longestStreak": 16,
-    "totalStudyTime": 9343,
-    "totalSessions": 70,
-    "quiz": 20,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-11-09 21:16:14",
-    "updatedAt": "2025-02-27 04:12:19",
-    "lastLoginAt": "2025-04-21 16:14:39"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a8",
-    "email": "dustinnorris@example.net",
-    "password": "(tnDnrWeu1",
-    "firstName": "Cynthia",
-    "lastName": "Hoffman",
-    "username": "hallbrenda",
-    "profilePicture": "https://dummyimage.com/423x165",
-    "bio": "Staff head medical several.",
-    "dateOfBirth": "1945-10-28",
-    "learningGoals": [
-      "activity",
-      "happy"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 90,
-        "Auditory": 37
-      },
-      "completedAt": "2024-07-22 23:39:16"
-    },
-    "currentStreak": 30,
-    "longestStreak": 50,
-    "totalStudyTime": 5210,
-    "totalSessions": 112,
-    "quiz": 16,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-09-13 04:22:03",
-    "updatedAt": "2025-01-08 20:10:58",
-    "lastLoginAt": "2025-01-31 00:46:28"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2a9",
-    "email": "bryantjeffrey@example.org",
-    "password": "_mAxpOyyM4",
-    "firstName": "Allison",
-    "lastName": "Robinson",
-    "username": "bakerdominique",
-    "profilePicture": "https://dummyimage.com/203x629",
-    "bio": "Believe election nation institution radio.",
-    "dateOfBirth": "1955-01-11",
-    "learningGoals": [
-      "travel",
-      "score"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 32,
-        "Auditory": 51
-      },
-      "completedAt": "2023-08-15 06:39:14"
-    },
-    "currentStreak": 29,
-    "longestStreak": 16,
-    "totalStudyTime": 4806,
-    "totalSessions": 78,
-    "quiz": 14,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-09-30 05:33:33",
-    "updatedAt": "2025-04-23 16:42:02",
-    "lastLoginAt": "2025-02-01 17:56:57"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2aa",
-    "email": "cfitzgerald@example.org",
-    "password": "$&F)7X1b*+",
-    "firstName": "Michael",
-    "lastName": "Schmidt",
-    "username": "elizabeth63",
-    "profilePicture": "https://dummyimage.com/752x913",
-    "bio": "Well enough stand enter.",
-    "dateOfBirth": "1935-09-24",
-    "learningGoals": [
-      "view",
-      "significant"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 88,
-        "Auditory": 17
-      },
-      "completedAt": "2024-02-10 07:44:49"
-    },
-    "currentStreak": 27,
-    "longestStreak": 54,
-    "totalStudyTime": 1911,
-    "totalSessions": 255,
-    "quiz": 3,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-01-31 06:46:49",
-    "updatedAt": "2025-02-10 21:47:19",
-    "lastLoginAt": "2025-01-14 07:21:34"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ab",
-    "email": "lopezrobert@example.org",
-    "password": "#4Ko_6DqV+",
-    "firstName": "Isaac",
-    "lastName": "Davis",
-    "username": "yturner",
-    "profilePicture": "https://picsum.photos/342/619",
-    "bio": "Center close message property participant himself easy.",
-    "dateOfBirth": "2008-08-30",
-    "learningGoals": [
-      "next",
-      "partner"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 4,
-        "Auditory": 37
-      },
-      "completedAt": "2024-12-03 02:20:38"
-    },
-    "currentStreak": 30,
-    "longestStreak": 50,
-    "totalStudyTime": 1987,
-    "totalSessions": 248,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-06-29 14:31:36",
-    "updatedAt": "2025-06-24 12:52:59",
-    "lastLoginAt": "2025-03-25 09:53:12"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ac",
-    "email": "rhess@example.com",
-    "password": "+vpbvFSk83",
-    "firstName": "John",
-    "lastName": "Gonzales",
-    "username": "annadouglas",
-    "profilePicture": "https://dummyimage.com/771x140",
-    "bio": "Human phone common across to.",
-    "dateOfBirth": "1999-10-21",
-    "learningGoals": [
-      "late",
-      "general"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 50,
-        "Auditory": 72
-      },
-      "completedAt": "2021-01-10 01:28:47"
-    },
-    "currentStreak": 17,
-    "longestStreak": 44,
-    "totalStudyTime": 8023,
-    "totalSessions": 218,
-    "quiz": 11,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-05-08 19:16:36",
-    "updatedAt": "2025-01-30 23:52:03",
-    "lastLoginAt": "2025-05-12 13:30:34"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ad",
-    "email": "ywilliamson@example.net",
-    "password": "SY4uNVPyr#",
-    "firstName": "Nicholas",
-    "lastName": "Mejia",
-    "username": "hturner",
-    "profilePicture": "https://placekitten.com/464/203",
-    "bio": "Decision seven seven quickly style pick magazine type.",
-    "dateOfBirth": "2010-06-02",
-    "learningGoals": [
-      "give",
-      "say"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 87,
-        "Auditory": 95
-      },
-      "completedAt": "2024-04-12 01:32:27"
-    },
-    "currentStreak": 29,
-    "longestStreak": 29,
-    "totalStudyTime": 5163,
-    "totalSessions": 77,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-02-16 17:37:20",
-    "updatedAt": "2025-03-22 11:44:21",
-    "lastLoginAt": "2025-01-29 10:17:59"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ae",
-    "email": "vcole@example.org",
-    "password": "_50GiA#t#Y",
-    "firstName": "Jasmine",
-    "lastName": "Howell",
-    "username": "michaelwilliams",
-    "profilePicture": "https://dummyimage.com/722x412",
-    "bio": "Laugh manage second good author short similar.",
-    "dateOfBirth": "1944-09-05",
-    "learningGoals": [
-      "from",
-      "artist"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 38,
-        "Auditory": 3
-      },
-      "completedAt": "2022-07-18 20:05:22"
-    },
-    "currentStreak": 9,
-    "longestStreak": 40,
-    "totalStudyTime": 7656,
-    "totalSessions": 40,
-    "quiz": 18,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-05-28 05:55:07",
-    "updatedAt": "2025-04-23 01:53:46",
-    "lastLoginAt": "2025-03-12 00:13:09"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2af",
-    "email": "jillspears@example.org",
-    "password": "5)TNs7HB+u",
-    "firstName": "Deborah",
-    "lastName": "Flores",
-    "username": "patrick51",
-    "profilePicture": "https://picsum.photos/707/518",
-    "bio": "Natural toward development anyone.",
-    "dateOfBirth": "1930-03-08",
-    "learningGoals": [
-      "offer",
-      "car"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 64,
-        "Auditory": 82
-      },
-      "completedAt": "2023-04-14 04:20:11"
-    },
-    "currentStreak": 11,
-    "longestStreak": 10,
-    "totalStudyTime": 3307,
-    "totalSessions": 123,
-    "quiz": 15,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-08-29 03:02:03",
-    "updatedAt": "2025-03-12 07:01:53",
-    "lastLoginAt": "2025-06-08 09:57:13"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b0",
-    "email": "oliverjared@example.net",
-    "password": "xyn01*Dgr(",
-    "firstName": "Catherine",
-    "lastName": "James",
-    "username": "ggonzales",
-    "profilePicture": "https://placekitten.com/1018/223",
-    "bio": "Every people successful get address of.",
-    "dateOfBirth": "1942-03-25",
-    "learningGoals": [
-      "good",
-      "reason"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 73,
-        "Auditory": 33
-      },
-      "completedAt": "2020-01-06 10:42:03"
-    },
-    "currentStreak": 16,
-    "longestStreak": 24,
-    "totalStudyTime": 1281,
-    "totalSessions": 239,
-    "quiz": 11,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-09-15 23:39:04",
-    "updatedAt": "2025-06-15 05:21:51",
-    "lastLoginAt": "2025-06-18 22:26:10"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b1",
-    "email": "alicebest@example.net",
-    "password": "M5gBWUds^$",
-    "firstName": "Mary",
-    "lastName": "Sampson",
-    "username": "ikirk",
-    "profilePicture": "https://picsum.photos/166/820",
-    "bio": "Accept check culture teach business factor benefit.",
-    "dateOfBirth": "1996-06-12",
-    "learningGoals": [
-      "quality",
-      "hold"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 86,
-        "Auditory": 37
-      },
-      "completedAt": "2024-06-07 18:31:01"
-    },
-    "currentStreak": 9,
-    "longestStreak": 44,
-    "totalStudyTime": 9650,
-    "totalSessions": 140,
-    "quiz": 20,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-04-05 06:58:01",
-    "updatedAt": "2025-05-22 09:14:12",
-    "lastLoginAt": "2025-02-02 12:39:19"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b2",
-    "email": "trevoralexander@example.org",
-    "password": "o17oGs#U%g",
-    "firstName": "Amanda",
-    "lastName": "Schwartz",
-    "username": "oramos",
-    "profilePicture": "https://dummyimage.com/546x1019",
-    "bio": "Movie past treatment reveal manage.",
-    "dateOfBirth": "2013-07-09",
-    "learningGoals": [
-      "growth",
-      "mouth"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 58,
-        "Auditory": 100
-      },
-      "completedAt": "2020-10-21 23:46:20"
-    },
-    "currentStreak": 4,
-    "longestStreak": 17,
-    "totalStudyTime": 3030,
-    "totalSessions": 79,
-    "quiz": 12,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2023-03-31 05:22:25",
-    "updatedAt": "2025-01-03 15:05:59",
-    "lastLoginAt": "2025-01-04 19:29:52"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b3",
-    "email": "cobbtyler@example.net",
-    "password": ")$2J#6Ba^s",
-    "firstName": "Stephen",
-    "lastName": "Mullins",
-    "username": "carrdavid",
-    "profilePicture": "https://picsum.photos/127/146",
-    "bio": "Pass will budget cultural customer choose call.",
-    "dateOfBirth": "1932-06-11",
-    "learningGoals": [
-      "analysis",
-      "great"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 77,
-        "Auditory": 79
-      },
-      "completedAt": "2023-12-18 04:18:21"
-    },
-    "currentStreak": 19,
-    "longestStreak": 23,
-    "totalStudyTime": 3308,
-    "totalSessions": 78,
-    "quiz": 3,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-01-31 12:48:22",
-    "updatedAt": "2025-03-13 23:17:53",
-    "lastLoginAt": "2025-02-14 02:22:14"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b4",
-    "email": "ichase@example.net",
-    "password": "(U@8H$tKdh",
-    "firstName": "Samantha",
-    "lastName": "Ferguson",
-    "username": "harmonanne",
-    "profilePicture": "https://placekitten.com/724/116",
-    "bio": "Human produce same.",
-    "dateOfBirth": "1963-11-03",
-    "learningGoals": [
-      "walk",
-      "bag"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 66,
-        "Auditory": 33
-      },
-      "completedAt": "2024-04-07 11:31:54"
-    },
-    "currentStreak": 11,
-    "longestStreak": 10,
-    "totalStudyTime": 7923,
-    "totalSessions": 65,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-05-19 18:04:43",
-    "updatedAt": "2025-02-27 01:43:02",
-    "lastLoginAt": "2025-06-05 02:09:14"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b5",
-    "email": "rossvalerie@example.org",
-    "password": "1by3HIexM(",
-    "firstName": "Brandon",
-    "lastName": "Brown",
-    "username": "heathermays",
-    "profilePicture": "https://picsum.photos/190/600",
-    "bio": "Huge month yourself indicate.",
-    "dateOfBirth": "1978-02-26",
-    "learningGoals": [
-      "now",
-      "best"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 46,
-        "Auditory": 69
-      },
-      "completedAt": "2022-09-25 20:43:21"
-    },
-    "currentStreak": 10,
-    "longestStreak": 28,
-    "totalStudyTime": 6807,
-    "totalSessions": 31,
-    "quiz": 20,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-03-13 18:17:45",
-    "updatedAt": "2025-04-06 20:34:07",
-    "lastLoginAt": "2025-04-05 03:32:41"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b6",
-    "email": "leachmarvin@example.com",
-    "password": "R5T(XMKb@X",
-    "firstName": "Margaret",
-    "lastName": "Ortiz",
-    "username": "carla90",
-    "profilePicture": "https://placekitten.com/356/977",
-    "bio": "Water reach call far continue hour than.",
-    "dateOfBirth": "2020-09-12",
-    "learningGoals": [
-      "since",
-      "think"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 78,
-        "Auditory": 50
-      },
-      "completedAt": "2025-03-24 06:51:18"
-    },
-    "currentStreak": 3,
-    "longestStreak": 33,
-    "totalStudyTime": 3685,
-    "totalSessions": 30,
-    "quiz": 10,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-07-10 23:32:01",
-    "updatedAt": "2025-01-15 22:17:33",
-    "lastLoginAt": "2025-02-24 07:29:57"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b7",
-    "email": "stephenvasquez@example.net",
-    "password": "$63SoKu#!p",
-    "firstName": "Christopher",
-    "lastName": "Massey",
-    "username": "ybrooks",
-    "profilePicture": "https://placekitten.com/917/827",
-    "bio": "Must keep majority future tax.",
-    "dateOfBirth": "1943-06-23",
-    "learningGoals": [
-      "any",
-      "class"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 34,
-        "Auditory": 48
-      },
-      "completedAt": "2024-05-01 18:23:51"
-    },
-    "currentStreak": 18,
-    "longestStreak": 46,
-    "totalStudyTime": 4157,
-    "totalSessions": 218,
-    "quiz": 13,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-06-11 05:59:35",
-    "updatedAt": "2025-02-03 23:03:31",
-    "lastLoginAt": "2025-06-05 21:59:06"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b8",
-    "email": "martinsmith@example.com",
-    "password": "#v9OGB!g^X",
-    "firstName": "Amy",
-    "lastName": "Ward",
-    "username": "durhamnathan",
-    "profilePicture": "https://dummyimage.com/571x883",
-    "bio": "Interview argue eat million natural heart determine piece.",
-    "dateOfBirth": "1939-01-09",
-    "learningGoals": [
-      "approach",
-      "lead"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 30,
-        "Auditory": 60
-      },
-      "completedAt": "2025-05-13 00:34:16"
-    },
-    "currentStreak": 4,
-    "longestStreak": 24,
-    "totalStudyTime": 5085,
-    "totalSessions": 115,
-    "quiz": 13,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-09-06 16:28:44",
-    "updatedAt": "2025-01-31 02:44:08",
-    "lastLoginAt": "2025-03-29 02:33:42"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2b9",
-    "email": "meganward@example.net",
-    "password": "u#9tN)l6M&",
-    "firstName": "Deborah",
-    "lastName": "Deleon",
-    "username": "wmiller",
-    "profilePicture": "https://dummyimage.com/198x168",
-    "bio": "Too attorney per final size.",
-    "dateOfBirth": "1916-03-08",
-    "learningGoals": [
-      "race",
-      "really"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 56,
-        "Auditory": 6
-      },
-      "completedAt": "2024-06-19 16:12:18"
-    },
-    "currentStreak": 15,
-    "longestStreak": 19,
-    "totalStudyTime": 2576,
-    "totalSessions": 87,
-    "quiz": 15,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-07-29 13:28:53",
-    "updatedAt": "2025-06-22 08:15:43",
-    "lastLoginAt": "2025-04-24 04:56:49"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ba",
-    "email": "mgonzales@example.net",
-    "password": "3I3Pm3tp0%",
-    "firstName": "John",
-    "lastName": "Goodwin",
-    "username": "angelamartinez",
-    "profilePicture": "https://picsum.photos/192/313",
-    "bio": "Meeting suddenly bit side.",
-    "dateOfBirth": "2006-03-10",
-    "learningGoals": [
-      "environmental",
-      "nearly"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 46,
-        "Auditory": 18
-      },
-      "completedAt": "2023-11-18 19:33:25"
-    },
-    "currentStreak": 13,
-    "longestStreak": 39,
-    "totalStudyTime": 8049,
-    "totalSessions": 252,
-    "quiz": 5,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-10-21 04:49:23",
-    "updatedAt": "2025-02-10 23:49:01",
-    "lastLoginAt": "2025-02-18 15:23:55"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2bb",
-    "email": "erin87@example.com",
-    "password": "N^!aK2Thn@",
-    "firstName": "Alan",
-    "lastName": "Wu",
-    "username": "williamspatricia",
-    "profilePicture": "https://placekitten.com/585/586",
-    "bio": "Issue recently issue rock across station.",
-    "dateOfBirth": "1981-06-27",
-    "learningGoals": [
-      "understand",
-      "type"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 27,
-        "Auditory": 52
-      },
-      "completedAt": "2025-05-05 00:52:12"
-    },
-    "currentStreak": 0,
-    "longestStreak": 51,
-    "totalStudyTime": 2960,
-    "totalSessions": 167,
-    "quiz": 4,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-03-22 21:29:08",
-    "updatedAt": "2025-01-08 10:22:22",
-    "lastLoginAt": "2025-04-27 13:46:04"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2bc",
-    "email": "barry70@example.com",
-    "password": "%D6jKPQgVZ",
-    "firstName": "Megan",
-    "lastName": "Lewis",
-    "username": "qprince",
-    "profilePicture": "https://dummyimage.com/507x751",
-    "bio": "We bill expert report.",
-    "dateOfBirth": "1983-03-09",
-    "learningGoals": [
-      "name",
-      "seek"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 10,
-        "Auditory": 92
-      },
-      "completedAt": "2020-09-25 17:28:29"
-    },
-    "currentStreak": 14,
-    "longestStreak": 57,
-    "totalStudyTime": 9857,
-    "totalSessions": 86,
-    "quiz": 11,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-03-15 13:53:11",
-    "updatedAt": "2025-02-17 15:01:54",
-    "lastLoginAt": "2025-05-19 22:29:17"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2bd",
-    "email": "andersonshirley@example.org",
-    "password": "!K(EPxmvX2",
-    "firstName": "Lori",
-    "lastName": "Williams",
-    "username": "tiffanyzimmerman",
-    "profilePicture": "https://picsum.photos/37/225",
-    "bio": "Fast practice behind option arm health bill.",
-    "dateOfBirth": "1920-10-10",
-    "learningGoals": [
-      "age",
-      "deal"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 27,
-        "Auditory": 82
-      },
-      "completedAt": "2025-05-02 06:22:07"
-    },
-    "currentStreak": 20,
-    "longestStreak": 56,
-    "totalStudyTime": 3583,
-    "totalSessions": 267,
-    "quiz": 12,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-11-07 15:12:09",
-    "updatedAt": "2025-06-17 01:06:39",
-    "lastLoginAt": "2025-02-12 12:19:39"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2be",
-    "email": "jamessanchez@example.org",
-    "password": "59aQUIDh+9",
-    "firstName": "Carrie",
-    "lastName": "Hess",
-    "username": "cadams",
-    "profilePicture": "https://picsum.photos/197/117",
-    "bio": "Environment girl teach nearly.",
-    "dateOfBirth": "1982-02-27",
-    "learningGoals": [
-      "serve",
-      "too"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 74,
-        "Auditory": 58
-      },
-      "completedAt": "2025-05-11 14:34:23"
-    },
-    "currentStreak": 22,
-    "longestStreak": 34,
-    "totalStudyTime": 2278,
-    "totalSessions": 53,
-    "quiz": 4,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-01-01 22:33:32",
-    "updatedAt": "2025-05-03 14:24:20",
-    "lastLoginAt": "2025-05-19 05:07:59"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2bf",
-    "email": "jamie83@example.com",
-    "password": "f&0PVx2WWP",
-    "firstName": "Glen",
-    "lastName": "Mckay",
-    "username": "bishopjeremy",
-    "profilePicture": "https://dummyimage.com/959x757",
-    "bio": "Street everything now economy save economy family audience.",
-    "dateOfBirth": "2022-01-03",
-    "learningGoals": [
-      "interview",
-      "exist"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 35,
-        "Auditory": 73
-      },
-      "completedAt": "2023-12-26 04:10:46"
-    },
-    "currentStreak": 30,
-    "longestStreak": 37,
-    "totalStudyTime": 8336,
-    "totalSessions": 50,
-    "quiz": 11,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-05-12 14:42:31",
-    "updatedAt": "2025-04-21 21:35:09",
-    "lastLoginAt": "2025-06-29 18:52:44"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c0",
-    "email": "stevenwest@example.org",
-    "password": "EmG5PNIm^3",
-    "firstName": "Todd",
-    "lastName": "Anderson",
-    "username": "qfowler",
-    "profilePicture": "https://placekitten.com/904/265",
-    "bio": "High agree address seek deep economic current.",
-    "dateOfBirth": "2006-12-20",
-    "learningGoals": [
-      "stock",
-      "machine"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 78,
-        "Auditory": 57
-      },
-      "completedAt": "2023-04-26 10:10:58"
-    },
-    "currentStreak": 0,
-    "longestStreak": 50,
-    "totalStudyTime": 7138,
-    "totalSessions": 278,
-    "quiz": 13,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-12-20 17:28:23",
-    "updatedAt": "2025-02-02 13:00:41",
-    "lastLoginAt": "2025-03-31 08:18:49"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c1",
-    "email": "oyang@example.net",
-    "password": "$kGt@Krzt1",
-    "firstName": "Donald",
-    "lastName": "Jones",
-    "username": "samanthamurphy",
-    "profilePicture": "https://placekitten.com/441/989",
-    "bio": "Nor something partner ability grow.",
-    "dateOfBirth": "1947-02-05",
-    "learningGoals": [
-      "how",
-      "use"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 37,
-        "Auditory": 18
-      },
-      "completedAt": "2025-06-06 19:33:57"
-    },
-    "currentStreak": 6,
-    "longestStreak": 12,
-    "totalStudyTime": 3982,
-    "totalSessions": 132,
-    "quiz": 3,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-07-13 16:48:59",
-    "updatedAt": "2025-03-06 17:08:51",
-    "lastLoginAt": "2025-05-17 01:24:22"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c2",
-    "email": "sabrinapatterson@example.org",
-    "password": "*g8K6Xx&96",
-    "firstName": "Lisa",
-    "lastName": "Brown",
-    "username": "stephaniereese",
-    "profilePicture": "https://placekitten.com/577/476",
-    "bio": "Music since hold politics anyone.",
-    "dateOfBirth": "1928-06-01",
-    "learningGoals": [
-      "hot",
-      "who"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 80,
-        "Auditory": 75
-      },
-      "completedAt": "2024-02-24 03:12:59"
-    },
-    "currentStreak": 21,
-    "longestStreak": 49,
-    "totalStudyTime": 1000,
-    "totalSessions": 179,
-    "quiz": 4,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-05-12 18:07:17",
-    "updatedAt": "2025-04-30 13:29:46",
-    "lastLoginAt": "2025-05-25 21:43:39"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c3",
-    "email": "kristijenkins@example.com",
-    "password": "%1fKNdWj8Z",
-    "firstName": "David",
-    "lastName": "Freeman",
-    "username": "gwright",
-    "profilePicture": "https://dummyimage.com/514x757",
-    "bio": "Child receive truth after American give.",
-    "dateOfBirth": "1913-08-13",
-    "learningGoals": [
-      "financial",
-      "trip"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 61,
-        "Auditory": 56
-      },
-      "completedAt": "2023-09-20 19:52:27"
-    },
-    "currentStreak": 30,
-    "longestStreak": 14,
-    "totalStudyTime": 9884,
-    "totalSessions": 291,
-    "quiz": 8,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-02-17 19:53:52",
-    "updatedAt": "2025-05-24 11:17:06",
-    "lastLoginAt": "2025-02-14 18:20:55"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c4",
-    "email": "james98@example.org",
-    "password": "Vf2GsSl%4)",
-    "firstName": "Donna",
-    "lastName": "Carroll",
-    "username": "nacosta",
-    "profilePicture": "https://placekitten.com/284/865",
-    "bio": "Southern back hotel guess run agreement field.",
-    "dateOfBirth": "1976-02-01",
-    "learningGoals": [
-      "thus",
-      "community"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 13,
-        "Auditory": 89
-      },
-      "completedAt": "2021-11-02 20:06:40"
-    },
-    "currentStreak": 15,
-    "longestStreak": 52,
-    "totalStudyTime": 2259,
-    "totalSessions": 269,
-    "quiz": 20,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-04-15 18:28:48",
-    "updatedAt": "2025-05-28 03:40:08",
-    "lastLoginAt": "2025-04-21 09:28:53"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c5",
-    "email": "reeveslaura@example.net",
-    "password": "9m@wW2Kvxe",
-    "firstName": "Michael",
-    "lastName": "Thompson",
-    "username": "kimberlycharles",
-    "profilePicture": "https://placekitten.com/476/5",
-    "bio": "Owner understand will once they six television thus.",
-    "dateOfBirth": "1971-09-16",
-    "learningGoals": [
-      "understand",
-      "physical"
-    ],
+    "email": "elliottwilliam@ray.com",
+    "password": ")I7rtMVlJE",
+    "firstName": "Beth",
+    "lastName": "Warner",
+    "username": "veronica30",
+    "profilePicture": "https://dummyimage.com/242x268",
+    "bio": "Offer scene better.",
+    "dateOfBirth": "1990-03-26",
+    "learningGoals": ["Build 5 projects", "Explore React"],
     "learningStyle": "Kinesthetic",
     "testResults": {
       "learningStyleScore": {
         "Visual": 43,
-        "Auditory": 40
+        "Auditory": 46,
+        "Kinesthetic": 11
       },
-      "completedAt": "2022-11-14 22:55:45"
+      "completedAt": "2024-07-19T05:50:55"
     },
-    "currentStreak": 12,
-    "longestStreak": 37,
-    "totalStudyTime": 8516,
-    "totalSessions": 195,
-    "quiz": 12,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-08-01 21:44:38",
-    "updatedAt": "2025-01-01 18:11:22",
-    "lastLoginAt": "2025-02-13 04:18:28"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c6",
-    "email": "ywilliams@example.org",
-    "password": "I%7BYot(d!",
-    "firstName": "Daniel",
-    "lastName": "Parks",
-    "username": "carterkevin",
-    "profilePicture": "https://placekitten.com/419/583",
-    "bio": "Relationship else test treat daughter represent expect detail.",
-    "dateOfBirth": "2019-08-24",
-    "learningGoals": [
-      "rich",
-      "top"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 90,
-        "Auditory": 82
-      },
-      "completedAt": "2023-07-14 08:15:02"
-    },
-    "currentStreak": 16,
-    "longestStreak": 52,
-    "totalStudyTime": 2186,
-    "totalSessions": 231,
-    "quiz": 13,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-03-21 18:26:01",
-    "updatedAt": "2025-05-19 22:08:18",
-    "lastLoginAt": "2025-05-26 10:34:43"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c7",
-    "email": "david80@example.net",
-    "password": "0vXbG2Mn&0",
-    "firstName": "Paula",
-    "lastName": "Hoffman",
-    "username": "russell39",
-    "profilePicture": "https://picsum.photos/864/460",
-    "bio": "Court energy personal agency everyone game idea.",
-    "dateOfBirth": "1974-02-11",
-    "learningGoals": [
-      "security",
-      "student"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 91,
-        "Auditory": 0
-      },
-      "completedAt": "2022-09-21 04:48:50"
-    },
-    "currentStreak": 2,
-    "longestStreak": 41,
-    "totalStudyTime": 9789,
-    "totalSessions": 299,
-    "quiz": 6,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-11-27 11:43:38",
-    "updatedAt": "2025-04-25 10:55:39",
-    "lastLoginAt": "2025-06-01 04:18:26"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c8",
-    "email": "wesleybrown@example.net",
-    "password": "6RWWXows)O",
-    "firstName": "Angela",
-    "lastName": "Quinn",
-    "username": "richardowen",
-    "profilePicture": "https://placekitten.com/659/635",
-    "bio": "Everybody believe economic important piece.",
-    "dateOfBirth": "2014-12-22",
-    "learningGoals": [
-      "concern",
-      "would"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 51,
-        "Auditory": 31
-      },
-      "completedAt": "2023-10-03 18:20:37"
-    },
-    "currentStreak": 1,
-    "longestStreak": 32,
-    "totalStudyTime": 2976,
-    "totalSessions": 274,
-    "quiz": 15,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2025-03-17 08:34:46",
-    "updatedAt": "2025-06-20 13:02:26",
-    "lastLoginAt": "2025-03-14 11:13:59"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2c9",
-    "email": "frederick37@example.net",
-    "password": "oq5(7Jkpr3",
-    "firstName": "James",
-    "lastName": "Walker",
-    "username": "lauren77",
-    "profilePicture": "https://dummyimage.com/418x147",
-    "bio": "Visit themselves its discuss early since suddenly.",
-    "dateOfBirth": "2017-09-19",
-    "learningGoals": [
-      "long",
-      "tonight"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 72,
-        "Auditory": 79
-      },
-      "completedAt": "2020-12-25 06:45:45"
-    },
-    "currentStreak": 10,
-    "longestStreak": 53,
-    "totalStudyTime": 5451,
-    "totalSessions": 58,
-    "quiz": 16,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-04-27 21:34:14",
-    "updatedAt": "2025-02-04 05:20:05",
-    "lastLoginAt": "2025-01-15 01:16:33"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ca",
-    "email": "williamswhitney@example.com",
-    "password": "9j8L$gSo%e",
-    "firstName": "Kenneth",
-    "lastName": "Quinn",
-    "username": "whitneybell",
-    "profilePicture": "https://placekitten.com/37/456",
-    "bio": "Instead level discussion hour.",
-    "dateOfBirth": "2008-01-16",
-    "learningGoals": [
-      "school",
-      "decade"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 80,
-        "Auditory": 8
-      },
-      "completedAt": "2020-06-13 06:37:44"
-    },
-    "currentStreak": 17,
-    "longestStreak": 16,
-    "totalStudyTime": 9210,
-    "totalSessions": 143,
-    "quiz": 12,
+    "currentStreak": 6,
+    "longestStreak": 20,
+    "totalStudyTime": 690,
+    "totalSessions": 60,
+    "quiz": 75,
     "isPublic": true,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2020-06-14 22:16:10",
-    "updatedAt": "2025-03-19 10:28:57",
-    "lastLoginAt": "2025-02-09 10:14:40"
+    "createdAt": "2024-11-27T20:45:39",
+    "updatedAt": "2025-07-01T00:22:13.290963",
+    "lastLoginAt": "2024-12-28T18:12:23",
+    "id": "user_2"
   },
   {
-    "_id": "68633d784dd3d13f9731f2cb",
-    "email": "teresajohnson@example.com",
-    "password": "@kX6Cui&29",
+    "email": "omar08@gmail.com",
+    "password": "2nUS7LWp+i",
     "firstName": "Charles",
-    "lastName": "Smith",
-    "username": "ghensley",
-    "profilePicture": "https://dummyimage.com/383x629",
-    "bio": "Our no benefit effect cup.",
-    "dateOfBirth": "2022-08-04",
-    "learningGoals": [
-      "reach",
-      "pass"
-    ],
+    "lastName": "Koch",
+    "username": "cmorgan",
+    "profilePicture": "https://dummyimage.com/447x668",
+    "bio": "Others say miss remain season.",
+    "dateOfBirth": "1979-09-11",
+    "learningGoals": ["Explore React", "Understand AI concepts"],
     "learningStyle": "Visual",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 99,
-        "Auditory": 100
+        "Visual": 47,
+        "Auditory": 35,
+        "Kinesthetic": 18
       },
-      "completedAt": "2021-02-10 05:48:52"
+      "completedAt": "2025-01-19T20:56:14"
     },
-    "currentStreak": 7,
-    "longestStreak": 27,
-    "totalStudyTime": 4413,
-    "totalSessions": 26,
-    "quiz": 13,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-11-27 10:02:29",
-    "updatedAt": "2025-06-25 19:42:54",
-    "lastLoginAt": "2025-06-01 14:09:15"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2cc",
-    "email": "griffithblake@example.org",
-    "password": "@+6kVfx&@p",
-    "firstName": "Nicholas",
-    "lastName": "Hamilton",
-    "username": "heidi88",
-    "profilePicture": "https://picsum.photos/827/87",
-    "bio": "Key development very professional face hundred reach foreign.",
-    "dateOfBirth": "2004-01-31",
-    "learningGoals": [
-      "perhaps",
-      "back"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 98,
-        "Auditory": 52
-      },
-      "completedAt": "2020-12-28 03:05:47"
-    },
-    "currentStreak": 10,
-    "longestStreak": 42,
-    "totalStudyTime": 2152,
-    "totalSessions": 50,
-    "quiz": 4,
+    "currentStreak": 3,
+    "longestStreak": 10,
+    "totalStudyTime": 647,
+    "totalSessions": 87,
+    "quiz": 79,
     "isPublic": false,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2024-09-28 20:19:33",
-    "updatedAt": "2025-05-01 22:39:22",
-    "lastLoginAt": "2025-06-02 16:28:07"
+    "createdAt": "2024-10-31T08:37:32",
+    "updatedAt": "2025-07-01T00:22:13.292129",
+    "lastLoginAt": "2025-03-20T18:33:06",
+    "id": "user_3"
   },
   {
-    "_id": "68633d784dd3d13f9731f2cd",
-    "email": "justinromero@example.com",
-    "password": "LRX8DsXq$#",
-    "firstName": "Benjamin",
-    "lastName": "Morris",
-    "username": "saramueller",
-    "profilePicture": "https://picsum.photos/163/931",
-    "bio": "Citizen question anyone different.",
-    "dateOfBirth": "2015-12-16",
-    "learningGoals": [
-      "available",
-      "recognize"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 24,
-        "Auditory": 100
-      },
-      "completedAt": "2021-06-05 07:42:42"
-    },
-    "currentStreak": 24,
-    "longestStreak": 49,
-    "totalStudyTime": 6474,
-    "totalSessions": 258,
-    "quiz": 19,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-01-21 20:35:23",
-    "updatedAt": "2025-03-09 10:13:26",
-    "lastLoginAt": "2025-01-02 14:50:16"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ce",
-    "email": "ufields@example.net",
-    "password": "CYI54hOs*9",
-    "firstName": "Brandon",
-    "lastName": "Sharp",
-    "username": "thomasmorales",
-    "profilePicture": "https://dummyimage.com/374x186",
-    "bio": "Letter take yourself.",
-    "dateOfBirth": "2001-10-21",
-    "learningGoals": [
-      "toward",
-      "course"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 54,
-        "Auditory": 80
-      },
-      "completedAt": "2024-10-31 14:31:07"
-    },
-    "currentStreak": 17,
-    "longestStreak": 48,
-    "totalStudyTime": 7709,
-    "totalSessions": 265,
-    "quiz": 7,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-07-27 06:55:55",
-    "updatedAt": "2025-04-14 10:31:04",
-    "lastLoginAt": "2025-06-02 00:29:37"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2cf",
-    "email": "nevans@example.com",
-    "password": "y@R@h3Mr$8",
-    "firstName": "Tyler",
-    "lastName": "Watkins",
-    "username": "steven81",
-    "profilePicture": "https://picsum.photos/830/247",
-    "bio": "Even environment increase list offer.",
-    "dateOfBirth": "1994-10-28",
-    "learningGoals": [
-      "run",
-      "out"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 68,
-        "Auditory": 31
-      },
-      "completedAt": "2025-06-07 08:19:35"
-    },
-    "currentStreak": 1,
-    "longestStreak": 27,
-    "totalStudyTime": 4087,
-    "totalSessions": 172,
-    "quiz": 2,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-07-15 15:58:53",
-    "updatedAt": "2025-06-01 11:40:55",
-    "lastLoginAt": "2025-04-22 03:01:15"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d0",
-    "email": "gutierrezbrenda@example.org",
-    "password": "@pRxGNei_0",
-    "firstName": "Gary",
-    "lastName": "Griffith",
-    "username": "george77",
-    "profilePicture": "https://picsum.photos/364/916",
-    "bio": "In themselves thousand beat crime stop fly do.",
-    "dateOfBirth": "1958-02-02",
-    "learningGoals": [
-      "player",
-      "six"
-    ],
+    "email": "timothydaniel@lee-singleton.com",
+    "password": "U2t0Onic^x",
+    "firstName": "Elijah",
+    "lastName": "Lopez",
+    "username": "moranbrittany",
+    "profilePicture": "https://dummyimage.com/116x491",
+    "bio": "Coach generation continue investment successful.",
+    "dateOfBirth": "2004-05-19",
+    "learningGoals": ["Learn JavaScript", "Build 5 projects"],
     "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 84,
-        "Auditory": 65
-      },
-      "completedAt": "2024-03-18 13:31:46"
-    },
-    "currentStreak": 24,
-    "longestStreak": 34,
-    "totalStudyTime": 7080,
-    "totalSessions": 158,
-    "quiz": 17,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-01-18 17:27:26",
-    "updatedAt": "2025-04-10 06:28:09",
-    "lastLoginAt": "2025-01-05 22:08:18"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d1",
-    "email": "stephanie07@example.org",
-    "password": "%ABh)XIz62",
-    "firstName": "Claudia",
-    "lastName": "Lowe",
-    "username": "pwoods",
-    "profilePicture": "https://placekitten.com/527/535",
-    "bio": "Section happy organization.",
-    "dateOfBirth": "1947-03-18",
-    "learningGoals": [
-      "ability",
-      "suddenly"
-    ],
-    "learningStyle": "Kinesthetic",
     "testResults": {
       "learningStyleScore": {
         "Visual": 50,
-        "Auditory": 100
+        "Auditory": 39,
+        "Kinesthetic": 11
       },
-      "completedAt": "2023-12-16 03:13:55"
-    },
-    "currentStreak": 10,
-    "longestStreak": 17,
-    "totalStudyTime": 7754,
-    "totalSessions": 38,
-    "quiz": 5,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2025-03-08 03:06:03",
-    "updatedAt": "2025-01-04 08:44:32",
-    "lastLoginAt": "2025-06-22 23:40:09"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d2",
-    "email": "guzmansharon@example.org",
-    "password": "#Bu7HMIvu(",
-    "firstName": "Sheila",
-    "lastName": "Bruce",
-    "username": "kyle87",
-    "profilePicture": "https://dummyimage.com/701x615",
-    "bio": "Center similar foot.",
-    "dateOfBirth": "1999-08-20",
-    "learningGoals": [
-      "sound",
-      "answer"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 26,
-        "Auditory": 88
-      },
-      "completedAt": "2021-06-24 04:22:43"
-    },
-    "currentStreak": 2,
-    "longestStreak": 42,
-    "totalStudyTime": 8346,
-    "totalSessions": 300,
-    "quiz": 10,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-05-04 13:30:29",
-    "updatedAt": "2025-05-16 20:14:12",
-    "lastLoginAt": "2025-04-20 07:12:39"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d3",
-    "email": "ilindsey@example.org",
-    "password": "qF2XkDoz^s",
-    "firstName": "Kayla",
-    "lastName": "Alvarado",
-    "username": "ggutierrez",
-    "profilePicture": "https://picsum.photos/464/634",
-    "bio": "Significant financial early move name also.",
-    "dateOfBirth": "2003-07-25",
-    "learningGoals": [
-      "who",
-      "none"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 68,
-        "Auditory": 34
-      },
-      "completedAt": "2022-10-18 01:45:41"
-    },
-    "currentStreak": 18,
-    "longestStreak": 39,
-    "totalStudyTime": 3439,
-    "totalSessions": 247,
-    "quiz": 19,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2023-04-23 00:12:14",
-    "updatedAt": "2025-02-18 23:33:42",
-    "lastLoginAt": "2025-03-10 11:18:10"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d4",
-    "email": "allisonjones@example.net",
-    "password": "(u5QxjgCzL",
-    "firstName": "Brandon",
-    "lastName": "Sanchez",
-    "username": "ericbeasley",
-    "profilePicture": "https://dummyimage.com/579x934",
-    "bio": "Wind increase source.",
-    "dateOfBirth": "1993-04-24",
-    "learningGoals": [
-      "will",
-      "feeling"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 85,
-        "Auditory": 25
-      },
-      "completedAt": "2024-08-06 04:44:10"
-    },
-    "currentStreak": 3,
-    "longestStreak": 22,
-    "totalStudyTime": 2868,
-    "totalSessions": 201,
-    "quiz": 10,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-05-14 12:23:12",
-    "updatedAt": "2025-01-21 06:21:32",
-    "lastLoginAt": "2025-01-17 02:10:51"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d5",
-    "email": "ewilson@example.com",
-    "password": "o1H_v6KfK%",
-    "firstName": "Bridget",
-    "lastName": "Schmidt",
-    "username": "amanda57",
-    "profilePicture": "https://picsum.photos/0/513",
-    "bio": "Draw any realize far go wear.",
-    "dateOfBirth": "1961-10-07",
-    "learningGoals": [
-      "by",
-      "require"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 15,
-        "Auditory": 58
-      },
-      "completedAt": "2021-03-20 22:17:54"
-    },
-    "currentStreak": 30,
-    "longestStreak": 14,
-    "totalStudyTime": 5505,
-    "totalSessions": 253,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-05-01 23:49:03",
-    "updatedAt": "2025-02-23 20:12:22",
-    "lastLoginAt": "2025-01-21 15:50:21"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d6",
-    "email": "jacksonkristen@example.org",
-    "password": "u@D0B0a((R",
-    "firstName": "Cassandra",
-    "lastName": "Mathews",
-    "username": "francojames",
-    "profilePicture": "https://placekitten.com/303/151",
-    "bio": "Machine despite tonight food less score community.",
-    "dateOfBirth": "1917-01-30",
-    "learningGoals": [
-      "music",
-      "it"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 41,
-        "Auditory": 30
-      },
-      "completedAt": "2024-08-21 10:21:50"
-    },
-    "currentStreak": 15,
-    "longestStreak": 44,
-    "totalStudyTime": 4999,
-    "totalSessions": 205,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-05-15 05:50:51",
-    "updatedAt": "2025-02-05 07:18:27",
-    "lastLoginAt": "2025-05-24 12:19:44"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d7",
-    "email": "brandtjoshua@example.com",
-    "password": "&!NRWtXx%8",
-    "firstName": "Maria",
-    "lastName": "Kennedy",
-    "username": "jenniferwarner",
-    "profilePicture": "https://picsum.photos/777/298",
-    "bio": "Method TV full least.",
-    "dateOfBirth": "1937-12-16",
-    "learningGoals": [
-      "big",
-      "local"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 84,
-        "Auditory": 25
-      },
-      "completedAt": "2020-07-20 18:47:13"
-    },
-    "currentStreak": 5,
-    "longestStreak": 19,
-    "totalStudyTime": 3952,
-    "totalSessions": 180,
-    "quiz": 3,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-07-29 13:51:59",
-    "updatedAt": "2025-06-13 07:48:20",
-    "lastLoginAt": "2025-02-21 14:26:02"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d8",
-    "email": "mchang@example.org",
-    "password": "%qYPDo$U8H",
-    "firstName": "Amy",
-    "lastName": "Newton",
-    "username": "kmiller",
-    "profilePicture": "https://placekitten.com/368/326",
-    "bio": "Matter word condition three not gas.",
-    "dateOfBirth": "1963-01-16",
-    "learningGoals": [
-      "mother",
-      "bar"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 85,
-        "Auditory": 22
-      },
-      "completedAt": "2023-05-15 10:46:13"
-    },
-    "currentStreak": 10,
-    "longestStreak": 32,
-    "totalStudyTime": 4622,
-    "totalSessions": 281,
-    "quiz": 5,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-08-05 18:31:08",
-    "updatedAt": "2025-02-02 21:03:23",
-    "lastLoginAt": "2025-04-13 01:22:53"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2d9",
-    "email": "deanna88@example.org",
-    "password": "_4fHgysr!^",
-    "firstName": "Willie",
-    "lastName": "Campbell",
-    "username": "michellelane",
-    "profilePicture": "https://placekitten.com/45/788",
-    "bio": "Thus region range practice should still.",
-    "dateOfBirth": "2022-07-01",
-    "learningGoals": [
-      "realize",
-      "black"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 98,
-        "Auditory": 67
-      },
-      "completedAt": "2021-01-17 10:38:19"
-    },
-    "currentStreak": 2,
-    "longestStreak": 18,
-    "totalStudyTime": 1527,
-    "totalSessions": 102,
-    "quiz": 17,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-10-17 09:58:14",
-    "updatedAt": "2025-01-29 17:36:14",
-    "lastLoginAt": "2025-01-12 22:49:34"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2da",
-    "email": "qrandolph@example.org",
-    "password": "D$*M5Qha$$",
-    "firstName": "Kimberly",
-    "lastName": "Franklin",
-    "username": "lisa82",
-    "profilePicture": "https://dummyimage.com/729x35",
-    "bio": "Magazine put third anything institution.",
-    "dateOfBirth": "1946-12-06",
-    "learningGoals": [
-      "kind",
-      "democratic"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 89,
-        "Auditory": 30
-      },
-      "completedAt": "2023-02-20 20:51:26"
-    },
-    "currentStreak": 16,
-    "longestStreak": 52,
-    "totalStudyTime": 8544,
-    "totalSessions": 32,
-    "quiz": 11,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-11-15 08:00:17",
-    "updatedAt": "2025-02-14 05:37:53",
-    "lastLoginAt": "2025-03-11 15:22:46"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2db",
-    "email": "uflowers@example.org",
-    "password": "A$2U5GaajX",
-    "firstName": "Kristen",
-    "lastName": "Carpenter",
-    "username": "thompsonchristopher",
-    "profilePicture": "https://dummyimage.com/801x441",
-    "bio": "Structure appear example less language thing.",
-    "dateOfBirth": "1929-12-08",
-    "learningGoals": [
-      "research",
-      "along"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 83,
-        "Auditory": 69
-      },
-      "completedAt": "2021-12-13 05:51:40"
+      "completedAt": "2024-12-07T11:14:15"
     },
     "currentStreak": 7,
-    "longestStreak": 51,
-    "totalStudyTime": 1106,
-    "totalSessions": 128,
-    "quiz": 5,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-01-16 13:46:17",
-    "updatedAt": "2025-04-26 11:53:23",
-    "lastLoginAt": "2025-03-18 14:48:09"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2dc",
-    "email": "patrick15@example.net",
-    "password": "5!%SvSjs^D",
-    "firstName": "April",
-    "lastName": "Alexander",
-    "username": "angelafisher",
-    "profilePicture": "https://picsum.photos/399/734",
-    "bio": "Lay realize company tend.",
-    "dateOfBirth": "1913-08-04",
-    "learningGoals": [
-      "anything",
-      "strategy"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 41,
-        "Auditory": 0
-      },
-      "completedAt": "2021-01-23 04:08:01"
-    },
-    "currentStreak": 28,
-    "longestStreak": 45,
-    "totalStudyTime": 4486,
-    "totalSessions": 83,
-    "quiz": 6,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-06-16 10:12:01",
-    "updatedAt": "2025-02-17 22:08:30",
-    "lastLoginAt": "2025-05-23 00:56:43"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2dd",
-    "email": "ysalazar@example.org",
-    "password": "aGt)d1Mt_n",
-    "firstName": "Emily",
-    "lastName": "Mckay",
-    "username": "stephanie90",
-    "profilePicture": "https://dummyimage.com/890x822",
-    "bio": "Room upon pick dark national than.",
-    "dateOfBirth": "1943-01-31",
-    "learningGoals": [
-      "avoid",
-      "outside"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 1,
-        "Auditory": 85
-      },
-      "completedAt": "2021-07-17 06:32:38"
-    },
-    "currentStreak": 16,
-    "longestStreak": 10,
-    "totalStudyTime": 4030,
-    "totalSessions": 169,
-    "quiz": 1,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-09-19 11:13:13",
-    "updatedAt": "2025-02-09 06:48:16",
-    "lastLoginAt": "2025-06-13 22:22:47"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2de",
-    "email": "jonathan52@example.net",
-    "password": "!8WsS$ZzOK",
-    "firstName": "Kristen",
-    "lastName": "Davis",
-    "username": "ruizandrew",
-    "profilePicture": "https://placekitten.com/745/353",
-    "bio": "Matter new tell over daughter card.",
-    "dateOfBirth": "1936-01-22",
-    "learningGoals": [
-      "wrong",
-      "remember"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 60,
-        "Auditory": 45
-      },
-      "completedAt": "2020-12-11 20:56:01"
-    },
-    "currentStreak": 15,
     "longestStreak": 15,
-    "totalStudyTime": 3880,
-    "totalSessions": 99,
+    "totalStudyTime": 616,
+    "totalSessions": 91,
     "quiz": 14,
     "isPublic": false,
     "isMentor": true,
     "isActive": true,
-    "createdAt": "2020-02-24 16:51:18",
-    "updatedAt": "2025-04-08 17:37:44",
-    "lastLoginAt": "2025-01-11 17:42:09"
+    "createdAt": "2024-09-13T00:03:42",
+    "updatedAt": "2025-07-01T00:22:13.293991",
+    "lastLoginAt": "2025-03-15T23:46:58",
+    "id": "user_4"
   },
   {
-    "_id": "68633d784dd3d13f9731f2df",
-    "email": "christine24@example.org",
-    "password": "4+Ke$SDe_m",
-    "firstName": "Elizabeth",
-    "lastName": "Graham",
-    "username": "pjackson",
-    "profilePicture": "https://dummyimage.com/51x344",
-    "bio": "History leg deal language her.",
-    "dateOfBirth": "1959-07-22",
-    "learningGoals": [
-      "nature",
-      "area"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 84,
-        "Auditory": 98
-      },
-      "completedAt": "2023-02-18 03:17:42"
-    },
-    "currentStreak": 2,
-    "longestStreak": 52,
-    "totalStudyTime": 5322,
-    "totalSessions": 205,
-    "quiz": 5,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-07-23 08:23:56",
-    "updatedAt": "2025-05-30 15:28:18",
-    "lastLoginAt": "2025-03-28 11:14:50"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e0",
-    "email": "joseph28@example.com",
-    "password": "$1ZPi*kaBk",
-    "firstName": "Angela",
-    "lastName": "Jordan",
-    "username": "morrissamantha",
-    "profilePicture": "https://dummyimage.com/362x8",
-    "bio": "Wall doctor maybe room five view.",
-    "dateOfBirth": "1969-03-23",
-    "learningGoals": [
-      "receive",
-      "herself"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 92,
-        "Auditory": 28
-      },
-      "completedAt": "2021-02-21 07:46:15"
-    },
-    "currentStreak": 26,
-    "longestStreak": 28,
-    "totalStudyTime": 9428,
-    "totalSessions": 269,
-    "quiz": 4,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2021-07-22 15:01:26",
-    "updatedAt": "2025-05-27 06:52:49",
-    "lastLoginAt": "2025-05-02 19:09:46"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e1",
-    "email": "nicolerowe@example.net",
-    "password": "rniw8WO&u*",
-    "firstName": "Tanya",
-    "lastName": "Garcia",
-    "username": "xmurphy",
-    "profilePicture": "https://dummyimage.com/260x488",
-    "bio": "Forget issue think without father wind social money.",
-    "dateOfBirth": "1988-09-18",
-    "learningGoals": [
-      "little",
-      "protect"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 7,
-        "Auditory": 26
-      },
-      "completedAt": "2022-04-15 02:29:57"
-    },
-    "currentStreak": 3,
-    "longestStreak": 21,
-    "totalStudyTime": 1143,
-    "totalSessions": 126,
-    "quiz": 10,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-01-14 00:05:25",
-    "updatedAt": "2025-01-04 00:13:46",
-    "lastLoginAt": "2025-03-29 02:45:23"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e2",
-    "email": "hannah57@example.net",
-    "password": "2CP3Oj88_F",
-    "firstName": "Eileen",
-    "lastName": "Miller",
-    "username": "gsnow",
-    "profilePicture": "https://dummyimage.com/196x480",
-    "bio": "Cost blue war many spring.",
-    "dateOfBirth": "1997-08-20",
-    "learningGoals": [
-      "same",
-      "agent"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 68,
-        "Auditory": 32
-      },
-      "completedAt": "2020-07-03 23:23:29"
-    },
-    "currentStreak": 6,
-    "longestStreak": 19,
-    "totalStudyTime": 9575,
-    "totalSessions": 279,
-    "quiz": 4,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2023-11-23 01:43:12",
-    "updatedAt": "2025-06-26 10:13:13",
-    "lastLoginAt": "2025-04-06 07:37:18"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e3",
-    "email": "kleinchristopher@example.org",
-    "password": "*6BOXi5%0G",
-    "firstName": "Vincent",
-    "lastName": "Gregory",
-    "username": "jamieduran",
-    "profilePicture": "https://dummyimage.com/362x589",
-    "bio": "Yes easy should sometimes another.",
-    "dateOfBirth": "1920-01-21",
-    "learningGoals": [
-      "teach",
-      "section"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 80,
-        "Auditory": 32
-      },
-      "completedAt": "2022-01-19 21:42:30"
-    },
-    "currentStreak": 8,
-    "longestStreak": 49,
-    "totalStudyTime": 4376,
-    "totalSessions": 193,
-    "quiz": 18,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2022-01-26 06:27:06",
-    "updatedAt": "2025-06-26 12:27:39",
-    "lastLoginAt": "2025-06-16 20:58:40"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e4",
-    "email": "cooleyrobert@example.net",
-    "password": "$0J7PSx$+@",
-    "firstName": "David",
-    "lastName": "Cooper",
-    "username": "donaldgiles",
-    "profilePicture": "https://picsum.photos/65/93",
-    "bio": "Eat visit throughout back customer president respond.",
-    "dateOfBirth": "1944-10-20",
-    "learningGoals": [
-      "cold",
-      "three"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 89,
-        "Auditory": 14
-      },
-      "completedAt": "2020-11-20 16:28:46"
-    },
-    "currentStreak": 4,
-    "longestStreak": 16,
-    "totalStudyTime": 9449,
-    "totalSessions": 159,
-    "quiz": 15,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2023-12-05 05:48:03",
-    "updatedAt": "2025-01-08 23:02:10",
-    "lastLoginAt": "2025-05-02 10:42:25"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e5",
-    "email": "bwalton@example.com",
-    "password": "%90Pwycr%V",
-    "firstName": "Hannah",
-    "lastName": "Farrell",
-    "username": "youngadam",
-    "profilePicture": "https://dummyimage.com/385x849",
-    "bio": "Collection myself social almost.",
-    "dateOfBirth": "2015-04-14",
-    "learningGoals": [
-      "ten",
-      "operation"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 86,
-        "Auditory": 3
-      },
-      "completedAt": "2023-04-26 10:35:48"
-    },
-    "currentStreak": 22,
-    "longestStreak": 45,
-    "totalStudyTime": 4040,
-    "totalSessions": 216,
-    "quiz": 15,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-04-24 15:36:01",
-    "updatedAt": "2025-04-24 13:57:24",
-    "lastLoginAt": "2025-04-21 09:59:21"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e6",
-    "email": "millerbrian@example.com",
-    "password": "R0Ytk*e_*m",
-    "firstName": "Danielle",
-    "lastName": "Goodman",
-    "username": "kristajones",
-    "profilePicture": "https://placekitten.com/56/317",
-    "bio": "Drive program would red president seem thank.",
-    "dateOfBirth": "1934-08-04",
-    "learningGoals": [
-      "whatever",
-      "present"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 81,
-        "Auditory": 50
-      },
-      "completedAt": "2021-12-13 19:41:54"
-    },
-    "currentStreak": 28,
-    "longestStreak": 48,
-    "totalStudyTime": 3830,
-    "totalSessions": 280,
-    "quiz": 11,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-08-14 22:41:14",
-    "updatedAt": "2025-01-16 14:25:34",
-    "lastLoginAt": "2025-04-10 20:20:58"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e7",
-    "email": "campbellelizabeth@example.org",
-    "password": "$+$9LCRg!G",
-    "firstName": "Michael",
-    "lastName": "Guzman",
-    "username": "josephmacdonald",
-    "profilePicture": "https://picsum.photos/118/387",
-    "bio": "Skill claim remain scene skin north check.",
-    "dateOfBirth": "2008-11-02",
-    "learningGoals": [
-      "throughout",
-      "add"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 2,
-        "Auditory": 82
-      },
-      "completedAt": "2024-08-03 04:29:57"
-    },
-    "currentStreak": 24,
-    "longestStreak": 14,
-    "totalStudyTime": 1850,
-    "totalSessions": 61,
-    "quiz": 8,
-    "isPublic": false,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2022-06-10 14:31:00",
-    "updatedAt": "2025-03-24 08:21:12",
-    "lastLoginAt": "2025-05-17 20:36:19"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e8",
-    "email": "adamskristy@example.net",
-    "password": "I65bB)Tt*R",
-    "firstName": "Luke",
-    "lastName": "Edwards",
-    "username": "danielcampbell",
-    "profilePicture": "https://picsum.photos/488/968",
-    "bio": "Degree political according measure policy whom.",
-    "dateOfBirth": "2002-11-20",
-    "learningGoals": [
-      "blood",
-      "inside"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 60,
-        "Auditory": 19
-      },
-      "completedAt": "2022-10-01 14:28:49"
-    },
-    "currentStreak": 30,
-    "longestStreak": 38,
-    "totalStudyTime": 1329,
-    "totalSessions": 175,
-    "quiz": 2,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2020-07-12 08:49:49",
-    "updatedAt": "2025-03-04 11:43:05",
-    "lastLoginAt": "2025-03-20 17:40:10"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2e9",
-    "email": "barbertanya@example.net",
-    "password": "*6JLG@hd^m",
-    "firstName": "Joseph",
-    "lastName": "Rios",
-    "username": "blankenshipjean",
-    "profilePicture": "https://placekitten.com/784/156",
-    "bio": "Piece side five.",
-    "dateOfBirth": "1924-12-12",
-    "learningGoals": [
-      "argue",
-      "vote"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 1,
-        "Auditory": 55
-      },
-      "completedAt": "2021-06-08 07:23:45"
-    },
-    "currentStreak": 8,
-    "longestStreak": 57,
-    "totalStudyTime": 7455,
-    "totalSessions": 63,
-    "quiz": 10,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-05-23 10:24:25",
-    "updatedAt": "2025-04-10 11:13:09",
-    "lastLoginAt": "2025-03-22 04:13:23"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ea",
-    "email": "kharvey@example.net",
-    "password": ")+*IHQuaL2",
-    "firstName": "Lawrence",
-    "lastName": "Melendez",
-    "username": "twilliams",
-    "profilePicture": "https://dummyimage.com/652x695",
-    "bio": "Public music newspaper letter room.",
-    "dateOfBirth": "1930-03-10",
-    "learningGoals": [
-      "where",
-      "big"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 91,
-        "Auditory": 54
-      },
-      "completedAt": "2020-10-17 08:05:52"
-    },
-    "currentStreak": 25,
-    "longestStreak": 28,
-    "totalStudyTime": 3946,
-    "totalSessions": 259,
-    "quiz": 9,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2020-05-26 18:39:30",
-    "updatedAt": "2025-01-18 01:08:38",
-    "lastLoginAt": "2025-03-01 17:26:01"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2eb",
-    "email": "jay80@example.org",
-    "password": "ZAX5VxpfK$",
-    "firstName": "Sylvia",
-    "lastName": "Parker",
-    "username": "xwoodard",
-    "profilePicture": "https://placekitten.com/760/959",
-    "bio": "Force sometimes always send note system.",
-    "dateOfBirth": "1963-05-10",
-    "learningGoals": [
-      "join",
-      "half"
-    ],
-    "learningStyle": "Auditory",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 98,
-        "Auditory": 19
-      },
-      "completedAt": "2022-10-14 01:50:10"
-    },
-    "currentStreak": 29,
-    "longestStreak": 46,
-    "totalStudyTime": 6796,
-    "totalSessions": 292,
-    "quiz": 6,
-    "isPublic": true,
-    "isMentor": false,
-    "isActive": true,
-    "createdAt": "2024-01-17 17:12:38",
-    "updatedAt": "2025-03-10 14:18:02",
-    "lastLoginAt": "2025-01-09 00:13:24"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ec",
-    "email": "brittney32@example.org",
-    "password": "9!3&ZhjQp!",
-    "firstName": "Dawn",
-    "lastName": "Montgomery",
-    "username": "sweeneytroy",
-    "profilePicture": "https://dummyimage.com/292x525",
-    "bio": "Trouble north analysis add wear.",
-    "dateOfBirth": "1918-08-27",
-    "learningGoals": [
-      "own",
-      "agreement"
-    ],
-    "learningStyle": "Kinesthetic",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 48,
-        "Auditory": 50
-      },
-      "completedAt": "2024-10-01 00:03:23"
-    },
-    "currentStreak": 20,
-    "longestStreak": 47,
-    "totalStudyTime": 5682,
-    "totalSessions": 95,
-    "quiz": 8,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-12-16 18:53:47",
-    "updatedAt": "2025-03-22 05:21:13",
-    "lastLoginAt": "2025-04-22 05:53:44"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ed",
-    "email": "johnsonbarbara@example.org",
-    "password": "J1CMijaf&r",
-    "firstName": "David",
-    "lastName": "Anthony",
-    "username": "ljones",
-    "profilePicture": "https://placekitten.com/820/28",
-    "bio": "Reduce strong attorney.",
+    "email": "bankslynn@greene.org",
+    "password": "ukSsrs*v@8",
+    "firstName": "Jose",
+    "lastName": "Foster",
+    "username": "mlewis",
+    "profilePicture": "https://dummyimage.com/644x647",
+    "bio": "Him true industry management.",
     "dateOfBirth": "1991-11-23",
-    "learningGoals": [
-      "young",
-      "far"
-    ],
+    "learningGoals": ["Deepen Python knowledge", "Build 5 projects"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 46,
+        "Auditory": 15,
+        "Kinesthetic": 39
+      },
+      "completedAt": "2024-08-10T04:48:17"
+    },
+    "currentStreak": 7,
+    "longestStreak": 22,
+    "totalStudyTime": 451,
+    "totalSessions": 85,
+    "quiz": 85,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-21T16:23:00",
+    "updatedAt": "2025-07-01T00:22:13.296222",
+    "lastLoginAt": "2025-06-26T17:50:02",
+    "id": "user_5"
+  },
+  {
+    "email": "ccummings@yahoo.com",
+    "password": "r&Cb7QzisO",
+    "firstName": "Allison",
+    "lastName": "Morgan",
+    "username": "kimberly86",
+    "profilePicture": "https://placeimg.com/858/540/any",
+    "bio": "Decision red place different produce leg whom public.",
+    "dateOfBirth": "2001-01-02",
+    "learningGoals": ["Deepen Python knowledge", "Explore React"],
     "learningStyle": "Visual",
     "testResults": {
       "learningStyleScore": {
         "Visual": 78,
-        "Auditory": 15
+        "Auditory": 10,
+        "Kinesthetic": 12
       },
-      "completedAt": "2022-01-31 01:54:46"
+      "completedAt": "2025-05-14T00:33:20"
     },
-    "currentStreak": 28,
-    "longestStreak": 60,
-    "totalStudyTime": 1186,
-    "totalSessions": 127,
-    "quiz": 2,
-    "isPublic": false,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2021-06-13 05:15:02",
-    "updatedAt": "2025-01-19 01:49:12",
-    "lastLoginAt": "2025-05-11 19:22:54"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2ee",
-    "email": "brian68@example.org",
-    "password": "&qnMYuxTS2",
-    "firstName": "Jeffrey",
-    "lastName": "Mayer",
-    "username": "nicolemoreno",
-    "profilePicture": "https://picsum.photos/116/505",
-    "bio": "Show dark say word.",
-    "dateOfBirth": "1936-05-12",
-    "learningGoals": [
-      "present",
-      "image"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 92,
-        "Auditory": 78
-      },
-      "completedAt": "2022-10-30 16:32:40"
-    },
-    "currentStreak": 30,
-    "longestStreak": 13,
-    "totalStudyTime": 7977,
-    "totalSessions": 93,
-    "quiz": 20,
+    "currentStreak": 6,
+    "longestStreak": 30,
+    "totalStudyTime": 507,
+    "totalSessions": 87,
+    "quiz": 87,
     "isPublic": false,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2024-01-07 02:06:31",
-    "updatedAt": "2025-03-05 11:50:58",
-    "lastLoginAt": "2025-04-29 15:13:01"
+    "createdAt": "2025-06-28T08:14:49",
+    "updatedAt": "2025-07-01T00:22:13.297278",
+    "lastLoginAt": "2025-06-29T21:46:12",
+    "id": "user_6"
   },
   {
-    "_id": "68633d784dd3d13f9731f2ef",
-    "email": "anne02@example.org",
-    "password": "!I6Pg$YK6!",
-    "firstName": "Kenneth",
-    "lastName": "Avila",
-    "username": "richard77",
-    "profilePicture": "https://dummyimage.com/310x84",
-    "bio": "Perform street per office boy economy.",
-    "dateOfBirth": "1988-12-30",
-    "learningGoals": [
-      "message",
-      "air"
-    ],
-    "learningStyle": "Visual",
-    "testResults": {
-      "learningStyleScore": {
-        "Visual": 67,
-        "Auditory": 85
-      },
-      "completedAt": "2023-04-10 15:13:30"
-    },
-    "currentStreak": 26,
-    "longestStreak": 22,
-    "totalStudyTime": 8979,
-    "totalSessions": 33,
-    "quiz": 10,
-    "isPublic": true,
-    "isMentor": true,
-    "isActive": true,
-    "createdAt": "2024-05-18 17:01:06",
-    "updatedAt": "2025-06-24 14:02:29",
-    "lastLoginAt": "2025-05-14 06:25:17"
-  },
-  {
-    "_id": "68633d784dd3d13f9731f2f0",
-    "email": "jamie65@example.com",
-    "password": "^8BPwWgHAo",
-    "firstName": "Emma",
-    "lastName": "Shields",
-    "username": "jacksonjoseph",
-    "profilePicture": "https://picsum.photos/321/1011",
-    "bio": "Say themselves team back card travel glass push.",
-    "dateOfBirth": "1929-08-01",
-    "learningGoals": [
-      "action",
-      "real"
-    ],
+    "email": "livingstondaniel@gmail.com",
+    "password": "u9kgpfz&_Q",
+    "firstName": "Heather",
+    "lastName": "Montoya",
+    "username": "emilyhicks",
+    "profilePicture": "https://www.lorempixel.com/536/604",
+    "bio": "Suffer half we.",
+    "dateOfBirth": "2007-02-12",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
     "learningStyle": "Auditory",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 36,
-        "Auditory": 43
+        "Visual": 41,
+        "Auditory": 40,
+        "Kinesthetic": 19
       },
-      "completedAt": "2025-03-23 07:43:21"
+      "completedAt": "2025-01-09T07:01:30"
     },
-    "currentStreak": 1,
-    "longestStreak": 45,
-    "totalStudyTime": 8942,
-    "totalSessions": 190,
-    "quiz": 16,
+    "currentStreak": 6,
+    "longestStreak": 11,
+    "totalStudyTime": 989,
+    "totalSessions": 28,
+    "quiz": 41,
     "isPublic": false,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2022-03-01 16:46:07",
-    "updatedAt": "2025-03-26 09:10:23",
-    "lastLoginAt": "2025-04-06 17:59:57"
+    "createdAt": "2024-10-20T20:00:52",
+    "updatedAt": "2025-07-01T00:22:13.298700",
+    "lastLoginAt": "2025-06-18T11:12:33",
+    "id": "user_7"
   },
   {
-    "_id": "68633d784dd3d13f9731f2f1",
-    "email": "jamesharmon@example.org",
-    "password": "bIXi*0DbA&",
-    "firstName": "Patricia",
-    "lastName": "Hicks",
-    "username": "johnwarren",
-    "profilePicture": "https://placekitten.com/97/335",
-    "bio": "Memory positive concern today name modern range first.",
-    "dateOfBirth": "1921-07-30",
-    "learningGoals": [
-      "inside",
-      "why"
-    ],
-    "learningStyle": "Visual",
+    "email": "chapmanrachel@yahoo.com",
+    "password": "@RlDtVv_l3",
+    "firstName": "Tiffany",
+    "lastName": "Meyer",
+    "username": "johnschaefer",
+    "profilePicture": "https://www.lorempixel.com/302/704",
+    "bio": "Because conference later meeting bill rise cause.",
+    "dateOfBirth": "1984-10-13",
+    "learningGoals": ["Build 5 projects", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 67,
-        "Auditory": 91
+        "Visual": 16,
+        "Auditory": 18,
+        "Kinesthetic": 66
       },
-      "completedAt": "2022-06-11 12:27:14"
+      "completedAt": "2024-09-12T00:12:36"
     },
-    "currentStreak": 22,
-    "longestStreak": 52,
-    "totalStudyTime": 1679,
-    "totalSessions": 204,
-    "quiz": 5,
+    "currentStreak": 10,
+    "longestStreak": 20,
+    "totalStudyTime": 627,
+    "totalSessions": 8,
+    "quiz": 66,
     "isPublic": false,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2022-10-17 06:01:07",
-    "updatedAt": "2025-03-05 16:18:30",
-    "lastLoginAt": "2025-05-17 09:08:52"
+    "createdAt": "2024-01-27T09:23:14",
+    "updatedAt": "2025-07-01T00:22:13.300055",
+    "lastLoginAt": "2024-02-04T17:23:49",
+    "id": "user_8"
   },
   {
-    "_id": "68633d784dd3d13f9731f2f2",
-    "email": "brucemary@example.net",
-    "password": "(S(Bo*m)$3",
-    "firstName": "Jeffrey",
-    "lastName": "Luna",
-    "username": "kortega",
-    "profilePicture": "https://placekitten.com/995/19",
-    "bio": "Much per human law color.",
-    "dateOfBirth": "1920-04-01",
-    "learningGoals": [
-      "again",
-      "do"
-    ],
-    "learningStyle": "Visual",
+    "email": "samanthaflores@perez.biz",
+    "password": "$%Z#3BTm0T",
+    "firstName": "Elizabeth",
+    "lastName": "Pittman",
+    "username": "longryan",
+    "profilePicture": "https://dummyimage.com/478x212",
+    "bio": "Share rest indicate strategy pattern economic discuss.",
+    "dateOfBirth": "1986-07-28",
+    "learningGoals": ["Understand AI concepts", "Explore React"],
+    "learningStyle": "Kinesthetic",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 91,
-        "Auditory": 35
+        "Visual": 13,
+        "Auditory": 62,
+        "Kinesthetic": 25
       },
-      "completedAt": "2024-07-30 15:11:58"
+      "completedAt": "2024-08-26T19:40:57"
     },
-    "currentStreak": 29,
+    "currentStreak": 8,
+    "longestStreak": 6,
+    "totalStudyTime": 839,
+    "totalSessions": 76,
+    "quiz": 13,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-06-04T09:05:28",
+    "updatedAt": "2025-07-01T00:22:13.301556",
+    "lastLoginAt": "2025-06-16T10:16:54",
+    "id": "user_9"
+  },
+  {
+    "email": "wagnerlori@dickerson-burch.com",
+    "password": "*nN60ZHlbY",
+    "firstName": "Alison",
+    "lastName": "Kelly",
+    "username": "selenadorsey",
+    "profilePicture": "https://dummyimage.com/80x851",
+    "bio": "Effect way policy them behavior very.",
+    "dateOfBirth": "2004-04-12",
+    "learningGoals": ["Deepen Python knowledge", "Explore React"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 66,
+        "Auditory": 11,
+        "Kinesthetic": 23
+      },
+      "completedAt": "2024-09-04T04:11:29"
+    },
+    "currentStreak": 0,
+    "longestStreak": 15,
+    "totalStudyTime": 711,
+    "totalSessions": 73,
+    "quiz": 92,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-11-06T20:42:24",
+    "updatedAt": "2025-07-01T00:22:13.303427",
+    "lastLoginAt": "2025-02-04T08:31:45",
+    "id": "user_10"
+  },
+  {
+    "email": "priscilla60@stanton-foster.com",
+    "password": "*7OYqVXc9&",
+    "firstName": "Douglas",
+    "lastName": "Mcgee",
+    "username": "maria60",
+    "profilePicture": "https://placeimg.com/193/705/any",
+    "bio": "Area act government describe age.",
+    "dateOfBirth": "1975-04-03",
+    "learningGoals": ["Explore React", "Deepen Python knowledge"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 58,
+        "Auditory": 24,
+        "Kinesthetic": 18
+      },
+      "completedAt": "2025-03-31T04:46:38"
+    },
+    "currentStreak": 7,
+    "longestStreak": 12,
+    "totalStudyTime": 294,
+    "totalSessions": 10,
+    "quiz": 9,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-31T13:31:06",
+    "updatedAt": "2025-07-01T00:22:13.305682",
+    "lastLoginAt": "2024-11-10T18:21:38",
+    "id": "user_11"
+  },
+  {
+    "email": "kendra93@price.org",
+    "password": "_5O0SnVdon",
+    "firstName": "John",
+    "lastName": "King",
+    "username": "jessica80",
+    "profilePicture": "https://placekitten.com/812/778",
+    "bio": "These still live point.",
+    "dateOfBirth": "1990-01-30",
+    "learningGoals": ["Build 5 projects", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 28,
+        "Auditory": 31,
+        "Kinesthetic": 41
+      },
+      "completedAt": "2024-10-29T22:41:21"
+    },
+    "currentStreak": 5,
     "longestStreak": 13,
-    "totalStudyTime": 4374,
-    "totalSessions": 219,
+    "totalStudyTime": 308,
+    "totalSessions": 23,
+    "quiz": 10,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-11-19T01:15:53",
+    "updatedAt": "2025-07-01T00:22:13.306889",
+    "lastLoginAt": "2025-01-15T00:34:31",
+    "id": "user_12"
+  },
+  {
+    "email": "alicia31@singleton.com",
+    "password": "W(1Bz^jI_)",
+    "firstName": "Gary",
+    "lastName": "Mcconnell",
+    "username": "daisy55",
+    "profilePicture": "https://dummyimage.com/511x735",
+    "bio": "Food stage campaign work near rate yeah.",
+    "dateOfBirth": "1997-10-08",
+    "learningGoals": ["Understand AI concepts", "Deepen Python knowledge"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 73,
+        "Auditory": 11,
+        "Kinesthetic": 16
+      },
+      "completedAt": "2024-09-12T16:47:50"
+    },
+    "currentStreak": 5,
+    "longestStreak": 21,
+    "totalStudyTime": 724,
+    "totalSessions": 44,
+    "quiz": 12,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-21T20:54:56",
+    "updatedAt": "2025-07-01T00:22:13.308096",
+    "lastLoginAt": "2025-06-21T09:07:52",
+    "id": "user_13"
+  },
+  {
+    "email": "gibbsoscar@harris.net",
+    "password": "vYMK5&Lm(4",
+    "firstName": "Heather",
+    "lastName": "Salas",
+    "username": "elizabeth15",
+    "profilePicture": "https://placeimg.com/568/484/any",
+    "bio": "Receive rich data scene.",
+    "dateOfBirth": "2003-08-29",
+    "learningGoals": ["Learn JavaScript", "Explore React"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 72,
+        "Auditory": 10,
+        "Kinesthetic": 18
+      },
+      "completedAt": "2024-09-30T10:31:16"
+    },
+    "currentStreak": 6,
+    "longestStreak": 23,
+    "totalStudyTime": 769,
+    "totalSessions": 40,
     "quiz": 3,
     "isPublic": false,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2024-03-11 07:09:13",
-    "updatedAt": "2025-02-05 05:11:52",
-    "lastLoginAt": "2025-02-18 06:04:06"
+    "createdAt": "2024-09-04T23:18:09",
+    "updatedAt": "2025-07-01T00:22:13.309482",
+    "lastLoginAt": "2024-09-05T07:53:24",
+    "id": "user_14"
   },
   {
-    "_id": "68633d784dd3d13f9731f2f3",
-    "email": "phamadam@example.com",
-    "password": "#Ziu0Gjj&@",
-    "firstName": "Kyle",
-    "lastName": "Stafford",
-    "username": "youngandrew",
-    "profilePicture": "https://dummyimage.com/744x221",
-    "bio": "Clear pay face line.",
-    "dateOfBirth": "1980-10-01",
-    "learningGoals": [
-      "another",
-      "under"
-    ],
+    "email": "piercejohn@gmail.com",
+    "password": "$m^5YRsmG&",
+    "firstName": "Olivia",
+    "lastName": "Austin",
+    "username": "romerolaura",
+    "profilePicture": "https://placeimg.com/941/497/any",
+    "bio": "Seat hold another run material.",
+    "dateOfBirth": "1974-07-12",
+    "learningGoals": ["Explore React", "Build 5 projects"],
     "learningStyle": "Auditory",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 80,
-        "Auditory": 17
+        "Visual": 48,
+        "Auditory": 10,
+        "Kinesthetic": 42
       },
-      "completedAt": "2023-11-01 18:43:58"
+      "completedAt": "2025-01-04T06:18:17"
     },
-    "currentStreak": 14,
-    "longestStreak": 56,
-    "totalStudyTime": 9118,
-    "totalSessions": 233,
-    "quiz": 2,
+    "currentStreak": 4,
+    "longestStreak": 7,
+    "totalStudyTime": 287,
+    "totalSessions": 11,
+    "quiz": 69,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-02-08T01:38:36",
+    "updatedAt": "2025-07-01T00:22:13.310915",
+    "lastLoginAt": "2025-03-11T15:00:15",
+    "id": "user_15"
+  },
+  {
+    "email": "kelseydunn@durham.com",
+    "password": "+0bdZsPt#5",
+    "firstName": "Jacqueline",
+    "lastName": "Daniels",
+    "username": "ryan52",
+    "profilePicture": "https://placeimg.com/966/693/any",
+    "bio": "Phone particular market local father seek.",
+    "dateOfBirth": "1979-10-08",
+    "learningGoals": ["Build 5 projects", "Understand AI concepts"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 10,
+        "Auditory": 51,
+        "Kinesthetic": 39
+      },
+      "completedAt": "2024-07-22T17:02:02"
+    },
+    "currentStreak": 5,
+    "longestStreak": 10,
+    "totalStudyTime": 530,
+    "totalSessions": 32,
+    "quiz": 95,
     "isPublic": false,
     "isMentor": true,
     "isActive": true,
-    "createdAt": "2025-01-13 02:51:07",
-    "updatedAt": "2025-03-17 18:21:38",
-    "lastLoginAt": "2025-06-13 05:31:19"
+    "createdAt": "2023-11-16T14:41:22",
+    "updatedAt": "2025-07-01T00:22:13.312302",
+    "lastLoginAt": "2024-10-01T09:01:23",
+    "id": "user_16"
   },
   {
-    "_id": "68633d784dd3d13f9731f2f4",
-    "email": "jacobhernandez@example.net",
-    "password": "FB0L#TrA^8",
-    "firstName": "Samantha",
-    "lastName": "Sanchez",
-    "username": "shanegray",
-    "profilePicture": "https://picsum.photos/938/317",
-    "bio": "Music education have idea begin agent anything purpose.",
-    "dateOfBirth": "1931-07-26",
-    "learningGoals": [
-      "exist",
-      "common"
-    ],
+    "email": "xsimpson@yahoo.com",
+    "password": "$Rd*YmITb1",
+    "firstName": "John",
+    "lastName": "Hayes",
+    "username": "nwong",
+    "profilePicture": "https://placekitten.com/257/204",
+    "bio": "Drug medical scene capital may.",
+    "dateOfBirth": "1975-07-20",
+    "learningGoals": ["Understand AI concepts", "Build 5 projects"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 17,
+        "Auditory": 56,
+        "Kinesthetic": 27
+      },
+      "completedAt": "2025-05-25T09:37:05"
+    },
+    "currentStreak": 1,
+    "longestStreak": 28,
+    "totalStudyTime": 372,
+    "totalSessions": 19,
+    "quiz": 62,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-01-07T07:57:08",
+    "updatedAt": "2025-07-01T00:22:13.313986",
+    "lastLoginAt": "2024-09-03T08:11:41",
+    "id": "user_17"
+  },
+  {
+    "email": "blairdebra@white.com",
+    "password": "%nCUudUm&6",
+    "firstName": "Jeffery",
+    "lastName": "Fuentes",
+    "username": "hernandezbrandon",
+    "profilePicture": "https://placekitten.com/585/482",
+    "bio": "Thought mind me radio small officer.",
+    "dateOfBirth": "1975-01-19",
+    "learningGoals": ["Explore React", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 21,
+        "Auditory": 15,
+        "Kinesthetic": 64
+      },
+      "completedAt": "2024-10-21T23:40:20"
+    },
+    "currentStreak": 2,
+    "longestStreak": 11,
+    "totalStudyTime": 911,
+    "totalSessions": 14,
+    "quiz": 52,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-12-11T22:06:16",
+    "updatedAt": "2025-07-01T00:22:13.316240",
+    "lastLoginAt": "2025-05-21T03:04:50",
+    "id": "user_18"
+  },
+  {
+    "email": "christy47@hotmail.com",
+    "password": "0J^3liZu33",
+    "firstName": "Erin",
+    "lastName": "Bishop",
+    "username": "jeffreyflores",
+    "profilePicture": "https://dummyimage.com/700x418",
+    "bio": "Through add admit space economic voice try.",
+    "dateOfBirth": "1991-05-10",
+    "learningGoals": ["Get AWS Certified", "Understand AI concepts"],
     "learningStyle": "Kinesthetic",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 86,
-        "Auditory": 93
+        "Visual": 44,
+        "Auditory": 41,
+        "Kinesthetic": 15
       },
-      "completedAt": "2020-04-17 07:37:16"
+      "completedAt": "2025-04-04T12:07:08"
     },
-    "currentStreak": 26,
-    "longestStreak": 56,
-    "totalStudyTime": 8240,
-    "totalSessions": 62,
+    "currentStreak": 3,
+    "longestStreak": 24,
+    "totalStudyTime": 97,
+    "totalSessions": 79,
+    "quiz": 38,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-02-19T01:13:50",
+    "updatedAt": "2025-07-01T00:22:13.317428",
+    "lastLoginAt": "2025-06-13T00:10:48",
+    "id": "user_19"
+  },
+  {
+    "email": "wardlori@yahoo.com",
+    "password": "k!4BSpuiEX",
+    "firstName": "Joshua",
+    "lastName": "White",
+    "username": "debra32",
+    "profilePicture": "https://www.lorempixel.com/105/551",
+    "bio": "Off party industry ability like four effect.",
+    "dateOfBirth": "1979-07-24",
+    "learningGoals": ["Understand AI concepts", "Get AWS Certified"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 49,
+        "Auditory": 30,
+        "Kinesthetic": 21
+      },
+      "completedAt": "2025-03-12T15:18:50"
+    },
+    "currentStreak": 9,
+    "longestStreak": 28,
+    "totalStudyTime": 902,
+    "totalSessions": 41,
+    "quiz": 7,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-01-20T15:57:37",
+    "updatedAt": "2025-07-01T00:22:13.318610",
+    "lastLoginAt": "2024-08-15T09:11:36",
+    "id": "user_20"
+  },
+  {
+    "email": "cgonzalez@gmail.com",
+    "password": "Q3o!rldE(a",
+    "firstName": "Donna",
+    "lastName": "Browning",
+    "username": "juan47",
+    "profilePicture": "https://www.lorempixel.com/376/522",
+    "bio": "How foot always no suggest chair return.",
+    "dateOfBirth": "2006-10-15",
+    "learningGoals": ["Learn JavaScript", "Get AWS Certified"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 51,
+        "Auditory": 24,
+        "Kinesthetic": 25
+      },
+      "completedAt": "2025-03-14T11:54:02"
+    },
+    "currentStreak": 3,
+    "longestStreak": 27,
+    "totalStudyTime": 601,
+    "totalSessions": 12,
+    "quiz": 57,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-03-30T14:00:55",
+    "updatedAt": "2025-07-01T00:22:13.319558",
+    "lastLoginAt": "2025-01-23T04:26:26",
+    "id": "user_21"
+  },
+  {
+    "email": "lindsey82@mullen-mcmillan.com",
+    "password": "9xBVEkNx!r",
+    "firstName": "Cheryl",
+    "lastName": "Miles",
+    "username": "obradley",
+    "profilePicture": "https://dummyimage.com/113x6",
+    "bio": "We follow animal reason fish thousand.",
+    "dateOfBirth": "1988-12-25",
+    "learningGoals": ["Learn JavaScript", "Understand AI concepts"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 54,
+        "Auditory": 19,
+        "Kinesthetic": 27
+      },
+      "completedAt": "2025-06-07T18:05:45"
+    },
+    "currentStreak": 9,
+    "longestStreak": 22,
+    "totalStudyTime": 611,
+    "totalSessions": 60,
+    "quiz": 11,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-10-15T17:35:19",
+    "updatedAt": "2025-07-01T00:22:13.320854",
+    "lastLoginAt": "2024-10-22T07:13:28",
+    "id": "user_22"
+  },
+  {
+    "email": "weberrobert@hotmail.com",
+    "password": "@iUwRsrO_1",
+    "firstName": "Kelly",
+    "lastName": "Bailey",
+    "username": "brenda61",
+    "profilePicture": "https://dummyimage.com/520x327",
+    "bio": "Produce general often some.",
+    "dateOfBirth": "2001-06-05",
+    "learningGoals": ["Build 5 projects", "Deepen Python knowledge"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 42,
+        "Auditory": 13,
+        "Kinesthetic": 45
+      },
+      "completedAt": "2024-09-23T17:12:02"
+    },
+    "currentStreak": 1,
+    "longestStreak": 26,
+    "totalStudyTime": 578,
+    "totalSessions": 5,
+    "quiz": 83,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-05-22T05:23:40",
+    "updatedAt": "2025-07-01T00:22:13.321976",
+    "lastLoginAt": "2025-05-09T18:19:01",
+    "id": "user_23"
+  },
+  {
+    "email": "perrysarah@durham-parker.com",
+    "password": "#8vDg#2k&g",
+    "firstName": "Benjamin",
+    "lastName": "Sexton",
+    "username": "svincent",
+    "profilePicture": "https://placeimg.com/1023/544/any",
+    "bio": "Color on trial poor.",
+    "dateOfBirth": "1989-09-05",
+    "learningGoals": ["Get AWS Certified", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 13,
+        "Auditory": 12,
+        "Kinesthetic": 75
+      },
+      "completedAt": "2025-05-04T04:24:08"
+    },
+    "currentStreak": 2,
+    "longestStreak": 27,
+    "totalStudyTime": 454,
+    "totalSessions": 58,
+    "quiz": 35,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-10-26T04:41:10",
+    "updatedAt": "2025-07-01T00:22:13.323901",
+    "lastLoginAt": "2025-06-23T07:15:52",
+    "id": "user_24"
+  },
+  {
+    "email": "alisonmiranda@yahoo.com",
+    "password": "rLw#A3FoH^",
+    "firstName": "Carly",
+    "lastName": "Coleman",
+    "username": "bradley38",
+    "profilePicture": "https://placekitten.com/643/835",
+    "bio": "Happen behind remember.",
+    "dateOfBirth": "2006-02-05",
+    "learningGoals": ["Explore React", "Understand AI concepts"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 31,
+        "Auditory": 34,
+        "Kinesthetic": 35
+      },
+      "completedAt": "2024-12-09T17:34:02"
+    },
+    "currentStreak": 7,
+    "longestStreak": 24,
+    "totalStudyTime": 531,
+    "totalSessions": 13,
+    "quiz": 21,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-01-11T23:17:13",
+    "updatedAt": "2025-07-01T00:22:13.325080",
+    "lastLoginAt": "2025-04-01T23:57:17",
+    "id": "user_25"
+  },
+  {
+    "email": "tcoleman@yahoo.com",
+    "password": "2yUi%#UN$Q",
+    "firstName": "Nicole",
+    "lastName": "Woods",
+    "username": "walkertodd",
+    "profilePicture": "https://dummyimage.com/163x525",
+    "bio": "And month total past still.",
+    "dateOfBirth": "1987-09-16",
+    "learningGoals": ["Deepen Python knowledge", "Get AWS Certified"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 72,
+        "Auditory": 16,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2025-01-27T08:39:57"
+    },
+    "currentStreak": 1,
+    "longestStreak": 29,
+    "totalStudyTime": 221,
+    "totalSessions": 7,
+    "quiz": 79,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-04-03T01:40:50",
+    "updatedAt": "2025-07-01T00:22:13.326320",
+    "lastLoginAt": "2025-05-24T09:16:07",
+    "id": "user_26"
+  },
+  {
+    "email": "justin15@alvarez-smith.biz",
+    "password": "_v2GqsA73w",
+    "firstName": "Wendy",
+    "lastName": "Fleming",
+    "username": "meghanadams",
+    "profilePicture": "https://dummyimage.com/873x1007",
+    "bio": "Computer create main believe old.",
+    "dateOfBirth": "1974-10-01",
+    "learningGoals": ["Learn JavaScript", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 73,
+        "Auditory": 16,
+        "Kinesthetic": 11
+      },
+      "completedAt": "2025-06-09T00:24:45"
+    },
+    "currentStreak": 5,
+    "longestStreak": 16,
+    "totalStudyTime": 149,
+    "totalSessions": 98,
     "quiz": 4,
     "isPublic": true,
     "isMentor": false,
     "isActive": true,
-    "createdAt": "2021-01-19 06:30:14",
-    "updatedAt": "2025-01-07 11:42:40",
-    "lastLoginAt": "2025-03-11 13:37:51"
+    "createdAt": "2024-03-19T06:51:27",
+    "updatedAt": "2025-07-01T00:22:13.328022",
+    "lastLoginAt": "2025-04-28T00:09:52",
+    "id": "user_27"
   },
   {
-    "_id": "68633d784dd3d13f9731f2f5",
-    "email": "jeremybryant@example.net",
-    "password": "(HD2&U+pT5",
-    "firstName": "Jeffrey",
-    "lastName": "Lee",
-    "username": "beltranhector",
-    "profilePicture": "https://placekitten.com/489/230",
-    "bio": "Single music one tonight.",
-    "dateOfBirth": "2020-06-23",
-    "learningGoals": [
-      "school",
-      "foot"
-    ],
+    "email": "william55@yahoo.com",
+    "password": "YO$7HHjw9p",
+    "firstName": "Holly",
+    "lastName": "King",
+    "username": "erikparsons",
+    "profilePicture": "https://dummyimage.com/284x762",
+    "bio": "Rise toward current someone international money.",
+    "dateOfBirth": "2006-07-21",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 50,
+        "Auditory": 35,
+        "Kinesthetic": 15
+      },
+      "completedAt": "2024-10-13T16:30:58"
+    },
+    "currentStreak": 7,
+    "longestStreak": 12,
+    "totalStudyTime": 983,
+    "totalSessions": 65,
+    "quiz": 6,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-12-04T06:39:04",
+    "updatedAt": "2025-07-01T00:22:13.329220",
+    "lastLoginAt": "2024-05-12T13:51:43",
+    "id": "user_28"
+  },
+  {
+    "email": "kimberly38@armstrong.com",
+    "password": "7SZ&i0QfLO",
+    "firstName": "Aaron",
+    "lastName": "Johnson",
+    "username": "james08",
+    "profilePicture": "https://placeimg.com/925/755/any",
+    "bio": "Project shoulder care middle power.",
+    "dateOfBirth": "1993-12-17",
+    "learningGoals": ["Deepen Python knowledge", "Learn JavaScript"],
     "learningStyle": "Auditory",
     "testResults": {
       "learningStyleScore": {
-        "Visual": 28,
-        "Auditory": 42
+        "Visual": 11,
+        "Auditory": 14,
+        "Kinesthetic": 75
       },
-      "completedAt": "2020-09-13 04:59:05"
+      "completedAt": "2024-08-23T16:57:27"
     },
-    "currentStreak": 15,
-    "longestStreak": 31,
-    "totalStudyTime": 3874,
-    "totalSessions": 288,
-    "quiz": 12,
+    "currentStreak": 10,
+    "longestStreak": 18,
+    "totalStudyTime": 139,
+    "totalSessions": 34,
+    "quiz": 100,
     "isPublic": false,
     "isMentor": true,
     "isActive": true,
-    "createdAt": "2021-10-19 07:53:06",
-    "updatedAt": "2025-05-09 05:06:22",
-    "lastLoginAt": "2025-03-19 05:42:45"
+    "createdAt": "2024-11-30T03:03:05",
+    "updatedAt": "2025-07-01T00:22:13.330466",
+    "lastLoginAt": "2024-12-11T04:15:12",
+    "id": "user_29"
+  },
+  {
+    "email": "lowerybrandon@daniel.com",
+    "password": "Y%K6dCNxpl",
+    "firstName": "Alex",
+    "lastName": "Thornton",
+    "username": "juliebailey",
+    "profilePicture": "https://dummyimage.com/179x1016",
+    "bio": "Though course president pretty up office.",
+    "dateOfBirth": "2002-11-07",
+    "learningGoals": ["Build 5 projects", "Understand AI concepts"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 43,
+        "Auditory": 14,
+        "Kinesthetic": 43
+      },
+      "completedAt": "2024-12-26T22:47:30"
+    },
+    "currentStreak": 10,
+    "longestStreak": 20,
+    "totalStudyTime": 540,
+    "totalSessions": 8,
+    "quiz": 47,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-07-22T03:57:17",
+    "updatedAt": "2025-07-01T00:22:13.333223",
+    "lastLoginAt": "2025-03-19T10:04:04",
+    "id": "user_30"
+  },
+  {
+    "email": "juliedorsey@gmail.com",
+    "password": "0Vx7)gGs8$",
+    "firstName": "Caitlyn",
+    "lastName": "Scott",
+    "username": "xavier72",
+    "profilePicture": "https://dummyimage.com/554x365",
+    "bio": "House somebody guy become small nor purpose.",
+    "dateOfBirth": "1999-07-01",
+    "learningGoals": ["Deepen Python knowledge", "Learn JavaScript"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 46,
+        "Auditory": 14,
+        "Kinesthetic": 40
+      },
+      "completedAt": "2024-12-13T15:38:51"
+    },
+    "currentStreak": 6,
+    "longestStreak": 6,
+    "totalStudyTime": 278,
+    "totalSessions": 21,
+    "quiz": 16,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-02-01T09:45:23",
+    "updatedAt": "2025-07-01T00:22:13.334442",
+    "lastLoginAt": "2025-04-26T22:09:45",
+    "id": "user_31"
+  },
+  {
+    "email": "brownkevin@hotmail.com",
+    "password": "_(2ESdhGqi",
+    "firstName": "James",
+    "lastName": "Ramirez",
+    "username": "christine34",
+    "profilePicture": "https://placeimg.com/1012/744/any",
+    "bio": "Type together only modern yet room Mrs.",
+    "dateOfBirth": "1991-06-20",
+    "learningGoals": ["Explore React", "Understand AI concepts"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 69,
+        "Auditory": 13,
+        "Kinesthetic": 18
+      },
+      "completedAt": "2025-03-28T01:48:21"
+    },
+    "currentStreak": 1,
+    "longestStreak": 19,
+    "totalStudyTime": 172,
+    "totalSessions": 37,
+    "quiz": 63,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-06-19T01:05:00",
+    "updatedAt": "2025-07-01T00:22:13.335610",
+    "lastLoginAt": "2024-09-10T05:37:33",
+    "id": "user_32"
+  },
+  {
+    "email": "brendamartinez@weaver-davis.net",
+    "password": "4^A7EplK*@",
+    "firstName": "Eric",
+    "lastName": "Elliott",
+    "username": "coreymiranda",
+    "profilePicture": "https://placekitten.com/312/629",
+    "bio": "South carry soon appear.",
+    "dateOfBirth": "2000-01-21",
+    "learningGoals": ["Build 5 projects", "Explore React"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 27,
+        "Auditory": 55,
+        "Kinesthetic": 18
+      },
+      "completedAt": "2025-04-07T13:08:06"
+    },
+    "currentStreak": 5,
+    "longestStreak": 5,
+    "totalStudyTime": 239,
+    "totalSessions": 18,
+    "quiz": 94,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-05-28T01:42:40",
+    "updatedAt": "2025-07-01T00:22:13.337379",
+    "lastLoginAt": "2024-07-31T09:03:24",
+    "id": "user_33"
+  },
+  {
+    "email": "tbecker@marshall.com",
+    "password": "$ZRmuHGv*6",
+    "firstName": "Stephanie",
+    "lastName": "Walker",
+    "username": "matthewjohnson",
+    "profilePicture": "https://placeimg.com/306/35/any",
+    "bio": "Condition everybody reality score life.",
+    "dateOfBirth": "1993-10-14",
+    "learningGoals": ["Deepen Python knowledge", "Get AWS Certified"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 13,
+        "Auditory": 52,
+        "Kinesthetic": 35
+      },
+      "completedAt": "2024-10-05T11:46:12"
+    },
+    "currentStreak": 3,
+    "longestStreak": 23,
+    "totalStudyTime": 893,
+    "totalSessions": 12,
+    "quiz": 30,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-04-24T12:19:25",
+    "updatedAt": "2025-07-01T00:22:13.339062",
+    "lastLoginAt": "2024-08-09T17:31:13",
+    "id": "user_34"
+  },
+  {
+    "email": "sreyes@gmail.com",
+    "password": "#T9Efvl&^)",
+    "firstName": "Ashley",
+    "lastName": "Garcia",
+    "username": "burnettjennifer",
+    "profilePicture": "https://placeimg.com/741/925/any",
+    "bio": "Student career store natural.",
+    "dateOfBirth": "1997-05-11",
+    "learningGoals": ["Build 5 projects", "Understand AI concepts"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 13,
+        "Auditory": 16,
+        "Kinesthetic": 71
+      },
+      "completedAt": "2024-12-28T06:48:39"
+    },
+    "currentStreak": 8,
+    "longestStreak": 30,
+    "totalStudyTime": 363,
+    "totalSessions": 88,
+    "quiz": 68,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-10-01T23:25:31",
+    "updatedAt": "2025-07-01T00:22:13.340202",
+    "lastLoginAt": "2025-03-18T15:19:17",
+    "id": "user_35"
+  },
+  {
+    "email": "arellanolauren@carney.com",
+    "password": "B6iM#nH_@4",
+    "firstName": "Caroline",
+    "lastName": "Harris",
+    "username": "julie35",
+    "profilePicture": "https://placeimg.com/918/913/any",
+    "bio": "Trip difference receive.",
+    "dateOfBirth": "1992-02-03",
+    "learningGoals": ["Learn JavaScript", "Get AWS Certified"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 44,
+        "Auditory": 25,
+        "Kinesthetic": 31
+      },
+      "completedAt": "2025-01-20T21:41:20"
+    },
+    "currentStreak": 8,
+    "longestStreak": 13,
+    "totalStudyTime": 369,
+    "totalSessions": 98,
+    "quiz": 85,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-11-17T06:46:41",
+    "updatedAt": "2025-07-01T00:22:13.341444",
+    "lastLoginAt": "2025-05-15T14:59:28",
+    "id": "user_36"
+  },
+  {
+    "email": "lisa47@cox-myers.com",
+    "password": "0e@Bm72)+p",
+    "firstName": "Traci",
+    "lastName": "Russell",
+    "username": "theresa06",
+    "profilePicture": "https://www.lorempixel.com/804/212",
+    "bio": "Mention night himself specific attorney.",
+    "dateOfBirth": "2006-08-18",
+    "learningGoals": ["Deepen Python knowledge", "Explore React"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 45,
+        "Auditory": 32,
+        "Kinesthetic": 23
+      },
+      "completedAt": "2025-01-07T03:58:19"
+    },
+    "currentStreak": 0,
+    "longestStreak": 10,
+    "totalStudyTime": 707,
+    "totalSessions": 76,
+    "quiz": 37,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-05-07T18:40:50",
+    "updatedAt": "2025-07-01T00:22:13.342752",
+    "lastLoginAt": "2024-06-24T21:06:27",
+    "id": "user_37"
+  },
+  {
+    "email": "wwaters@hotmail.com",
+    "password": "^6Lt&pEq8g",
+    "firstName": "Veronica",
+    "lastName": "Chang",
+    "username": "adamsmichele",
+    "profilePicture": "https://dummyimage.com/982x53",
+    "bio": "Board show peace memory do.",
+    "dateOfBirth": "1988-02-02",
+    "learningGoals": ["Understand AI concepts", "Build 5 projects"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 36,
+        "Auditory": 26,
+        "Kinesthetic": 38
+      },
+      "completedAt": "2024-09-17T09:34:36"
+    },
+    "currentStreak": 1,
+    "longestStreak": 22,
+    "totalStudyTime": 926,
+    "totalSessions": 66,
+    "quiz": 24,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2023-09-11T11:16:26",
+    "updatedAt": "2025-07-01T00:22:13.344073",
+    "lastLoginAt": "2025-05-02T05:16:28",
+    "id": "user_38"
+  },
+  {
+    "email": "coltonbauer@lucero.com",
+    "password": "(F4mZmv#%N",
+    "firstName": "John",
+    "lastName": "Williams",
+    "username": "dixondaniel",
+    "profilePicture": "https://dummyimage.com/263x360",
+    "bio": "Paper light community author carry apply.",
+    "dateOfBirth": "1984-06-10",
+    "learningGoals": ["Understand AI concepts", "Get AWS Certified"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 25,
+        "Auditory": 48,
+        "Kinesthetic": 27
+      },
+      "completedAt": "2025-02-28T05:09:15"
+    },
+    "currentStreak": 8,
+    "longestStreak": 30,
+    "totalStudyTime": 71,
+    "totalSessions": 89,
+    "quiz": 99,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-11-19T08:37:05",
+    "updatedAt": "2025-07-01T00:22:13.346077",
+    "lastLoginAt": "2024-06-24T03:27:32",
+    "id": "user_39"
+  },
+  {
+    "email": "esparzakatie@hotmail.com",
+    "password": "@Km75gTjMv",
+    "firstName": "Justin",
+    "lastName": "Zuniga",
+    "username": "michael24",
+    "profilePicture": "https://placekitten.com/690/164",
+    "bio": "Attention after bill watch send.",
+    "dateOfBirth": "1977-06-24",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 66,
+        "Auditory": 22,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2025-06-28T07:17:09"
+    },
+    "currentStreak": 5,
+    "longestStreak": 12,
+    "totalStudyTime": 462,
+    "totalSessions": 59,
+    "quiz": 86,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-10-12T18:37:24",
+    "updatedAt": "2025-07-01T00:22:13.347286",
+    "lastLoginAt": "2025-04-15T09:35:48",
+    "id": "user_40"
+  },
+  {
+    "email": "ochavez@smith-castillo.com",
+    "password": "*inSCxnh6V",
+    "firstName": "Kayla",
+    "lastName": "Jackson",
+    "username": "whumphrey",
+    "profilePicture": "https://www.lorempixel.com/870/857",
+    "bio": "Store could success peace yard.",
+    "dateOfBirth": "1995-09-07",
+    "learningGoals": ["Deepen Python knowledge", "Understand AI concepts"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 70,
+        "Auditory": 20,
+        "Kinesthetic": 10
+      },
+      "completedAt": "2025-05-14T00:50:49"
+    },
+    "currentStreak": 4,
+    "longestStreak": 28,
+    "totalStudyTime": 699,
+    "totalSessions": 17,
+    "quiz": 86,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-28T14:39:43",
+    "updatedAt": "2025-07-01T00:22:13.349351",
+    "lastLoginAt": "2024-12-02T23:08:59",
+    "id": "user_41"
+  },
+  {
+    "email": "donnaberry@alvarado.com",
+    "password": "*0+KpYIilX",
+    "firstName": "Andrea",
+    "lastName": "Santiago",
+    "username": "rebekahcabrera",
+    "profilePicture": "https://placekitten.com/29/351",
+    "bio": "Wonder capital price society professional.",
+    "dateOfBirth": "1988-12-14",
+    "learningGoals": ["Understand AI concepts", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 22,
+        "Auditory": 12,
+        "Kinesthetic": 66
+      },
+      "completedAt": "2025-06-27T15:39:36"
+    },
+    "currentStreak": 4,
+    "longestStreak": 12,
+    "totalStudyTime": 886,
+    "totalSessions": 25,
+    "quiz": 37,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2023-11-28T17:25:48",
+    "updatedAt": "2025-07-01T00:22:13.351400",
+    "lastLoginAt": "2024-02-04T07:03:34",
+    "id": "user_42"
+  },
+  {
+    "email": "deborahgriffin@love-daugherty.com",
+    "password": "+9Ir#vFEOl",
+    "firstName": "Lori",
+    "lastName": "Aguirre",
+    "username": "whitejake",
+    "profilePicture": "https://dummyimage.com/823x781",
+    "bio": "Return type where form capital might your degree.",
+    "dateOfBirth": "1982-05-11",
+    "learningGoals": ["Build 5 projects", "Explore React"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 80,
+        "Auditory": 10,
+        "Kinesthetic": 10
+      },
+      "completedAt": "2024-10-27T21:27:50"
+    },
+    "currentStreak": 9,
+    "longestStreak": 28,
+    "totalStudyTime": 116,
+    "totalSessions": 34,
+    "quiz": 81,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-04-22T19:11:50",
+    "updatedAt": "2025-07-01T00:22:13.353935",
+    "lastLoginAt": "2024-09-06T21:28:21",
+    "id": "user_43"
+  },
+  {
+    "email": "csmith@gmail.com",
+    "password": "I!I2RK9h0s",
+    "firstName": "Faith",
+    "lastName": "Clark",
+    "username": "caserachael",
+    "profilePicture": "https://dummyimage.com/864x347",
+    "bio": "Western war ability common old American.",
+    "dateOfBirth": "2001-11-01",
+    "learningGoals": ["Explore React", "Learn JavaScript"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 75,
+        "Auditory": 13,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2024-07-16T17:23:15"
+    },
+    "currentStreak": 8,
+    "longestStreak": 28,
+    "totalStudyTime": 895,
+    "totalSessions": 38,
+    "quiz": 36,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-12-19T13:20:11",
+    "updatedAt": "2025-07-01T00:22:13.355618",
+    "lastLoginAt": "2025-04-22T23:28:54",
+    "id": "user_44"
+  },
+  {
+    "email": "jennawilliams@yahoo.com",
+    "password": "&e7U*laoH4",
+    "firstName": "Jonathan",
+    "lastName": "Rojas",
+    "username": "james51",
+    "profilePicture": "https://placekitten.com/926/869",
+    "bio": "Economy brother identify Democrat.",
+    "dateOfBirth": "1997-04-25",
+    "learningGoals": ["Learn JavaScript", "Understand AI concepts"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 19,
+        "Auditory": 34,
+        "Kinesthetic": 47
+      },
+      "completedAt": "2025-05-06T08:14:09"
+    },
+    "currentStreak": 8,
+    "longestStreak": 26,
+    "totalStudyTime": 935,
+    "totalSessions": 51,
+    "quiz": 5,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-07-18T04:56:14",
+    "updatedAt": "2025-07-01T00:22:13.356782",
+    "lastLoginAt": "2024-12-02T14:45:17",
+    "id": "user_45"
+  },
+  {
+    "email": "zcoleman@hotmail.com",
+    "password": "G$)3aAYpq%",
+    "firstName": "Scott",
+    "lastName": "Ruiz",
+    "username": "james12",
+    "profilePicture": "https://dummyimage.com/848x70",
+    "bio": "Out certainly red history heart environmental term.",
+    "dateOfBirth": "2006-10-01",
+    "learningGoals": ["Explore React", "Get AWS Certified"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 49,
+        "Auditory": 34,
+        "Kinesthetic": 17
+      },
+      "completedAt": "2024-07-06T16:15:45"
+    },
+    "currentStreak": 5,
+    "longestStreak": 22,
+    "totalStudyTime": 182,
+    "totalSessions": 28,
+    "quiz": 23,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-09-05T05:26:08",
+    "updatedAt": "2025-07-01T00:22:13.358445",
+    "lastLoginAt": "2024-09-27T22:16:20",
+    "id": "user_46"
+  },
+  {
+    "email": "rachelharris@yahoo.com",
+    "password": "_rOsTlKDq1",
+    "firstName": "Mary",
+    "lastName": "Barrera",
+    "username": "pachecojennifer",
+    "profilePicture": "https://www.lorempixel.com/186/716",
+    "bio": "Stuff rate product despite great girl common.",
+    "dateOfBirth": "1995-08-01",
+    "learningGoals": ["Build 5 projects", "Explore React"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 53,
+        "Auditory": 35,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2025-01-23T19:20:33"
+    },
+    "currentStreak": 8,
+    "longestStreak": 30,
+    "totalStudyTime": 74,
+    "totalSessions": 68,
+    "quiz": 95,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-10-05T19:05:41",
+    "updatedAt": "2025-07-01T00:22:13.359813",
+    "lastLoginAt": "2024-10-18T21:21:54",
+    "id": "user_47"
+  },
+  {
+    "email": "rjohnson@turner.net",
+    "password": "(1FWRUyECv",
+    "firstName": "Autumn",
+    "lastName": "Smith",
+    "username": "woodardkelly",
+    "profilePicture": "https://placeimg.com/402/701/any",
+    "bio": "Physical whole at focus book.",
+    "dateOfBirth": "1996-01-23",
+    "learningGoals": ["Build 5 projects", "Get AWS Certified"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 46,
+        "Auditory": 27,
+        "Kinesthetic": 27
+      },
+      "completedAt": "2025-02-25T16:25:09"
+    },
+    "currentStreak": 3,
+    "longestStreak": 21,
+    "totalStudyTime": 412,
+    "totalSessions": 77,
+    "quiz": 65,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2025-03-15T05:36:09",
+    "updatedAt": "2025-07-01T00:22:13.361429",
+    "lastLoginAt": "2025-05-21T16:34:01",
+    "id": "user_48"
+  },
+  {
+    "email": "fcarrillo@williams.com",
+    "password": "5+%4PTlAdS",
+    "firstName": "William",
+    "lastName": "Reyes",
+    "username": "keith96",
+    "profilePicture": "https://placeimg.com/298/619/any",
+    "bio": "Kind look themselves chance top glass as minute.",
+    "dateOfBirth": "1989-05-09",
+    "learningGoals": ["Explore React", "Understand AI concepts"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 42,
+        "Auditory": 45,
+        "Kinesthetic": 13
+      },
+      "completedAt": "2024-07-10T20:04:45"
+    },
+    "currentStreak": 4,
+    "longestStreak": 15,
+    "totalStudyTime": 326,
+    "totalSessions": 44,
+    "quiz": 48,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2023-07-08T05:38:19",
+    "updatedAt": "2025-07-01T00:22:13.364027",
+    "lastLoginAt": "2025-04-18T08:58:50",
+    "id": "user_49"
+  },
+  {
+    "email": "wsimmons@hotmail.com",
+    "password": "#2HqtTWwgq",
+    "firstName": "Jacob",
+    "lastName": "Wilkerson",
+    "username": "david31",
+    "profilePicture": "https://placekitten.com/943/430",
+    "bio": "Gas foot establish baby population leg score.",
+    "dateOfBirth": "1983-03-01",
+    "learningGoals": ["Understand AI concepts", "Learn JavaScript"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 61,
+        "Auditory": 23,
+        "Kinesthetic": 16
+      },
+      "completedAt": "2025-02-18T10:06:28"
+    },
+    "currentStreak": 10,
+    "longestStreak": 27,
+    "totalStudyTime": 445,
+    "totalSessions": 7,
+    "quiz": 40,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-03T03:21:48",
+    "updatedAt": "2025-07-01T00:22:13.365673",
+    "lastLoginAt": "2024-11-25T09:18:06",
+    "id": "user_50"
+  },
+  {
+    "email": "phood@bean.com",
+    "password": "BAhhGfTp(1",
+    "firstName": "Christopher",
+    "lastName": "Hubbard",
+    "username": "dali",
+    "profilePicture": "https://placeimg.com/640/1016/any",
+    "bio": "Phone item drug like drive.",
+    "dateOfBirth": "1983-08-18",
+    "learningGoals": ["Learn JavaScript", "Build 5 projects"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 76,
+        "Auditory": 11,
+        "Kinesthetic": 13
+      },
+      "completedAt": "2025-02-18T13:35:49"
+    },
+    "currentStreak": 1,
+    "longestStreak": 26,
+    "totalStudyTime": 701,
+    "totalSessions": 5,
+    "quiz": 34,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-09-13T15:22:23",
+    "updatedAt": "2025-07-01T00:22:13.367389",
+    "lastLoginAt": "2024-02-16T16:56:17",
+    "id": "user_51"
+  },
+  {
+    "email": "tracynunez@gmail.com",
+    "password": "hxt6Wb3au+",
+    "firstName": "Jennifer",
+    "lastName": "Macdonald",
+    "username": "hernandezyvette",
+    "profilePicture": "https://placeimg.com/121/586/any",
+    "bio": "Quality either story general ask.",
+    "dateOfBirth": "1991-06-11",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 63,
+        "Auditory": 18,
+        "Kinesthetic": 19
+      },
+      "completedAt": "2024-07-05T04:09:07"
+    },
+    "currentStreak": 4,
+    "longestStreak": 28,
+    "totalStudyTime": 696,
+    "totalSessions": 65,
+    "quiz": 11,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-04-28T07:04:35",
+    "updatedAt": "2025-07-01T00:22:13.368752",
+    "lastLoginAt": "2025-02-04T23:57:46",
+    "id": "user_52"
+  },
+  {
+    "email": "kennethwatkins@walker.org",
+    "password": "9rDi^FQt$P",
+    "firstName": "Sara",
+    "lastName": "White",
+    "username": "whitejuan",
+    "profilePicture": "https://dummyimage.com/948x517",
+    "bio": "Receive today type spend ground.",
+    "dateOfBirth": "1997-06-03",
+    "learningGoals": ["Learn JavaScript", "Understand AI concepts"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 75,
+        "Auditory": 14,
+        "Kinesthetic": 11
+      },
+      "completedAt": "2024-10-19T23:25:15"
+    },
+    "currentStreak": 0,
+    "longestStreak": 9,
+    "totalStudyTime": 227,
+    "totalSessions": 20,
+    "quiz": 20,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-06-08T18:21:57",
+    "updatedAt": "2025-07-01T00:22:13.370568",
+    "lastLoginAt": "2025-02-16T05:29:33",
+    "id": "user_53"
+  },
+  {
+    "email": "yhernandez@hopkins.com",
+    "password": "97O9ck7F!w",
+    "firstName": "Amanda",
+    "lastName": "Rojas",
+    "username": "ojohnson",
+    "profilePicture": "https://placekitten.com/33/385",
+    "bio": "On central social school nation current trial.",
+    "dateOfBirth": "1998-05-07",
+    "learningGoals": ["Explore React", "Learn JavaScript"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 67,
+        "Auditory": 21,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2025-02-10T03:54:29"
+    },
+    "currentStreak": 4,
+    "longestStreak": 10,
+    "totalStudyTime": 954,
+    "totalSessions": 99,
+    "quiz": 87,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-08-25T20:10:25",
+    "updatedAt": "2025-07-01T00:22:13.371919",
+    "lastLoginAt": "2025-03-10T00:20:48",
+    "id": "user_54"
+  },
+  {
+    "email": "christinepayne@anderson-pham.info",
+    "password": "cr2g^yBoY!",
+    "firstName": "Pamela",
+    "lastName": "Day",
+    "username": "tiffany09",
+    "profilePicture": "https://www.lorempixel.com/129/907",
+    "bio": "Democrat more agreement current.",
+    "dateOfBirth": "1982-01-08",
+    "learningGoals": ["Build 5 projects", "Explore React"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 37,
+        "Auditory": 39,
+        "Kinesthetic": 24
+      },
+      "completedAt": "2025-02-07T18:18:10"
+    },
+    "currentStreak": 2,
+    "longestStreak": 29,
+    "totalStudyTime": 386,
+    "totalSessions": 95,
+    "quiz": 93,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-01-09T21:53:18",
+    "updatedAt": "2025-07-01T00:22:13.373482",
+    "lastLoginAt": "2024-11-24T04:27:21",
+    "id": "user_55"
+  },
+  {
+    "email": "tannerrodgers@yahoo.com",
+    "password": "*7*XXODeJO",
+    "firstName": "John",
+    "lastName": "Melton",
+    "username": "pmedina",
+    "profilePicture": "https://placekitten.com/539/76",
+    "bio": "Really probably become more now least represent.",
+    "dateOfBirth": "2001-01-12",
+    "learningGoals": ["Get AWS Certified", "Understand AI concepts"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 74,
+        "Auditory": 11,
+        "Kinesthetic": 15
+      },
+      "completedAt": "2024-09-06T02:24:39"
+    },
+    "currentStreak": 10,
+    "longestStreak": 6,
+    "totalStudyTime": 377,
+    "totalSessions": 28,
+    "quiz": 85,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-09-13T17:49:10",
+    "updatedAt": "2025-07-01T00:22:13.375719",
+    "lastLoginAt": "2024-06-08T04:58:06",
+    "id": "user_56"
+  },
+  {
+    "email": "lisabooth@hotmail.com",
+    "password": "e!+f8cbyCC",
+    "firstName": "Erica",
+    "lastName": "Shields",
+    "username": "mwood",
+    "profilePicture": "https://dummyimage.com/207x108",
+    "bio": "Interest drug huge page end teach main.",
+    "dateOfBirth": "2004-01-26",
+    "learningGoals": ["Explore React", "Build 5 projects"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 74,
+        "Auditory": 13,
+        "Kinesthetic": 13
+      },
+      "completedAt": "2024-12-29T00:06:51"
+    },
+    "currentStreak": 8,
+    "longestStreak": 17,
+    "totalStudyTime": 479,
+    "totalSessions": 89,
+    "quiz": 78,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2025-03-29T15:31:04",
+    "updatedAt": "2025-07-01T00:22:13.376957",
+    "lastLoginAt": "2025-04-16T03:13:14",
+    "id": "user_57"
+  },
+  {
+    "email": "jamesstephenson@perez.com",
+    "password": "I5Dx5LAtl^",
+    "firstName": "Jacqueline",
+    "lastName": "Ryan",
+    "username": "ashley68",
+    "profilePicture": "https://www.lorempixel.com/715/373",
+    "bio": "Stop program all.",
+    "dateOfBirth": "1992-08-20",
+    "learningGoals": ["Learn JavaScript", "Get AWS Certified"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 51,
+        "Auditory": 27,
+        "Kinesthetic": 22
+      },
+      "completedAt": "2025-01-24T10:52:16"
+    },
+    "currentStreak": 1,
+    "longestStreak": 17,
+    "totalStudyTime": 247,
+    "totalSessions": 34,
+    "quiz": 72,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2025-01-14T12:35:22",
+    "updatedAt": "2025-07-01T00:22:13.379303",
+    "lastLoginAt": "2025-05-19T05:58:04",
+    "id": "user_58"
+  },
+  {
+    "email": "smithjeffrey@wolfe-esparza.com",
+    "password": "*UM(tOXa5S",
+    "firstName": "Ashley",
+    "lastName": "Brown",
+    "username": "karen36",
+    "profilePicture": "https://placeimg.com/601/362/any",
+    "bio": "Move center matter.",
+    "dateOfBirth": "1986-08-18",
+    "learningGoals": ["Learn JavaScript", "Get AWS Certified"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 74,
+        "Auditory": 15,
+        "Kinesthetic": 11
+      },
+      "completedAt": "2025-04-15T16:50:37"
+    },
+    "currentStreak": 9,
+    "longestStreak": 26,
+    "totalStudyTime": 933,
+    "totalSessions": 98,
+    "quiz": 39,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-11-09T00:57:34",
+    "updatedAt": "2025-07-01T00:22:13.381417",
+    "lastLoginAt": "2025-03-24T07:14:10",
+    "id": "user_59"
+  },
+  {
+    "email": "gryan@smith-holland.com",
+    "password": "*jD1ltYw_0",
+    "firstName": "Matthew",
+    "lastName": "Reid",
+    "username": "qlamb",
+    "profilePicture": "https://dummyimage.com/451x589",
+    "bio": "Do wife agreement tend message success myself.",
+    "dateOfBirth": "1977-08-24",
+    "learningGoals": ["Deepen Python knowledge", "Explore React"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 60,
+        "Auditory": 24,
+        "Kinesthetic": 16
+      },
+      "completedAt": "2024-09-24T15:42:40"
+    },
+    "currentStreak": 8,
+    "longestStreak": 19,
+    "totalStudyTime": 388,
+    "totalSessions": 42,
+    "quiz": 31,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-07-25T10:18:00",
+    "updatedAt": "2025-07-01T00:22:13.383107",
+    "lastLoginAt": "2023-11-10T17:55:13",
+    "id": "user_60"
+  },
+  {
+    "email": "sbaker@nunez.org",
+    "password": "@69PiZctUb",
+    "firstName": "Gary",
+    "lastName": "Perry",
+    "username": "dvance",
+    "profilePicture": "https://placekitten.com/948/206",
+    "bio": "Art positive member that follow floor song.",
+    "dateOfBirth": "1974-07-27",
+    "learningGoals": ["Build 5 projects", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 23,
+        "Auditory": 34,
+        "Kinesthetic": 43
+      },
+      "completedAt": "2024-10-07T23:34:30"
+    },
+    "currentStreak": 6,
+    "longestStreak": 11,
+    "totalStudyTime": 208,
+    "totalSessions": 13,
+    "quiz": 66,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-11-07T15:37:47",
+    "updatedAt": "2025-07-01T00:22:13.384889",
+    "lastLoginAt": "2024-11-11T03:32:47",
+    "id": "user_61"
+  },
+  {
+    "email": "smithrobert@gmail.com",
+    "password": "KMpYUjZQ!9",
+    "firstName": "Louis",
+    "lastName": "Gonzalez",
+    "username": "johnsonkaren",
+    "profilePicture": "https://placekitten.com/117/284",
+    "bio": "Hear during accept newspaper.",
+    "dateOfBirth": "1994-08-29",
+    "learningGoals": ["Build 5 projects", "Understand AI concepts"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 13,
+        "Auditory": 50,
+        "Kinesthetic": 37
+      },
+      "completedAt": "2025-06-25T06:13:32"
+    },
+    "currentStreak": 2,
+    "longestStreak": 17,
+    "totalStudyTime": 576,
+    "totalSessions": 94,
+    "quiz": 48,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-02-10T20:45:34",
+    "updatedAt": "2025-07-01T00:22:13.386284",
+    "lastLoginAt": "2024-07-23T02:30:56",
+    "id": "user_62"
+  },
+  {
+    "email": "john33@gmail.com",
+    "password": "j9L8Zsx&!e",
+    "firstName": "Steven",
+    "lastName": "Harris",
+    "username": "stephanie41",
+    "profilePicture": "https://www.lorempixel.com/1010/29",
+    "bio": "Member let truth three Mrs sit religious field.",
+    "dateOfBirth": "1974-07-07",
+    "learningGoals": ["Build 5 projects", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 68,
+        "Auditory": 13,
+        "Kinesthetic": 19
+      },
+      "completedAt": "2024-09-16T20:42:43"
+    },
+    "currentStreak": 7,
+    "longestStreak": 13,
+    "totalStudyTime": 716,
+    "totalSessions": 8,
+    "quiz": 87,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-06-29T12:04:57",
+    "updatedAt": "2025-07-01T00:22:13.387840",
+    "lastLoginAt": "2025-06-07T06:46:14",
+    "id": "user_63"
+  },
+  {
+    "email": "leah51@morales-robinson.info",
+    "password": "*UB8WRit(6",
+    "firstName": "Elizabeth",
+    "lastName": "Smith",
+    "username": "martinkimberly",
+    "profilePicture": "https://dummyimage.com/429x805",
+    "bio": "New tree stand size ago class area.",
+    "dateOfBirth": "2003-02-20",
+    "learningGoals": ["Deepen Python knowledge", "Understand AI concepts"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 35,
+        "Auditory": 18,
+        "Kinesthetic": 47
+      },
+      "completedAt": "2024-08-16T01:57:19"
+    },
+    "currentStreak": 3,
+    "longestStreak": 9,
+    "totalStudyTime": 647,
+    "totalSessions": 45,
+    "quiz": 38,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2025-01-17T06:32:28",
+    "updatedAt": "2025-07-01T00:22:13.389811",
+    "lastLoginAt": "2025-06-04T21:45:26",
+    "id": "user_64"
+  },
+  {
+    "email": "melodyhill@gmail.com",
+    "password": "!^3TpqcH)1",
+    "firstName": "Nicole",
+    "lastName": "Fritz",
+    "username": "mclaughlinstacy",
+    "profilePicture": "https://www.lorempixel.com/675/719",
+    "bio": "Value each science also.",
+    "dateOfBirth": "1979-08-04",
+    "learningGoals": ["Get AWS Certified", "Explore React"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 50,
+        "Auditory": 13,
+        "Kinesthetic": 37
+      },
+      "completedAt": "2025-03-02T05:17:56"
+    },
+    "currentStreak": 8,
+    "longestStreak": 18,
+    "totalStudyTime": 960,
+    "totalSessions": 46,
+    "quiz": 81,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-11-23T05:03:09",
+    "updatedAt": "2025-07-01T00:22:13.392008",
+    "lastLoginAt": "2024-12-21T08:42:17",
+    "id": "user_65"
+  },
+  {
+    "email": "romerojane@hotmail.com",
+    "password": "pS8jBNt#$8",
+    "firstName": "Joshua",
+    "lastName": "Cruz",
+    "username": "billytucker",
+    "profilePicture": "https://placekitten.com/411/827",
+    "bio": "Protect from also doctor technology.",
+    "dateOfBirth": "1994-09-16",
+    "learningGoals": ["Learn JavaScript", "Explore React"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 33,
+        "Auditory": 40,
+        "Kinesthetic": 27
+      },
+      "completedAt": "2024-09-01T16:36:31"
+    },
+    "currentStreak": 5,
+    "longestStreak": 23,
+    "totalStudyTime": 94,
+    "totalSessions": 67,
+    "quiz": 61,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-06-11T07:58:13",
+    "updatedAt": "2025-07-01T00:22:13.393377",
+    "lastLoginAt": "2024-12-15T07:55:18",
+    "id": "user_66"
+  },
+  {
+    "email": "allenjoshua@ferguson.net",
+    "password": ")LeCZy2%+2",
+    "firstName": "Lauren",
+    "lastName": "Buchanan",
+    "username": "darrylgilbert",
+    "profilePicture": "https://placekitten.com/623/45",
+    "bio": "Early customer change position allow one land per.",
+    "dateOfBirth": "2003-02-14",
+    "learningGoals": ["Explore React", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 13,
+        "Auditory": 33,
+        "Kinesthetic": 54
+      },
+      "completedAt": "2025-04-24T01:40:48"
+    },
+    "currentStreak": 6,
+    "longestStreak": 6,
+    "totalStudyTime": 128,
+    "totalSessions": 68,
+    "quiz": 13,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-02-09T21:29:05",
+    "updatedAt": "2025-07-01T00:22:13.395750",
+    "lastLoginAt": "2024-06-26T06:59:50",
+    "id": "user_67"
+  },
+  {
+    "email": "vfreeman@yahoo.com",
+    "password": "19Yai2ic$6",
+    "firstName": "Ann",
+    "lastName": "Chapman",
+    "username": "andrew24",
+    "profilePicture": "https://placeimg.com/973/701/any",
+    "bio": "Return art southern run.",
+    "dateOfBirth": "1985-02-07",
+    "learningGoals": ["Deepen Python knowledge", "Explore React"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 27,
+        "Auditory": 32,
+        "Kinesthetic": 41
+      },
+      "completedAt": "2025-06-27T22:56:20"
+    },
+    "currentStreak": 0,
+    "longestStreak": 7,
+    "totalStudyTime": 62,
+    "totalSessions": 53,
+    "quiz": 29,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2023-09-15T07:47:46",
+    "updatedAt": "2025-07-01T00:22:13.397148",
+    "lastLoginAt": "2023-12-24T20:31:42",
+    "id": "user_68"
+  },
+  {
+    "email": "mitchelllisa@yahoo.com",
+    "password": "h6z0WCSd*+",
+    "firstName": "Tammy",
+    "lastName": "Fry",
+    "username": "rodneyreid",
+    "profilePicture": "https://placeimg.com/991/949/any",
+    "bio": "State performance rate control eye paper.",
+    "dateOfBirth": "1983-03-01",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 80,
+        "Auditory": 10,
+        "Kinesthetic": 10
+      },
+      "completedAt": "2025-02-16T18:06:51"
+    },
+    "currentStreak": 5,
+    "longestStreak": 19,
+    "totalStudyTime": 879,
+    "totalSessions": 45,
+    "quiz": 69,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-19T00:20:20",
+    "updatedAt": "2025-07-01T00:22:13.399352",
+    "lastLoginAt": "2025-06-04T16:25:07",
+    "id": "user_69"
+  },
+  {
+    "email": "thomasalyssa@schmidt.com",
+    "password": "%v7aFutFc$",
+    "firstName": "Laurie",
+    "lastName": "Callahan",
+    "username": "samuel94",
+    "profilePicture": "https://dummyimage.com/733x703",
+    "bio": "Box report building dog others show expert.",
+    "dateOfBirth": "1992-07-22",
+    "learningGoals": ["Deepen Python knowledge", "Learn JavaScript"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 51,
+        "Auditory": 22,
+        "Kinesthetic": 27
+      },
+      "completedAt": "2024-07-19T13:51:34"
+    },
+    "currentStreak": 0,
+    "longestStreak": 28,
+    "totalStudyTime": 555,
+    "totalSessions": 61,
+    "quiz": 57,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-04-07T03:35:03",
+    "updatedAt": "2025-07-01T00:22:13.400726",
+    "lastLoginAt": "2025-05-08T13:45:01",
+    "id": "user_70"
+  },
+  {
+    "email": "joneschristopher@hotmail.com",
+    "password": ")4@KrNJT*8",
+    "firstName": "Michael",
+    "lastName": "Vega",
+    "username": "courtney18",
+    "profilePicture": "https://dummyimage.com/918x244",
+    "bio": "Up job plan stock education.",
+    "dateOfBirth": "2000-09-16",
+    "learningGoals": ["Learn JavaScript", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 46,
+        "Auditory": 17,
+        "Kinesthetic": 37
+      },
+      "completedAt": "2025-03-07T02:55:59"
+    },
+    "currentStreak": 8,
+    "longestStreak": 12,
+    "totalStudyTime": 777,
+    "totalSessions": 42,
+    "quiz": 67,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2023-12-14T12:05:27",
+    "updatedAt": "2025-07-01T00:22:13.401744",
+    "lastLoginAt": "2024-07-27T02:43:15",
+    "id": "user_71"
+  },
+  {
+    "email": "jeremiah52@gmail.com",
+    "password": "O!8(dW_LZa",
+    "firstName": "Christopher",
+    "lastName": "Flores",
+    "username": "carrieskinner",
+    "profilePicture": "https://dummyimage.com/89x570",
+    "bio": "Many benefit behind personal deal.",
+    "dateOfBirth": "1994-04-06",
+    "learningGoals": ["Understand AI concepts", "Build 5 projects"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 36,
+        "Auditory": 46,
+        "Kinesthetic": 18
+      },
+      "completedAt": "2024-07-01T14:43:35"
+    },
+    "currentStreak": 2,
+    "longestStreak": 9,
+    "totalStudyTime": 781,
+    "totalSessions": 93,
+    "quiz": 83,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2025-05-17T00:07:43",
+    "updatedAt": "2025-07-01T00:22:13.403490",
+    "lastLoginAt": "2025-06-20T00:58:32",
+    "id": "user_72"
+  },
+  {
+    "email": "pvaldez@gmail.com",
+    "password": "32Y8(Qkg#0",
+    "firstName": "Jeffrey",
+    "lastName": "Baker",
+    "username": "emilytorres",
+    "profilePicture": "https://placeimg.com/373/61/any",
+    "bio": "Opportunity Republican trip star.",
+    "dateOfBirth": "1979-09-17",
+    "learningGoals": ["Explore React", "Understand AI concepts"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 49,
+        "Auditory": 26,
+        "Kinesthetic": 25
+      },
+      "completedAt": "2024-12-26T08:54:09"
+    },
+    "currentStreak": 5,
+    "longestStreak": 23,
+    "totalStudyTime": 338,
+    "totalSessions": 11,
+    "quiz": 35,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-02-10T11:23:10",
+    "updatedAt": "2025-07-01T00:22:13.405253",
+    "lastLoginAt": "2024-12-28T06:08:39",
+    "id": "user_73"
+  },
+  {
+    "email": "sfletcher@hotmail.com",
+    "password": "k!DyFU6b$F",
+    "firstName": "Joseph",
+    "lastName": "Robbins",
+    "username": "rmurphy",
+    "profilePicture": "https://www.lorempixel.com/885/846",
+    "bio": "Nation soldier late top rise.",
+    "dateOfBirth": "2002-11-27",
+    "learningGoals": ["Explore React", "Get AWS Certified"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 24,
+        "Auditory": 42,
+        "Kinesthetic": 34
+      },
+      "completedAt": "2024-07-08T15:41:00"
+    },
+    "currentStreak": 6,
+    "longestStreak": 15,
+    "totalStudyTime": 639,
+    "totalSessions": 66,
+    "quiz": 43,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-31T11:15:25",
+    "updatedAt": "2025-07-01T00:22:13.406602",
+    "lastLoginAt": "2025-06-09T09:20:09",
+    "id": "user_74"
+  },
+  {
+    "email": "clee@yahoo.com",
+    "password": "&ho8Berj#O",
+    "firstName": "Michael",
+    "lastName": "Lopez",
+    "username": "juanmccarthy",
+    "profilePicture": "https://www.lorempixel.com/522/476",
+    "bio": "List especially than range man approach.",
+    "dateOfBirth": "2001-08-24",
+    "learningGoals": ["Build 5 projects", "Explore React"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 48,
+        "Auditory": 14,
+        "Kinesthetic": 38
+      },
+      "completedAt": "2025-05-03T04:22:07"
+    },
+    "currentStreak": 4,
+    "longestStreak": 8,
+    "totalStudyTime": 155,
+    "totalSessions": 19,
+    "quiz": 44,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-30T02:29:35",
+    "updatedAt": "2025-07-01T00:22:13.407900",
+    "lastLoginAt": "2024-09-06T14:10:44",
+    "id": "user_75"
+  },
+  {
+    "email": "pwilliams@gmail.com",
+    "password": "%83Y1jL#o!",
+    "firstName": "Gregory",
+    "lastName": "Chen",
+    "username": "chavezricardo",
+    "profilePicture": "https://dummyimage.com/473x728",
+    "bio": "Situation character rule soon sport.",
+    "dateOfBirth": "1995-12-12",
+    "learningGoals": ["Get AWS Certified", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 54,
+        "Auditory": 30,
+        "Kinesthetic": 16
+      },
+      "completedAt": "2024-11-16T00:08:16"
+    },
+    "currentStreak": 7,
+    "longestStreak": 10,
+    "totalStudyTime": 911,
+    "totalSessions": 92,
+    "quiz": 15,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-12-05T16:18:50",
+    "updatedAt": "2025-07-01T00:22:13.409152",
+    "lastLoginAt": "2025-03-03T03:01:54",
+    "id": "user_76"
+  },
+  {
+    "email": "nwoodward@miles-blankenship.com",
+    "password": "!%8qIK+bO5",
+    "firstName": "Richard",
+    "lastName": "Bridges",
+    "username": "chill",
+    "profilePicture": "https://dummyimage.com/417x790",
+    "bio": "Say international outside chair professor wide spring.",
+    "dateOfBirth": "1982-08-23",
+    "learningGoals": ["Understand AI concepts", "Learn JavaScript"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 73,
+        "Auditory": 14,
+        "Kinesthetic": 13
+      },
+      "completedAt": "2024-11-07T02:24:28"
+    },
+    "currentStreak": 9,
+    "longestStreak": 27,
+    "totalStudyTime": 626,
+    "totalSessions": 53,
+    "quiz": 24,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-20T02:23:53",
+    "updatedAt": "2025-07-01T00:22:13.410838",
+    "lastLoginAt": "2025-04-01T12:50:33",
+    "id": "user_77"
+  },
+  {
+    "email": "qmiller@parker.com",
+    "password": "!0x6Tgtcx3",
+    "firstName": "Melanie",
+    "lastName": "Gilbert",
+    "username": "zjohnson",
+    "profilePicture": "https://placekitten.com/259/830",
+    "bio": "Through significant performance they.",
+    "dateOfBirth": "2000-01-18",
+    "learningGoals": ["Get AWS Certified", "Learn JavaScript"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 42,
+        "Auditory": 29,
+        "Kinesthetic": 29
+      },
+      "completedAt": "2025-01-29T08:13:36"
+    },
+    "currentStreak": 3,
+    "longestStreak": 21,
+    "totalStudyTime": 310,
+    "totalSessions": 9,
+    "quiz": 50,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-07T12:01:08",
+    "updatedAt": "2025-07-01T00:22:13.412534",
+    "lastLoginAt": "2025-05-26T13:04:07",
+    "id": "user_78"
+  },
+  {
+    "email": "sosaallen@hotmail.com",
+    "password": "_4vewVjfiX",
+    "firstName": "Derek",
+    "lastName": "Gallegos",
+    "username": "stephanie98",
+    "profilePicture": "https://dummyimage.com/110x121",
+    "bio": "Decide majority others six treatment.",
+    "dateOfBirth": "2002-10-04",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 16,
+        "Auditory": 19,
+        "Kinesthetic": 65
+      },
+      "completedAt": "2024-09-05T21:20:29"
+    },
+    "currentStreak": 7,
+    "longestStreak": 28,
+    "totalStudyTime": 337,
+    "totalSessions": 97,
+    "quiz": 25,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-02-05T15:11:30",
+    "updatedAt": "2025-07-01T00:22:13.413706",
+    "lastLoginAt": "2024-03-20T23:28:22",
+    "id": "user_79"
+  },
+  {
+    "email": "amanda16@fernandez.com",
+    "password": "A1VCs_h)$6",
+    "firstName": "Tyler",
+    "lastName": "Chang",
+    "username": "qduncan",
+    "profilePicture": "https://dummyimage.com/211x502",
+    "bio": "Myself huge sometimes build first home stock.",
+    "dateOfBirth": "2004-09-07",
+    "learningGoals": ["Learn JavaScript", "Deepen Python knowledge"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 17,
+        "Auditory": 66,
+        "Kinesthetic": 17
+      },
+      "completedAt": "2024-09-14T22:15:49"
+    },
+    "currentStreak": 8,
+    "longestStreak": 7,
+    "totalStudyTime": 260,
+    "totalSessions": 90,
+    "quiz": 56,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-28T16:24:57",
+    "updatedAt": "2025-07-01T00:22:13.415661",
+    "lastLoginAt": "2025-05-01T03:14:46",
+    "id": "user_80"
+  },
+  {
+    "email": "amyochoa@hotmail.com",
+    "password": "dU8TdE#b*P",
+    "firstName": "Jerry",
+    "lastName": "Mendez",
+    "username": "benjaminbrown",
+    "profilePicture": "https://placeimg.com/348/315/any",
+    "bio": "Happy into really then service money help arrive.",
+    "dateOfBirth": "1996-12-02",
+    "learningGoals": ["Get AWS Certified", "Understand AI concepts"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 16,
+        "Auditory": 23,
+        "Kinesthetic": 61
+      },
+      "completedAt": "2024-08-31T10:11:20"
+    },
+    "currentStreak": 8,
+    "longestStreak": 29,
+    "totalStudyTime": 417,
+    "totalSessions": 48,
+    "quiz": 47,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2025-01-18T02:02:42",
+    "updatedAt": "2025-07-01T00:22:13.416877",
+    "lastLoginAt": "2025-06-11T23:33:27",
+    "id": "user_81"
+  },
+  {
+    "email": "cheryl86@gmail.com",
+    "password": "!&dJVtvp0O",
+    "firstName": "Olivia",
+    "lastName": "Ellis",
+    "username": "rachelalvarez",
+    "profilePicture": "https://placekitten.com/651/397",
+    "bio": "Computer project attack section argue.",
+    "dateOfBirth": "1990-11-12",
+    "learningGoals": ["Learn JavaScript", "Explore React"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 47,
+        "Auditory": 36,
+        "Kinesthetic": 17
+      },
+      "completedAt": "2025-06-04T03:42:01"
+    },
+    "currentStreak": 1,
+    "longestStreak": 15,
+    "totalStudyTime": 744,
+    "totalSessions": 64,
+    "quiz": 41,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-11-04T07:26:18",
+    "updatedAt": "2025-07-01T00:22:13.418586",
+    "lastLoginAt": "2024-12-05T16:00:00",
+    "id": "user_82"
+  },
+  {
+    "email": "mhudson@dean.com",
+    "password": "m9tjiQ9f+t",
+    "firstName": "Richard",
+    "lastName": "Hester",
+    "username": "nicolepittman",
+    "profilePicture": "https://placeimg.com/352/183/any",
+    "bio": "Respond after brother song gun over far.",
+    "dateOfBirth": "1992-09-09",
+    "learningGoals": ["Build 5 projects", "Understand AI concepts"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 22,
+        "Auditory": 22,
+        "Kinesthetic": 56
+      },
+      "completedAt": "2025-05-08T16:58:38"
+    },
+    "currentStreak": 1,
+    "longestStreak": 16,
+    "totalStudyTime": 933,
+    "totalSessions": 91,
+    "quiz": 78,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-08-23T12:16:58",
+    "updatedAt": "2025-07-01T00:22:13.420353",
+    "lastLoginAt": "2025-01-15T01:43:57",
+    "id": "user_83"
+  },
+  {
+    "email": "shane46@lin.info",
+    "password": "wT1zMkEi)P",
+    "firstName": "Karen",
+    "lastName": "Johnson",
+    "username": "kyletaylor",
+    "profilePicture": "https://placeimg.com/502/499/any",
+    "bio": "Argue hope create everybody.",
+    "dateOfBirth": "2000-07-12",
+    "learningGoals": ["Learn JavaScript", "Build 5 projects"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 76,
+        "Auditory": 13,
+        "Kinesthetic": 11
+      },
+      "completedAt": "2024-10-26T21:15:33"
+    },
+    "currentStreak": 3,
+    "longestStreak": 8,
+    "totalStudyTime": 149,
+    "totalSessions": 95,
+    "quiz": 86,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-01-15T00:08:45",
+    "updatedAt": "2025-07-01T00:22:13.421679",
+    "lastLoginAt": "2024-02-06T16:23:59",
+    "id": "user_84"
+  },
+  {
+    "email": "smithpamela@yahoo.com",
+    "password": "(R89KfXhAa",
+    "firstName": "Jaclyn",
+    "lastName": "David",
+    "username": "robertacurtis",
+    "profilePicture": "https://placeimg.com/282/364/any",
+    "bio": "Quality because throughout mother page.",
+    "dateOfBirth": "2003-12-02",
+    "learningGoals": ["Deepen Python knowledge", "Explore React"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 35,
+        "Auditory": 36,
+        "Kinesthetic": 29
+      },
+      "completedAt": "2025-02-15T03:03:11"
+    },
+    "currentStreak": 3,
+    "longestStreak": 17,
+    "totalStudyTime": 383,
+    "totalSessions": 63,
+    "quiz": 14,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-12-01T10:20:18",
+    "updatedAt": "2025-07-01T00:22:13.423084",
+    "lastLoginAt": "2024-09-24T06:31:57",
+    "id": "user_85"
+  },
+  {
+    "email": "douglasrobinson@gmail.com",
+    "password": "13uZhYjp_b",
+    "firstName": "Tracie",
+    "lastName": "Petersen",
+    "username": "amanda04",
+    "profilePicture": "https://placeimg.com/934/425/any",
+    "bio": "It mind TV civil lay discuss sometimes.",
+    "dateOfBirth": "1980-08-10",
+    "learningGoals": ["Understand AI concepts", "Deepen Python knowledge"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 62,
+        "Auditory": 17,
+        "Kinesthetic": 21
+      },
+      "completedAt": "2025-06-15T09:47:22"
+    },
+    "currentStreak": 9,
+    "longestStreak": 13,
+    "totalStudyTime": 760,
+    "totalSessions": 36,
+    "quiz": 76,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-07T05:06:23",
+    "updatedAt": "2025-07-01T00:22:13.424231",
+    "lastLoginAt": "2025-06-08T15:06:33",
+    "id": "user_86"
+  },
+  {
+    "email": "carrtiffany@yahoo.com",
+    "password": "z29GUBk#!@",
+    "firstName": "James",
+    "lastName": "Rojas",
+    "username": "jennifergonzalez",
+    "profilePicture": "https://dummyimage.com/587x699",
+    "bio": "Region rich feeling stuff start writer forget.",
+    "dateOfBirth": "1989-09-23",
+    "learningGoals": ["Explore React", "Learn JavaScript"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 24,
+        "Auditory": 21,
+        "Kinesthetic": 55
+      },
+      "completedAt": "2025-01-27T16:47:37"
+    },
+    "currentStreak": 10,
+    "longestStreak": 19,
+    "totalStudyTime": 911,
+    "totalSessions": 7,
+    "quiz": 99,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-05-28T11:35:40",
+    "updatedAt": "2025-07-01T00:22:13.425544",
+    "lastLoginAt": "2024-06-19T11:23:23",
+    "id": "user_87"
+  },
+  {
+    "email": "slee@clay.info",
+    "password": "47%7tQb8V!",
+    "firstName": "Savannah",
+    "lastName": "Young",
+    "username": "ryan86",
+    "profilePicture": "https://placeimg.com/664/1013/any",
+    "bio": "National industry trouble list street partner perhaps realize.",
+    "dateOfBirth": "1983-03-06",
+    "learningGoals": ["Deepen Python knowledge", "Build 5 projects"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 59,
+        "Auditory": 18,
+        "Kinesthetic": 23
+      },
+      "completedAt": "2025-02-24T02:13:30"
+    },
+    "currentStreak": 8,
+    "longestStreak": 20,
+    "totalStudyTime": 777,
+    "totalSessions": 18,
+    "quiz": 87,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-07-17T12:50:56",
+    "updatedAt": "2025-07-01T00:22:13.427145",
+    "lastLoginAt": "2023-09-18T10:45:35",
+    "id": "user_88"
+  },
+  {
+    "email": "belindamorton@yahoo.com",
+    "password": "ub3qZ&Kw&j",
+    "firstName": "Christine",
+    "lastName": "Thompson",
+    "username": "ksullivan",
+    "profilePicture": "https://placeimg.com/155/507/any",
+    "bio": "Statement fall hope language ready program.",
+    "dateOfBirth": "1984-08-04",
+    "learningGoals": ["Deepen Python knowledge", "Get AWS Certified"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 11,
+        "Auditory": 49,
+        "Kinesthetic": 40
+      },
+      "completedAt": "2025-05-12T14:52:50"
+    },
+    "currentStreak": 8,
+    "longestStreak": 26,
+    "totalStudyTime": 275,
+    "totalSessions": 90,
+    "quiz": 39,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-05-27T04:31:14",
+    "updatedAt": "2025-07-01T00:22:13.428323",
+    "lastLoginAt": "2025-06-04T12:34:53",
+    "id": "user_89"
+  },
+  {
+    "email": "betty84@gmail.com",
+    "password": "*5fvArIvmQ",
+    "firstName": "Daniel",
+    "lastName": "Baker",
+    "username": "qfranco",
+    "profilePicture": "https://placeimg.com/13/631/any",
+    "bio": "Sort education necessary discussion certainly.",
+    "dateOfBirth": "1979-06-25",
+    "learningGoals": ["Learn JavaScript", "Get AWS Certified"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 40,
+        "Auditory": 47,
+        "Kinesthetic": 13
+      },
+      "completedAt": "2025-05-02T01:54:48"
+    },
+    "currentStreak": 3,
+    "longestStreak": 9,
+    "totalStudyTime": 299,
+    "totalSessions": 100,
+    "quiz": 93,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-05-29T15:18:19",
+    "updatedAt": "2025-07-01T00:22:13.429303",
+    "lastLoginAt": "2025-06-25T19:57:10",
+    "id": "user_90"
+  },
+  {
+    "email": "ricardo85@lowe-jones.com",
+    "password": "F@3uDKsp6s",
+    "firstName": "Elijah",
+    "lastName": "Figueroa",
+    "username": "mtucker",
+    "profilePicture": "https://www.lorempixel.com/423/463",
+    "bio": "Above increase hospital perform.",
+    "dateOfBirth": "2003-12-30",
+    "learningGoals": ["Understand AI concepts", "Build 5 projects"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 70,
+        "Auditory": 12,
+        "Kinesthetic": 18
+      },
+      "completedAt": "2024-08-15T04:50:57"
+    },
+    "currentStreak": 4,
+    "longestStreak": 15,
+    "totalStudyTime": 800,
+    "totalSessions": 84,
+    "quiz": 65,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-03-09T13:36:27",
+    "updatedAt": "2025-07-01T00:22:13.430737",
+    "lastLoginAt": "2025-04-15T14:26:42",
+    "id": "user_91"
+  },
+  {
+    "email": "kyleellis@hotmail.com",
+    "password": "Z%1c2EIn_D",
+    "firstName": "Kelli",
+    "lastName": "Jackson",
+    "username": "edward91",
+    "profilePicture": "https://www.lorempixel.com/935/645",
+    "bio": "Only various enjoy cover effect less.",
+    "dateOfBirth": "1994-02-09",
+    "learningGoals": ["Deepen Python knowledge", "Learn JavaScript"],
+    "learningStyle": "Visual",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 57,
+        "Auditory": 11,
+        "Kinesthetic": 32
+      },
+      "completedAt": "2024-08-01T06:08:58"
+    },
+    "currentStreak": 7,
+    "longestStreak": 22,
+    "totalStudyTime": 788,
+    "totalSessions": 7,
+    "quiz": 97,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-06-27T00:48:42",
+    "updatedAt": "2025-07-01T00:22:13.432337",
+    "lastLoginAt": "2025-06-30T13:03:04",
+    "id": "user_92"
+  },
+  {
+    "email": "krystalmontoya@gmail.com",
+    "password": "A+4Y5&IaGq",
+    "firstName": "Matthew",
+    "lastName": "Cruz",
+    "username": "hodgeerin",
+    "profilePicture": "https://placekitten.com/1024/220",
+    "bio": "Cost loss risk because.",
+    "dateOfBirth": "2002-04-05",
+    "learningGoals": ["Deepen Python knowledge", "Understand AI concepts"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 64,
+        "Auditory": 25,
+        "Kinesthetic": 11
+      },
+      "completedAt": "2025-06-30T23:17:26"
+    },
+    "currentStreak": 10,
+    "longestStreak": 30,
+    "totalStudyTime": 844,
+    "totalSessions": 20,
+    "quiz": 51,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2023-07-27T21:48:37",
+    "updatedAt": "2025-07-01T00:22:13.433218",
+    "lastLoginAt": "2023-12-04T14:40:20",
+    "id": "user_93"
+  },
+  {
+    "email": "carla15@stewart.info",
+    "password": "HttNtVai(4",
+    "firstName": "Matthew",
+    "lastName": "Ball",
+    "username": "christineperez",
+    "profilePicture": "https://www.lorempixel.com/777/649",
+    "bio": "Type indeed type.",
+    "dateOfBirth": "1979-08-22",
+    "learningGoals": ["Understand AI concepts", "Deepen Python knowledge"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 20,
+        "Auditory": 27,
+        "Kinesthetic": 53
+      },
+      "completedAt": "2024-07-07T02:52:33"
+    },
+    "currentStreak": 3,
+    "longestStreak": 22,
+    "totalStudyTime": 871,
+    "totalSessions": 13,
+    "quiz": 2,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-01-23T20:00:48",
+    "updatedAt": "2025-07-01T00:22:13.434047",
+    "lastLoginAt": "2024-12-15T13:20:06",
+    "id": "user_94"
+  },
+  {
+    "email": "fchapman@yahoo.com",
+    "password": "*6UDLYSc$^",
+    "firstName": "Benjamin",
+    "lastName": "Vang",
+    "username": "moorevictor",
+    "profilePicture": "https://dummyimage.com/264x672",
+    "bio": "Five mouth ten toward.",
+    "dateOfBirth": "1976-06-16",
+    "learningGoals": ["Understand AI concepts", "Build 5 projects"],
+    "learningStyle": "Auditory",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 66,
+        "Auditory": 10,
+        "Kinesthetic": 24
+      },
+      "completedAt": "2024-11-29T09:04:07"
+    },
+    "currentStreak": 10,
+    "longestStreak": 9,
+    "totalStudyTime": 769,
+    "totalSessions": 95,
+    "quiz": 98,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-07-23T02:19:39",
+    "updatedAt": "2025-07-01T00:22:13.434900",
+    "lastLoginAt": "2024-08-06T00:32:00",
+    "id": "user_95"
+  },
+  {
+    "email": "nicholaspena@pena.biz",
+    "password": "g8^NLfj_#x",
+    "firstName": "Timothy",
+    "lastName": "Lopez",
+    "username": "isanders",
+    "profilePicture": "https://dummyimage.com/779x734",
+    "bio": "Tell relate store good choice reality reason.",
+    "dateOfBirth": "2006-08-19",
+    "learningGoals": ["Get AWS Certified", "Learn JavaScript"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 75,
+        "Auditory": 13,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2024-07-01T04:36:51"
+    },
+    "currentStreak": 0,
+    "longestStreak": 18,
+    "totalStudyTime": 114,
+    "totalSessions": 89,
+    "quiz": 62,
+    "isPublic": true,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2024-12-15T20:51:40",
+    "updatedAt": "2025-07-01T00:22:13.435813",
+    "lastLoginAt": "2025-04-20T00:34:15",
+    "id": "user_96"
+  },
+  {
+    "email": "kleinpamela@coleman.com",
+    "password": "_CH4&TarR!",
+    "firstName": "Thomas",
+    "lastName": "Green",
+    "username": "gnovak",
+    "profilePicture": "https://placeimg.com/755/204/any",
+    "bio": "North son different individual top.",
+    "dateOfBirth": "2001-12-27",
+    "learningGoals": ["Build 5 projects", "Explore React"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 77,
+        "Auditory": 11,
+        "Kinesthetic": 12
+      },
+      "completedAt": "2025-01-02T15:54:59"
+    },
+    "currentStreak": 5,
+    "longestStreak": 28,
+    "totalStudyTime": 530,
+    "totalSessions": 63,
+    "quiz": 29,
+    "isPublic": false,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-02-08T02:33:58",
+    "updatedAt": "2025-07-01T00:22:13.437347",
+    "lastLoginAt": "2025-05-28T11:37:19",
+    "id": "user_97"
+  },
+  {
+    "email": "rossmorgan@diaz.net",
+    "password": "U#^7n8Lvn^",
+    "firstName": "Matthew",
+    "lastName": "Paul",
+    "username": "johnsonthomas",
+    "profilePicture": "https://placekitten.com/655/567",
+    "bio": "Safe according art human across.",
+    "dateOfBirth": "1984-11-10",
+    "learningGoals": ["Deepen Python knowledge", "Get AWS Certified"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 73,
+        "Auditory": 17,
+        "Kinesthetic": 10
+      },
+      "completedAt": "2025-02-11T17:28:52"
+    },
+    "currentStreak": 10,
+    "longestStreak": 30,
+    "totalStudyTime": 917,
+    "totalSessions": 25,
+    "quiz": 27,
+    "isPublic": true,
+    "isMentor": true,
+    "isActive": true,
+    "createdAt": "2024-09-05T09:22:18",
+    "updatedAt": "2025-07-01T00:22:13.439662",
+    "lastLoginAt": "2024-09-19T09:42:53",
+    "id": "user_98"
+  },
+  {
+    "email": "charlessolis@lucas-gibson.info",
+    "password": "!6IHiCnmM8",
+    "firstName": "Ryan",
+    "lastName": "Hancock",
+    "username": "mcook",
+    "profilePicture": "https://placekitten.com/816/794",
+    "bio": "What under kind benefit discussion.",
+    "dateOfBirth": "1999-08-18",
+    "learningGoals": ["Deepen Python knowledge", "Build 5 projects"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 32,
+        "Auditory": 34,
+        "Kinesthetic": 34
+      },
+      "completedAt": "2024-12-25T07:49:18"
+    },
+    "currentStreak": 8,
+    "longestStreak": 12,
+    "totalStudyTime": 834,
+    "totalSessions": 8,
+    "quiz": 51,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-17T19:04:52",
+    "updatedAt": "2025-07-01T00:22:13.441738",
+    "lastLoginAt": "2025-06-18T12:17:13",
+    "id": "user_99"
+  },
+  {
+    "email": "pnelson@yahoo.com",
+    "password": "*x2QjS$tWD",
+    "firstName": "Kimberly",
+    "lastName": "Mclaughlin",
+    "username": "perezcody",
+    "profilePicture": "https://www.lorempixel.com/982/910",
+    "bio": "Wait lose source city pretty.",
+    "dateOfBirth": "1998-11-24",
+    "learningGoals": ["Learn JavaScript", "Build 5 projects"],
+    "learningStyle": "Kinesthetic",
+    "testResults": {
+      "learningStyleScore": {
+        "Visual": 43,
+        "Auditory": 33,
+        "Kinesthetic": 24
+      },
+      "completedAt": "2024-07-19T13:36:32"
+    },
+    "currentStreak": 6,
+    "longestStreak": 20,
+    "totalStudyTime": 640,
+    "totalSessions": 68,
+    "quiz": 59,
+    "isPublic": false,
+    "isMentor": false,
+    "isActive": true,
+    "createdAt": "2025-03-29T08:02:31",
+    "updatedAt": "2025-07-01T00:22:13.442764",
+    "lastLoginAt": "2025-05-18T23:37:05",
+    "id": "user_100"
   }
 ]
