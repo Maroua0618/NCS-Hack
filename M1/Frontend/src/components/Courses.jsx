@@ -125,10 +125,9 @@ const Courses = () => {
               data-aos="fade-up"
               style={{ opacity: 0, transform: 'translateY(20px)', transition: 'all 0.6s ease' }}
             >
-              <h2 className="text-2xl font-bold mb-6 text-gray-800">Progress</h2>
               
               {/* Progress Illustration */}
-              <div className="relative bg-gradient-to-r from-purple-200 to-blue-200 rounded-2xl p-8 mb-6 overflow-hidden">
+              <div className="relative bg-gradient-to-r from-purple-200 to-blue-200 rounded-2xl p-8 mb-6 overflow-hidden h-40">
                 {/* Background Elements */}
                 <div className="absolute top-4 left-8">
                   <div className="w-8 h-6 bg-white rounded-full opacity-70"></div>

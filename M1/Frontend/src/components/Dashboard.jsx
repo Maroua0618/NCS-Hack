@@ -19,7 +19,7 @@ import { useNavigate } from 'react-router-dom';
 import Chatbot from './chatbot';
 import Courses from './Courses';
 import Progress from './Progress';
-
+import Mentor from './Mentor';
 // Mock database data
 const mockData = {
   overview: {
@@ -155,6 +155,8 @@ const Dashboard = () => {
         return <Progress />;
       case 'courses':
         return <Courses />; 
+      case 'findmentor':
+        return <Mentor/>
       default:
         return <Progress />;
     }
