@@ -154,7 +154,7 @@ const Dashboard = () => {
       case 'progress':
         return <Progress />;
       case 'courses':
-        return <Courses />; // Show Courses component when 'courses' tab is active
+        return <Courses />; 
       default:
         return (
           <div className="bg-white p-6 rounded-lg shadow">

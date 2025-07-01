@@ -5,8 +5,9 @@ import Welcome from "./components/Welcome";
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './components/LoginPage';
 import SignUpPage from './components/SignUpPage';
-import Quiz from './components/Quiz'; // Make sure this import exists
+import Quiz from './components/Quiz';
 import Dashboard from './components/Dashboard';
+import Home from './components/Home';
 
 function App() {
   useEffect(() => {
@@ -20,7 +21,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} /> 
         <Route path="/welcome" element={<Welcome />} />
