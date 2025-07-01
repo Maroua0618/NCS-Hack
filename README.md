@@ -52,8 +52,8 @@ StudyMate helps learners by offering:
 
 | Layer            | Tools/Frameworks                        |
 |------------------|------------------------------------------|
-| Frontend         | React 18, TypeScript, Tailwind CSS, Vite |
-| Backend          | Node.js, Express.js, TypeScript          |
+| Frontend         | JavaScript, Tailwind CSS, Vite |
+| Backend          | MongoDB, Express.js         |
 | Database         | MongoDB Atlas                            |
 | Auth & Security  | JWT, bcrypt                              |
 | AI Integration   | GeminiAPI, GPT-4                         |
