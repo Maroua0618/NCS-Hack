@@ -21,7 +21,7 @@ import Courses from './Courses';
 import Progress from './Progress';
 import Tutoring from './Tutoring';
 import Mentor from './Mentor';
-
+import Roadmap from './RoadMap';
 // Mock database data
 const mockData = {
   overview: {
@@ -146,7 +146,7 @@ const Dashboard = () => {
   const navItems = [
     { id: 'progress', icon: LayoutDashboard, label: 'Progress' },
     { id: 'courses', icon: BookOpen, label: 'Courses' },
-    { id: 'roadmap', icon: MapPin, label: 'RodMap' },
+    { id: 'roadmap', icon: MapPin, label: 'RoadMap' },
     { id: 'findmentor', icon: FileText, label: 'FindMentor' },
     { id: 'tutoring', icon: Radio, label: 'Tutoring' }
   ];
@@ -161,6 +161,8 @@ const Dashboard = () => {
         return <Mentor />;
       case 'tutoring':
         return <Tutoring />;
+      case 'roadmap':
+        return <Roadmap />;
 
     }
   };
