@@ -22,10 +22,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/signup" element={<SignUpPage />} /> 
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/quiz" element={<Quiz />} /> 
         <Route path="/dashboard" element={ <Dashboard /> } /> 
+
         {/* Add more routes as needed */}
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
