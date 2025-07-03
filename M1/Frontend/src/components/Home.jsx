@@ -1,6 +1,6 @@
 /*global console */
+/*global  document */
 
-import React, { useEffect, useState } from 'react';
 import { 
   Play, 
   Star, 
@@ -20,18 +20,18 @@ import LoginPage from './LoginPage';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-  const [currentTestimonial, setCurrentTestimonial] = useState(0);
+  // const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const navigate = useNavigate();
   
-  useEffect(() => {
-    const testimonialTimer = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
-    }, 5000);
+  // useEffect(() => {
+  //   const testimonialTimer = setInterval(() => {
+  //     setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
+  //   }, 5000);
 
-    return () => {
-      clearInterval(testimonialTimer);
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(testimonialTimer);
+  //   };
+  // }, []);
 
   // Function to scroll to the features section
   const scrollToFeatures = () => {
@@ -44,44 +44,6 @@ const Home = () => {
     }
   };
 
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      role: "Computer Science Student",
-      university: "Stanford University",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=60&h=60&fit=crop&crop=face",
-      quote: "StudyMate's AI-powered study plans helped me increase my GPA from 3.2 to 3.9 in just one semester. The personalized approach made all the difference!",
-      rating: 5,
-      achievement: "Dean's List"
-    },
-    {
-      name: "Mike Chen",
-      role: "Medical Student",
-      university: "Harvard Medical School",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face",
-      quote: "The spaced repetition flashcards made memorizing thousands of medical terms manageable. I passed my boards on the first try!",
-      rating: 5,
-      achievement: "Board Certified"
-    },
-    {
-      name: "Emily Davis",
-      role: "Language Learner",
-      university: "Self-taught Polyglot",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face",
-      quote: "I became fluent in French in 6 months using StudyMate's community features and progress tracking. The motivation system is incredible!",
-      rating: 5,
-      achievement: "C2 Certified"
-    },
-    {
-      name: "Alex Rodriguez",
-      role: "Engineering Student",
-      university: "MIT",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face",
-      quote: "The AI tutor helped me understand complex calculus concepts that I struggled with for months. Now I'm helping other students!",
-      rating: 5,
-      achievement: "Peer Tutor"
-    }
-  ];
 
   return (
     <div className="min-h-screen overflow-hidden relative">

@@ -1,3 +1,5 @@
+/*global  setTimeout */
+/*global localStorage */
 import React, { useState, useEffect } from 'react';
 import { 
   MapPin, 
