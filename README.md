@@ -132,5 +132,5 @@ We welcome your contributions! Please fork the repo, create a new branch, and su
 Have questions or want to collaborate?
 📧 Email: chaimaamali47@gmail.com
 
-StudyMate – Personalized learning, powered by empathy and AI. 💡
+StudyMate – Personalized learning, powered by empathy and AI.
 
