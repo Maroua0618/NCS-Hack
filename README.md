@@ -19,7 +19,7 @@ StudyMate helps learners by offering:
 ## 🧠 Core Features
 
 ### 🧩 Personality & Learning Style Onboarding
-- MBTI & VAK assessments for personalized learning
+- MBTI & VARK assessments for personalized learning
 - Smart goal setting using the SMART framework
 
 ### 🗺️ AI-Powered Roadmap Generator
@@ -51,15 +51,14 @@ StudyMate helps learners by offering:
 ## 🏗️ Tech Stack
 
 | Layer            | Tools/Frameworks                        |
-|------------------|------------------------------------------|
-| Frontend         | JavaScript, Tailwind CSS, Vite         |
+|------------------|-----------------------------------------|
+| Frontend         | JavaScript, Tailwind CSS, Vite          |
 | Backend          | MongoDB, Express.js                     |
 | Database         | MongoDB Atlas                           |
 | Auth & Security  | JWT, bcrypt                             |
-| AI Integration   | GeminiAPI, GPT-4                        |
+| AI Integration   | GeminiAPI                               |
 | Real-time        | Socket.io                               |
-| File Storage     | AWS S3                                  |
-| Deployment       | Docker + AWS ECS                        |
+| File Storage     | AWS S3                                  | 
 
 ---
 
